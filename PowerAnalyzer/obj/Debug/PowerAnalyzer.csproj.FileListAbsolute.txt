@@ -1,0 +1,11 @@
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\bin\Debug\PowerAnalyzer.exe.config
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\bin\Debug\PowerAnalyzer.exe
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\bin\Debug\PowerAnalyzer.pdb
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\bin\Debug\Guna.UI2.dll
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.csproj.AssemblyReference.cache
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.Properties.Resources.resources
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.csproj.GenerateResource.cache
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.csproj.CoreCompileInputs.cache
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAna.C18F8C41.Up2Date
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.exe
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.pdb
