@@ -9,3 +9,5 @@ F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyze
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAna.C18F8C41.Up2Date
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.exe
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.pdb
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.exe.config
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.LoginForm.resources
