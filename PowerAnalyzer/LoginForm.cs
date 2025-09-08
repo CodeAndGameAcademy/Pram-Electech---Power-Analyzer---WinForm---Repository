@@ -16,5 +16,19 @@ namespace PowerAnalyzer
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            if(txtUsername.Text == "Mahesh" && txtPassword.Text == "Gurjar")
+            {
+                MainForm mainForm = new MainForm();
+                mainForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Invalie Username or Password", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
