@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelTitleBar = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -46,6 +46,152 @@
             this.numericUpDownDP = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.cmbPort = new Guna.UI2.WinForms.Guna2ComboBox();
             this.panelForBoxes = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
+            this.tableLayoutForBoxRow13 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel51 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPHSYSA = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.titleM54 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel52 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPH3A = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.titleM52 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel53 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPH2A = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.titleM51 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel54 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPH1A = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
+            this.titleM50 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow12 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel47 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPHSYSA = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.titleM49 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel48 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPH3A = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.titleM48 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel49 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPH2A = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.titleM47 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel50 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPH1A = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.titleM46 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow11 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel43 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPHSYSV = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.titleM45 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel44 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPH3V = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.titleM44 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel45 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPH2V = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.titleM43 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel46 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblCFPH1V = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.titleM42 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow10 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel39 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPHSYSV = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.titleM41 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel40 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPH3V = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.titleM40 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel41 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPH2V = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.titleM39 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel42 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFFPH1V = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.titleM38 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow9 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel35 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblSystemMeanA = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.titleM37 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel36 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblMeanAmp3 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.titleM36 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel37 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblMeanAmp2 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.titleM35 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel38 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblMeanAmp1 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.titleM34 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow8 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel31 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblSystemPeakV = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.titleM33 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel32 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblPeakVolt3 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.titleM32 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel33 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblPeakVolt2 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.titleM31 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel34 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblPeakVolt1 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.titleM30 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow7 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel27 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblSystemPeakA = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.titleM29 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel28 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblPeakAmp3 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.titleM28 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel29 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblPeakAmp2 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.titleM27 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel30 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblPeakAmp1 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.titleM26 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxRow6 = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel21 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblSystemMeanV = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.titleM25 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel24 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblMeanVolt3 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.titleM24 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel25 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblMeanVolt2 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.titleM23 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel26 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblMeanVolt1 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.titleM22 = new System.Windows.Forms.Label();
+            this.tableLayoutForBoxesFrequencyTemperature = new System.Windows.Forms.TableLayoutPanel();
+            this.guna2GradientPanel22 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblTemperature = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.titleM53 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel23 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFrequency = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.titleM17 = new System.Windows.Forms.Label();
             this.tableLayoutForBoxRow5 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2GradientPanel17 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.lblSystemVA = new System.Windows.Forms.Label();
@@ -114,172 +260,26 @@
             this.lblAmp1 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.titleM5 = new System.Windows.Forms.Label();
-            this.panelForDataGrid = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.titleM1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblV1 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.titleM2 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lblV2 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.titleM3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblV3 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.titleM4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblSystemVolt = new System.Windows.Forms.Label();
             this.tableLayoutForBoxRow1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutForBoxesFrequencyTemperature = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel22 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblTemperature = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.titleM53 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel23 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFrequency = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.titleM17 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow6 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel21 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblSystemMeanV = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.titleM25 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel24 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblMeanVolt3 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.titleM24 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel25 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblMeanVolt2 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.titleM23 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel26 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblMeanVolt1 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.titleM22 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow7 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel27 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblSystemPeakA = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.titleM29 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel28 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblPeakAmp3 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.titleM28 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel29 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblPeakAmp2 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.titleM27 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel30 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblPeakAmp1 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.titleM26 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow8 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel31 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblSystemPeakV = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.titleM33 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel32 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblPeakVolt3 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.titleM32 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel33 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblPeakVolt2 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.titleM31 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel34 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblPeakVolt1 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.titleM30 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow9 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel35 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblSystemMeanA = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.titleM37 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel36 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblMeanAmp3 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.titleM36 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel37 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblMeanAmp2 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.titleM35 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel38 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblMeanAmp1 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.titleM34 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow10 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel39 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPHSYSV = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.titleM41 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel40 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPH3V = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.titleM40 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel41 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPH2V = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.titleM39 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel42 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPH1V = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.titleM38 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow11 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel43 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPHSYSV = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.titleM45 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel44 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPH3V = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.titleM44 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel45 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPH2V = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.titleM43 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel46 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPH1V = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.titleM42 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow12 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel47 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPHSYSA = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.titleM49 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel48 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPH3A = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.titleM48 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel49 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPH2A = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.titleM47 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel50 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFFPH1A = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.titleM46 = new System.Windows.Forms.Label();
-            this.tableLayoutForBoxRow13 = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel51 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPHSYSA = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.titleM54 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel52 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPH3A = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.titleM52 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel53 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPH2A = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.titleM51 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel54 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblCFPH1A = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
-            this.titleM50 = new System.Windows.Forms.Label();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
+            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblSystemVolt = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.titleM4 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblV3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.titleM3 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblV2 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.titleM2 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblV1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.titleM1 = new System.Windows.Forms.Label();
+            this.panelForDataGrid = new Guna.UI2.WinForms.Guna2Panel();
+            this.dataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -290,26 +290,100 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton3 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton4 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton5 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton6 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton7 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton8 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton9 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton10 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton11 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton12 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton13 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton14 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton15 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2CircleButton16 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column29 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column30 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column31 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column32 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column33 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column34 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column35 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column36 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column37 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column38 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column39 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column43 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column44 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column45 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column46 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column47 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column48 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column49 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column50 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column51 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnLog = new Guna.UI2.WinForms.Guna2Button();
+            this.btnClearAll = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.panelTitleBar.SuspendLayout();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDP)).BeginInit();
             this.panelForBoxes.SuspendLayout();
+            this.tableLayoutForBoxRow13.SuspendLayout();
+            this.guna2GradientPanel51.SuspendLayout();
+            this.guna2GradientPanel52.SuspendLayout();
+            this.guna2GradientPanel53.SuspendLayout();
+            this.guna2GradientPanel54.SuspendLayout();
+            this.tableLayoutForBoxRow12.SuspendLayout();
+            this.guna2GradientPanel47.SuspendLayout();
+            this.guna2GradientPanel48.SuspendLayout();
+            this.guna2GradientPanel49.SuspendLayout();
+            this.guna2GradientPanel50.SuspendLayout();
+            this.tableLayoutForBoxRow11.SuspendLayout();
+            this.guna2GradientPanel43.SuspendLayout();
+            this.guna2GradientPanel44.SuspendLayout();
+            this.guna2GradientPanel45.SuspendLayout();
+            this.guna2GradientPanel46.SuspendLayout();
+            this.tableLayoutForBoxRow10.SuspendLayout();
+            this.guna2GradientPanel39.SuspendLayout();
+            this.guna2GradientPanel40.SuspendLayout();
+            this.guna2GradientPanel41.SuspendLayout();
+            this.guna2GradientPanel42.SuspendLayout();
+            this.tableLayoutForBoxRow9.SuspendLayout();
+            this.guna2GradientPanel35.SuspendLayout();
+            this.guna2GradientPanel36.SuspendLayout();
+            this.guna2GradientPanel37.SuspendLayout();
+            this.guna2GradientPanel38.SuspendLayout();
+            this.tableLayoutForBoxRow8.SuspendLayout();
+            this.guna2GradientPanel31.SuspendLayout();
+            this.guna2GradientPanel32.SuspendLayout();
+            this.guna2GradientPanel33.SuspendLayout();
+            this.guna2GradientPanel34.SuspendLayout();
+            this.tableLayoutForBoxRow7.SuspendLayout();
+            this.guna2GradientPanel27.SuspendLayout();
+            this.guna2GradientPanel28.SuspendLayout();
+            this.guna2GradientPanel29.SuspendLayout();
+            this.guna2GradientPanel30.SuspendLayout();
+            this.tableLayoutForBoxRow6.SuspendLayout();
+            this.guna2GradientPanel21.SuspendLayout();
+            this.guna2GradientPanel24.SuspendLayout();
+            this.guna2GradientPanel25.SuspendLayout();
+            this.guna2GradientPanel26.SuspendLayout();
+            this.tableLayoutForBoxesFrequencyTemperature.SuspendLayout();
+            this.guna2GradientPanel22.SuspendLayout();
+            this.guna2GradientPanel23.SuspendLayout();
             this.tableLayoutForBoxRow5.SuspendLayout();
             this.guna2GradientPanel17.SuspendLayout();
             this.guna2GradientPanel18.SuspendLayout();
@@ -330,57 +404,14 @@
             this.guna2GradientPanel6.SuspendLayout();
             this.guna2GradientPanel7.SuspendLayout();
             this.guna2GradientPanel8.SuspendLayout();
-            this.panelForDataGrid.SuspendLayout();
-            this.guna2GradientPanel1.SuspendLayout();
-            this.guna2GradientPanel2.SuspendLayout();
-            this.guna2GradientPanel3.SuspendLayout();
-            this.guna2GradientPanel4.SuspendLayout();
             this.tableLayoutForBoxRow1.SuspendLayout();
-            this.tableLayoutForBoxesFrequencyTemperature.SuspendLayout();
-            this.guna2GradientPanel22.SuspendLayout();
-            this.guna2GradientPanel23.SuspendLayout();
-            this.tableLayoutForBoxRow6.SuspendLayout();
-            this.guna2GradientPanel21.SuspendLayout();
-            this.guna2GradientPanel24.SuspendLayout();
-            this.guna2GradientPanel25.SuspendLayout();
-            this.guna2GradientPanel26.SuspendLayout();
-            this.tableLayoutForBoxRow7.SuspendLayout();
-            this.guna2GradientPanel27.SuspendLayout();
-            this.guna2GradientPanel28.SuspendLayout();
-            this.guna2GradientPanel29.SuspendLayout();
-            this.guna2GradientPanel30.SuspendLayout();
-            this.tableLayoutForBoxRow8.SuspendLayout();
-            this.guna2GradientPanel31.SuspendLayout();
-            this.guna2GradientPanel32.SuspendLayout();
-            this.guna2GradientPanel33.SuspendLayout();
-            this.guna2GradientPanel34.SuspendLayout();
-            this.tableLayoutForBoxRow9.SuspendLayout();
-            this.guna2GradientPanel35.SuspendLayout();
-            this.guna2GradientPanel36.SuspendLayout();
-            this.guna2GradientPanel37.SuspendLayout();
-            this.guna2GradientPanel38.SuspendLayout();
-            this.tableLayoutForBoxRow10.SuspendLayout();
-            this.guna2GradientPanel39.SuspendLayout();
-            this.guna2GradientPanel40.SuspendLayout();
-            this.guna2GradientPanel41.SuspendLayout();
-            this.guna2GradientPanel42.SuspendLayout();
-            this.tableLayoutForBoxRow11.SuspendLayout();
-            this.guna2GradientPanel43.SuspendLayout();
-            this.guna2GradientPanel44.SuspendLayout();
-            this.guna2GradientPanel45.SuspendLayout();
-            this.guna2GradientPanel46.SuspendLayout();
-            this.tableLayoutForBoxRow12.SuspendLayout();
-            this.guna2GradientPanel47.SuspendLayout();
-            this.guna2GradientPanel48.SuspendLayout();
-            this.guna2GradientPanel49.SuspendLayout();
-            this.guna2GradientPanel50.SuspendLayout();
-            this.tableLayoutForBoxRow13.SuspendLayout();
-            this.guna2GradientPanel51.SuspendLayout();
-            this.guna2GradientPanel52.SuspendLayout();
-            this.guna2GradientPanel53.SuspendLayout();
-            this.guna2GradientPanel54.SuspendLayout();
+            this.guna2GradientPanel4.SuspendLayout();
+            this.guna2GradientPanel3.SuspendLayout();
+            this.guna2GradientPanel2.SuspendLayout();
+            this.guna2GradientPanel1.SuspendLayout();
+            this.panelForDataGrid.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTitleBar
@@ -488,6 +519,7 @@
             this.btnFast.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnFast.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnFast.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnFast.Enabled = false;
             this.btnFast.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
             this.btnFast.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFast.ForeColor = System.Drawing.Color.White;
@@ -498,6 +530,7 @@
             this.btnFast.TabIndex = 2;
             this.btnFast.Text = "Fast";
             this.btnFast.UseTransparentBackground = true;
+            this.btnFast.Click += new System.EventHandler(this.btnFast_Click);
             // 
             // btnAccurate
             // 
@@ -509,6 +542,7 @@
             this.btnAccurate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnAccurate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnAccurate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAccurate.Enabled = false;
             this.btnAccurate.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
             this.btnAccurate.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAccurate.ForeColor = System.Drawing.Color.White;
@@ -519,6 +553,7 @@
             this.btnAccurate.TabIndex = 2;
             this.btnAccurate.Text = "Accurate";
             this.btnAccurate.UseTransparentBackground = true;
+            this.btnAccurate.Click += new System.EventHandler(this.btnAccurate_Click);
             // 
             // btnHold
             // 
@@ -530,6 +565,7 @@
             this.btnHold.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnHold.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnHold.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHold.Enabled = false;
             this.btnHold.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
             this.btnHold.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHold.ForeColor = System.Drawing.Color.White;
@@ -540,6 +576,7 @@
             this.btnHold.TabIndex = 2;
             this.btnHold.Text = "Hold";
             this.btnHold.UseTransparentBackground = true;
+            this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
             // 
             // btnRefresh
             // 
@@ -561,6 +598,7 @@
             this.btnRefresh.TabIndex = 2;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseTransparentBackground = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // toggleSwitchConnectDisconnect
             // 
@@ -631,6 +669,1990 @@
             this.panelForBoxes.Padding = new System.Windows.Forms.Padding(6);
             this.panelForBoxes.Size = new System.Drawing.Size(1300, 633);
             this.panelForBoxes.TabIndex = 2;
+            // 
+            // guna2VScrollBar1
+            // 
+            this.guna2VScrollBar1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2VScrollBar1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2VScrollBar1.InUpdate = false;
+            this.guna2VScrollBar1.LargeChange = 10;
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(49, 1422);
+            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
+            this.guna2VScrollBar1.ScrollbarSize = 18;
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 300);
+            this.guna2VScrollBar1.TabIndex = 0;
+            this.guna2VScrollBar1.ThumbColor = System.Drawing.Color.Transparent;
+            // 
+            // tableLayoutForBoxRow13
+            // 
+            this.tableLayoutForBoxRow13.ColumnCount = 4;
+            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel51, 3, 0);
+            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel52, 2, 0);
+            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel53, 1, 0);
+            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel54, 0, 0);
+            this.tableLayoutForBoxRow13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow13.Location = new System.Drawing.Point(6, 1306);
+            this.tableLayoutForBoxRow13.Name = "tableLayoutForBoxRow13";
+            this.tableLayoutForBoxRow13.RowCount = 1;
+            this.tableLayoutForBoxRow13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow13.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow13.TabIndex = 14;
+            // 
+            // guna2GradientPanel51
+            // 
+            this.guna2GradientPanel51.BorderRadius = 4;
+            this.guna2GradientPanel51.Controls.Add(this.lblCFPHSYSA);
+            this.guna2GradientPanel51.Controls.Add(this.label60);
+            this.guna2GradientPanel51.Controls.Add(this.titleM54);
+            this.guna2GradientPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel51.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel51.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel51.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel51.Name = "guna2GradientPanel51";
+            this.guna2GradientPanel51.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel51.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel51.TabIndex = 3;
+            // 
+            // lblCFPHSYSA
+            // 
+            this.lblCFPHSYSA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPHSYSA.AutoSize = true;
+            this.lblCFPHSYSA.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPHSYSA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPHSYSA.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPHSYSA.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPHSYSA.Name = "lblCFPHSYSA";
+            this.lblCFPHSYSA.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPHSYSA.TabIndex = 0;
+            this.lblCFPHSYSA.Text = "0.0";
+            // 
+            // label60
+            // 
+            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label60.AutoSize = true;
+            this.label60.BackColor = System.Drawing.Color.Transparent;
+            this.label60.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.Black;
+            this.label60.Location = new System.Drawing.Point(261, 6);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(38, 18);
+            this.label60.TabIndex = 0;
+            this.label60.Text = "M54";
+            // 
+            // titleM54
+            // 
+            this.titleM54.AutoSize = true;
+            this.titleM54.BackColor = System.Drawing.Color.Transparent;
+            this.titleM54.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM54.ForeColor = System.Drawing.Color.Black;
+            this.titleM54.Location = new System.Drawing.Point(9, 6);
+            this.titleM54.Name = "titleM54";
+            this.titleM54.Size = new System.Drawing.Size(75, 18);
+            this.titleM54.TabIndex = 0;
+            this.titleM54.Text = "CF-SYS-A";
+            // 
+            // guna2GradientPanel52
+            // 
+            this.guna2GradientPanel52.BorderRadius = 4;
+            this.guna2GradientPanel52.Controls.Add(this.lblCFPH3A);
+            this.guna2GradientPanel52.Controls.Add(this.label63);
+            this.guna2GradientPanel52.Controls.Add(this.titleM52);
+            this.guna2GradientPanel52.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel52.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel52.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel52.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel52.Name = "guna2GradientPanel52";
+            this.guna2GradientPanel52.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel52.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel52.TabIndex = 2;
+            // 
+            // lblCFPH3A
+            // 
+            this.lblCFPH3A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPH3A.AutoSize = true;
+            this.lblCFPH3A.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPH3A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPH3A.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPH3A.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPH3A.Name = "lblCFPH3A";
+            this.lblCFPH3A.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPH3A.TabIndex = 0;
+            this.lblCFPH3A.Text = "0.0";
+            // 
+            // label63
+            // 
+            this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label63.AutoSize = true;
+            this.label63.BackColor = System.Drawing.Color.Transparent;
+            this.label63.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.Black;
+            this.label63.Location = new System.Drawing.Point(264, 6);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(38, 18);
+            this.label63.TabIndex = 0;
+            this.label63.Text = "M52";
+            // 
+            // titleM52
+            // 
+            this.titleM52.AutoSize = true;
+            this.titleM52.BackColor = System.Drawing.Color.Transparent;
+            this.titleM52.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM52.ForeColor = System.Drawing.Color.Black;
+            this.titleM52.Location = new System.Drawing.Point(9, 6);
+            this.titleM52.Name = "titleM52";
+            this.titleM52.Size = new System.Drawing.Size(82, 18);
+            this.titleM52.TabIndex = 0;
+            this.titleM52.Text = "CF-PH-3-A";
+            // 
+            // guna2GradientPanel53
+            // 
+            this.guna2GradientPanel53.BorderRadius = 4;
+            this.guna2GradientPanel53.Controls.Add(this.lblCFPH2A);
+            this.guna2GradientPanel53.Controls.Add(this.label66);
+            this.guna2GradientPanel53.Controls.Add(this.titleM51);
+            this.guna2GradientPanel53.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel53.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel53.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel53.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel53.Name = "guna2GradientPanel53";
+            this.guna2GradientPanel53.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel53.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel53.TabIndex = 1;
+            // 
+            // lblCFPH2A
+            // 
+            this.lblCFPH2A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPH2A.AutoSize = true;
+            this.lblCFPH2A.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPH2A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPH2A.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPH2A.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPH2A.Name = "lblCFPH2A";
+            this.lblCFPH2A.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPH2A.TabIndex = 0;
+            this.lblCFPH2A.Text = "0.0";
+            // 
+            // label66
+            // 
+            this.label66.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label66.AutoSize = true;
+            this.label66.BackColor = System.Drawing.Color.Transparent;
+            this.label66.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.Color.Black;
+            this.label66.Location = new System.Drawing.Point(264, 6);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(38, 18);
+            this.label66.TabIndex = 0;
+            this.label66.Text = "M51";
+            // 
+            // titleM51
+            // 
+            this.titleM51.AutoSize = true;
+            this.titleM51.BackColor = System.Drawing.Color.Transparent;
+            this.titleM51.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM51.ForeColor = System.Drawing.Color.Black;
+            this.titleM51.Location = new System.Drawing.Point(9, 6);
+            this.titleM51.Name = "titleM51";
+            this.titleM51.Size = new System.Drawing.Size(82, 18);
+            this.titleM51.TabIndex = 0;
+            this.titleM51.Text = "CF-PH-2-A";
+            // 
+            // guna2GradientPanel54
+            // 
+            this.guna2GradientPanel54.BorderRadius = 4;
+            this.guna2GradientPanel54.Controls.Add(this.lblCFPH1A);
+            this.guna2GradientPanel54.Controls.Add(this.label69);
+            this.guna2GradientPanel54.Controls.Add(this.titleM50);
+            this.guna2GradientPanel54.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel54.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel54.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel54.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel54.Name = "guna2GradientPanel54";
+            this.guna2GradientPanel54.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel54.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel54.TabIndex = 0;
+            // 
+            // lblCFPH1A
+            // 
+            this.lblCFPH1A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPH1A.AutoSize = true;
+            this.lblCFPH1A.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPH1A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPH1A.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPH1A.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPH1A.Name = "lblCFPH1A";
+            this.lblCFPH1A.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPH1A.TabIndex = 0;
+            this.lblCFPH1A.Text = "0.0";
+            // 
+            // label69
+            // 
+            this.label69.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label69.AutoSize = true;
+            this.label69.BackColor = System.Drawing.Color.Transparent;
+            this.label69.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.ForeColor = System.Drawing.Color.Black;
+            this.label69.Location = new System.Drawing.Point(264, 6);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(38, 18);
+            this.label69.TabIndex = 0;
+            this.label69.Text = "M50";
+            // 
+            // titleM50
+            // 
+            this.titleM50.AutoSize = true;
+            this.titleM50.BackColor = System.Drawing.Color.Transparent;
+            this.titleM50.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM50.ForeColor = System.Drawing.Color.Black;
+            this.titleM50.Location = new System.Drawing.Point(9, 6);
+            this.titleM50.Name = "titleM50";
+            this.titleM50.Size = new System.Drawing.Size(82, 18);
+            this.titleM50.TabIndex = 0;
+            this.titleM50.Text = "CF-PH-1-A";
+            // 
+            // tableLayoutForBoxRow12
+            // 
+            this.tableLayoutForBoxRow12.ColumnCount = 4;
+            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel47, 3, 0);
+            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel48, 2, 0);
+            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel49, 1, 0);
+            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel50, 0, 0);
+            this.tableLayoutForBoxRow12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow12.Location = new System.Drawing.Point(6, 1206);
+            this.tableLayoutForBoxRow12.Name = "tableLayoutForBoxRow12";
+            this.tableLayoutForBoxRow12.RowCount = 1;
+            this.tableLayoutForBoxRow12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow12.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow12.TabIndex = 13;
+            // 
+            // guna2GradientPanel47
+            // 
+            this.guna2GradientPanel47.BorderRadius = 4;
+            this.guna2GradientPanel47.Controls.Add(this.lblFFPHSYSA);
+            this.guna2GradientPanel47.Controls.Add(this.label39);
+            this.guna2GradientPanel47.Controls.Add(this.titleM49);
+            this.guna2GradientPanel47.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel47.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel47.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel47.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel47.Name = "guna2GradientPanel47";
+            this.guna2GradientPanel47.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel47.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel47.TabIndex = 3;
+            // 
+            // lblFFPHSYSA
+            // 
+            this.lblFFPHSYSA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPHSYSA.AutoSize = true;
+            this.lblFFPHSYSA.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPHSYSA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPHSYSA.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPHSYSA.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPHSYSA.Name = "lblFFPHSYSA";
+            this.lblFFPHSYSA.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPHSYSA.TabIndex = 0;
+            this.lblFFPHSYSA.Text = "0.0";
+            // 
+            // label39
+            // 
+            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.Color.Transparent;
+            this.label39.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.Black;
+            this.label39.Location = new System.Drawing.Point(261, 6);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(38, 18);
+            this.label39.TabIndex = 0;
+            this.label39.Text = "M49";
+            // 
+            // titleM49
+            // 
+            this.titleM49.AutoSize = true;
+            this.titleM49.BackColor = System.Drawing.Color.Transparent;
+            this.titleM49.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM49.ForeColor = System.Drawing.Color.Black;
+            this.titleM49.Location = new System.Drawing.Point(9, 6);
+            this.titleM49.Name = "titleM49";
+            this.titleM49.Size = new System.Drawing.Size(70, 18);
+            this.titleM49.TabIndex = 0;
+            this.titleM49.Text = "FF-SYS-A";
+            // 
+            // guna2GradientPanel48
+            // 
+            this.guna2GradientPanel48.BorderRadius = 4;
+            this.guna2GradientPanel48.Controls.Add(this.lblFFPH3A);
+            this.guna2GradientPanel48.Controls.Add(this.label48);
+            this.guna2GradientPanel48.Controls.Add(this.titleM48);
+            this.guna2GradientPanel48.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel48.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel48.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel48.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel48.Name = "guna2GradientPanel48";
+            this.guna2GradientPanel48.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel48.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel48.TabIndex = 2;
+            // 
+            // lblFFPH3A
+            // 
+            this.lblFFPH3A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPH3A.AutoSize = true;
+            this.lblFFPH3A.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPH3A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPH3A.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPH3A.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPH3A.Name = "lblFFPH3A";
+            this.lblFFPH3A.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPH3A.TabIndex = 0;
+            this.lblFFPH3A.Text = "0.0";
+            // 
+            // label48
+            // 
+            this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label48.AutoSize = true;
+            this.label48.BackColor = System.Drawing.Color.Transparent;
+            this.label48.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.Color.Black;
+            this.label48.Location = new System.Drawing.Point(264, 6);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(38, 18);
+            this.label48.TabIndex = 0;
+            this.label48.Text = "M48";
+            // 
+            // titleM48
+            // 
+            this.titleM48.AutoSize = true;
+            this.titleM48.BackColor = System.Drawing.Color.Transparent;
+            this.titleM48.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM48.ForeColor = System.Drawing.Color.Black;
+            this.titleM48.Location = new System.Drawing.Point(9, 6);
+            this.titleM48.Name = "titleM48";
+            this.titleM48.Size = new System.Drawing.Size(77, 18);
+            this.titleM48.TabIndex = 0;
+            this.titleM48.Text = "FF-PH-3-A";
+            // 
+            // guna2GradientPanel49
+            // 
+            this.guna2GradientPanel49.BorderRadius = 4;
+            this.guna2GradientPanel49.Controls.Add(this.lblFFPH2A);
+            this.guna2GradientPanel49.Controls.Add(this.label54);
+            this.guna2GradientPanel49.Controls.Add(this.titleM47);
+            this.guna2GradientPanel49.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel49.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel49.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel49.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel49.Name = "guna2GradientPanel49";
+            this.guna2GradientPanel49.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel49.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel49.TabIndex = 1;
+            // 
+            // lblFFPH2A
+            // 
+            this.lblFFPH2A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPH2A.AutoSize = true;
+            this.lblFFPH2A.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPH2A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPH2A.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPH2A.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPH2A.Name = "lblFFPH2A";
+            this.lblFFPH2A.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPH2A.TabIndex = 0;
+            this.lblFFPH2A.Text = "0.0";
+            // 
+            // label54
+            // 
+            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.Transparent;
+            this.label54.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.Black;
+            this.label54.Location = new System.Drawing.Point(264, 6);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(38, 18);
+            this.label54.TabIndex = 0;
+            this.label54.Text = "M47";
+            // 
+            // titleM47
+            // 
+            this.titleM47.AutoSize = true;
+            this.titleM47.BackColor = System.Drawing.Color.Transparent;
+            this.titleM47.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM47.ForeColor = System.Drawing.Color.Black;
+            this.titleM47.Location = new System.Drawing.Point(9, 6);
+            this.titleM47.Name = "titleM47";
+            this.titleM47.Size = new System.Drawing.Size(77, 18);
+            this.titleM47.TabIndex = 0;
+            this.titleM47.Text = "FF-PH-2-A";
+            // 
+            // guna2GradientPanel50
+            // 
+            this.guna2GradientPanel50.BorderRadius = 4;
+            this.guna2GradientPanel50.Controls.Add(this.lblFFPH1A);
+            this.guna2GradientPanel50.Controls.Add(this.label57);
+            this.guna2GradientPanel50.Controls.Add(this.titleM46);
+            this.guna2GradientPanel50.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel50.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel50.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel50.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel50.Name = "guna2GradientPanel50";
+            this.guna2GradientPanel50.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel50.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel50.TabIndex = 0;
+            // 
+            // lblFFPH1A
+            // 
+            this.lblFFPH1A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPH1A.AutoSize = true;
+            this.lblFFPH1A.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPH1A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPH1A.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPH1A.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPH1A.Name = "lblFFPH1A";
+            this.lblFFPH1A.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPH1A.TabIndex = 0;
+            this.lblFFPH1A.Text = "0.0";
+            // 
+            // label57
+            // 
+            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label57.AutoSize = true;
+            this.label57.BackColor = System.Drawing.Color.Transparent;
+            this.label57.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.Black;
+            this.label57.Location = new System.Drawing.Point(264, 6);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(38, 18);
+            this.label57.TabIndex = 0;
+            this.label57.Text = "M46";
+            // 
+            // titleM46
+            // 
+            this.titleM46.AutoSize = true;
+            this.titleM46.BackColor = System.Drawing.Color.Transparent;
+            this.titleM46.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM46.ForeColor = System.Drawing.Color.Black;
+            this.titleM46.Location = new System.Drawing.Point(9, 6);
+            this.titleM46.Name = "titleM46";
+            this.titleM46.Size = new System.Drawing.Size(77, 18);
+            this.titleM46.TabIndex = 0;
+            this.titleM46.Text = "FF-PH-1-A";
+            // 
+            // tableLayoutForBoxRow11
+            // 
+            this.tableLayoutForBoxRow11.ColumnCount = 4;
+            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel43, 3, 0);
+            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel44, 2, 0);
+            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel45, 1, 0);
+            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel46, 0, 0);
+            this.tableLayoutForBoxRow11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow11.Location = new System.Drawing.Point(6, 1106);
+            this.tableLayoutForBoxRow11.Name = "tableLayoutForBoxRow11";
+            this.tableLayoutForBoxRow11.RowCount = 1;
+            this.tableLayoutForBoxRow11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow11.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow11.TabIndex = 12;
+            // 
+            // guna2GradientPanel43
+            // 
+            this.guna2GradientPanel43.BorderRadius = 4;
+            this.guna2GradientPanel43.Controls.Add(this.lblCFPHSYSV);
+            this.guna2GradientPanel43.Controls.Add(this.label35);
+            this.guna2GradientPanel43.Controls.Add(this.titleM45);
+            this.guna2GradientPanel43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel43.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel43.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel43.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel43.Name = "guna2GradientPanel43";
+            this.guna2GradientPanel43.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel43.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel43.TabIndex = 3;
+            // 
+            // lblCFPHSYSV
+            // 
+            this.lblCFPHSYSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPHSYSV.AutoSize = true;
+            this.lblCFPHSYSV.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPHSYSV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPHSYSV.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPHSYSV.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPHSYSV.Name = "lblCFPHSYSV";
+            this.lblCFPHSYSV.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPHSYSV.TabIndex = 0;
+            this.lblCFPHSYSV.Text = "0.0";
+            // 
+            // label35
+            // 
+            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.Color.Transparent;
+            this.label35.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.Color.Black;
+            this.label35.Location = new System.Drawing.Point(261, 6);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(38, 18);
+            this.label35.TabIndex = 0;
+            this.label35.Text = "M45";
+            // 
+            // titleM45
+            // 
+            this.titleM45.AutoSize = true;
+            this.titleM45.BackColor = System.Drawing.Color.Transparent;
+            this.titleM45.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM45.ForeColor = System.Drawing.Color.Black;
+            this.titleM45.Location = new System.Drawing.Point(9, 6);
+            this.titleM45.Name = "titleM45";
+            this.titleM45.Size = new System.Drawing.Size(75, 18);
+            this.titleM45.TabIndex = 0;
+            this.titleM45.Text = "CF-SYS-V";
+            // 
+            // guna2GradientPanel44
+            // 
+            this.guna2GradientPanel44.BorderRadius = 4;
+            this.guna2GradientPanel44.Controls.Add(this.lblCFPH3V);
+            this.guna2GradientPanel44.Controls.Add(this.label44);
+            this.guna2GradientPanel44.Controls.Add(this.titleM44);
+            this.guna2GradientPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel44.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel44.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel44.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel44.Name = "guna2GradientPanel44";
+            this.guna2GradientPanel44.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel44.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel44.TabIndex = 2;
+            // 
+            // lblCFPH3V
+            // 
+            this.lblCFPH3V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPH3V.AutoSize = true;
+            this.lblCFPH3V.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPH3V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPH3V.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPH3V.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPH3V.Name = "lblCFPH3V";
+            this.lblCFPH3V.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPH3V.TabIndex = 0;
+            this.lblCFPH3V.Text = "0.0";
+            // 
+            // label44
+            // 
+            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label44.AutoSize = true;
+            this.label44.BackColor = System.Drawing.Color.Transparent;
+            this.label44.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.ForeColor = System.Drawing.Color.Black;
+            this.label44.Location = new System.Drawing.Point(264, 6);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(38, 18);
+            this.label44.TabIndex = 0;
+            this.label44.Text = "M44";
+            // 
+            // titleM44
+            // 
+            this.titleM44.AutoSize = true;
+            this.titleM44.BackColor = System.Drawing.Color.Transparent;
+            this.titleM44.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM44.ForeColor = System.Drawing.Color.Black;
+            this.titleM44.Location = new System.Drawing.Point(9, 6);
+            this.titleM44.Name = "titleM44";
+            this.titleM44.Size = new System.Drawing.Size(82, 18);
+            this.titleM44.TabIndex = 0;
+            this.titleM44.Text = "CF-PH-3-V";
+            // 
+            // guna2GradientPanel45
+            // 
+            this.guna2GradientPanel45.BorderRadius = 4;
+            this.guna2GradientPanel45.Controls.Add(this.lblCFPH2V);
+            this.guna2GradientPanel45.Controls.Add(this.label50);
+            this.guna2GradientPanel45.Controls.Add(this.titleM43);
+            this.guna2GradientPanel45.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel45.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel45.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel45.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel45.Name = "guna2GradientPanel45";
+            this.guna2GradientPanel45.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel45.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel45.TabIndex = 1;
+            // 
+            // lblCFPH2V
+            // 
+            this.lblCFPH2V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPH2V.AutoSize = true;
+            this.lblCFPH2V.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPH2V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPH2V.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPH2V.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPH2V.Name = "lblCFPH2V";
+            this.lblCFPH2V.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPH2V.TabIndex = 0;
+            this.lblCFPH2V.Text = "0.0";
+            // 
+            // label50
+            // 
+            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label50.AutoSize = true;
+            this.label50.BackColor = System.Drawing.Color.Transparent;
+            this.label50.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.Color.Black;
+            this.label50.Location = new System.Drawing.Point(264, 6);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(38, 18);
+            this.label50.TabIndex = 0;
+            this.label50.Text = "M43";
+            // 
+            // titleM43
+            // 
+            this.titleM43.AutoSize = true;
+            this.titleM43.BackColor = System.Drawing.Color.Transparent;
+            this.titleM43.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM43.ForeColor = System.Drawing.Color.Black;
+            this.titleM43.Location = new System.Drawing.Point(9, 6);
+            this.titleM43.Name = "titleM43";
+            this.titleM43.Size = new System.Drawing.Size(82, 18);
+            this.titleM43.TabIndex = 0;
+            this.titleM43.Text = "CF-PH-2-V";
+            // 
+            // guna2GradientPanel46
+            // 
+            this.guna2GradientPanel46.BorderRadius = 4;
+            this.guna2GradientPanel46.Controls.Add(this.lblCFPH1V);
+            this.guna2GradientPanel46.Controls.Add(this.label53);
+            this.guna2GradientPanel46.Controls.Add(this.titleM42);
+            this.guna2GradientPanel46.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel46.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel46.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel46.Name = "guna2GradientPanel46";
+            this.guna2GradientPanel46.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel46.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel46.TabIndex = 0;
+            // 
+            // lblCFPH1V
+            // 
+            this.lblCFPH1V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblCFPH1V.AutoSize = true;
+            this.lblCFPH1V.BackColor = System.Drawing.Color.Transparent;
+            this.lblCFPH1V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCFPH1V.ForeColor = System.Drawing.Color.Black;
+            this.lblCFPH1V.Location = new System.Drawing.Point(7, 42);
+            this.lblCFPH1V.Name = "lblCFPH1V";
+            this.lblCFPH1V.Size = new System.Drawing.Size(65, 40);
+            this.lblCFPH1V.TabIndex = 0;
+            this.lblCFPH1V.Text = "0.0";
+            // 
+            // label53
+            // 
+            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label53.AutoSize = true;
+            this.label53.BackColor = System.Drawing.Color.Transparent;
+            this.label53.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.Black;
+            this.label53.Location = new System.Drawing.Point(264, 6);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(38, 18);
+            this.label53.TabIndex = 0;
+            this.label53.Text = "M42";
+            // 
+            // titleM42
+            // 
+            this.titleM42.AutoSize = true;
+            this.titleM42.BackColor = System.Drawing.Color.Transparent;
+            this.titleM42.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM42.ForeColor = System.Drawing.Color.Black;
+            this.titleM42.Location = new System.Drawing.Point(9, 6);
+            this.titleM42.Name = "titleM42";
+            this.titleM42.Size = new System.Drawing.Size(82, 18);
+            this.titleM42.TabIndex = 0;
+            this.titleM42.Text = "CF-PH-1-V";
+            // 
+            // tableLayoutForBoxRow10
+            // 
+            this.tableLayoutForBoxRow10.ColumnCount = 4;
+            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel39, 3, 0);
+            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel40, 2, 0);
+            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel41, 1, 0);
+            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel42, 0, 0);
+            this.tableLayoutForBoxRow10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow10.Location = new System.Drawing.Point(6, 1006);
+            this.tableLayoutForBoxRow10.Name = "tableLayoutForBoxRow10";
+            this.tableLayoutForBoxRow10.RowCount = 1;
+            this.tableLayoutForBoxRow10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow10.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow10.TabIndex = 11;
+            // 
+            // guna2GradientPanel39
+            // 
+            this.guna2GradientPanel39.BorderRadius = 4;
+            this.guna2GradientPanel39.Controls.Add(this.lblFFPHSYSV);
+            this.guna2GradientPanel39.Controls.Add(this.label30);
+            this.guna2GradientPanel39.Controls.Add(this.titleM41);
+            this.guna2GradientPanel39.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel39.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel39.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel39.Name = "guna2GradientPanel39";
+            this.guna2GradientPanel39.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel39.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel39.TabIndex = 3;
+            // 
+            // lblFFPHSYSV
+            // 
+            this.lblFFPHSYSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPHSYSV.AutoSize = true;
+            this.lblFFPHSYSV.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPHSYSV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPHSYSV.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPHSYSV.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPHSYSV.Name = "lblFFPHSYSV";
+            this.lblFFPHSYSV.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPHSYSV.TabIndex = 0;
+            this.lblFFPHSYSV.Text = "0.0";
+            // 
+            // label30
+            // 
+            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Black;
+            this.label30.Location = new System.Drawing.Point(261, 6);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(38, 18);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "M41";
+            // 
+            // titleM41
+            // 
+            this.titleM41.AutoSize = true;
+            this.titleM41.BackColor = System.Drawing.Color.Transparent;
+            this.titleM41.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM41.ForeColor = System.Drawing.Color.Black;
+            this.titleM41.Location = new System.Drawing.Point(9, 6);
+            this.titleM41.Name = "titleM41";
+            this.titleM41.Size = new System.Drawing.Size(70, 18);
+            this.titleM41.TabIndex = 0;
+            this.titleM41.Text = "FF-SYS-V";
+            // 
+            // guna2GradientPanel40
+            // 
+            this.guna2GradientPanel40.BorderRadius = 4;
+            this.guna2GradientPanel40.Controls.Add(this.lblFFPH3V);
+            this.guna2GradientPanel40.Controls.Add(this.label40);
+            this.guna2GradientPanel40.Controls.Add(this.titleM40);
+            this.guna2GradientPanel40.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel40.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel40.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel40.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel40.Name = "guna2GradientPanel40";
+            this.guna2GradientPanel40.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel40.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel40.TabIndex = 2;
+            // 
+            // lblFFPH3V
+            // 
+            this.lblFFPH3V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPH3V.AutoSize = true;
+            this.lblFFPH3V.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPH3V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPH3V.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPH3V.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPH3V.Name = "lblFFPH3V";
+            this.lblFFPH3V.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPH3V.TabIndex = 0;
+            this.lblFFPH3V.Text = "0.0";
+            // 
+            // label40
+            // 
+            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.Black;
+            this.label40.Location = new System.Drawing.Point(264, 6);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(38, 18);
+            this.label40.TabIndex = 0;
+            this.label40.Text = "M40";
+            // 
+            // titleM40
+            // 
+            this.titleM40.AutoSize = true;
+            this.titleM40.BackColor = System.Drawing.Color.Transparent;
+            this.titleM40.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM40.ForeColor = System.Drawing.Color.Black;
+            this.titleM40.Location = new System.Drawing.Point(9, 6);
+            this.titleM40.Name = "titleM40";
+            this.titleM40.Size = new System.Drawing.Size(77, 18);
+            this.titleM40.TabIndex = 0;
+            this.titleM40.Text = "FF-PH-3-V";
+            // 
+            // guna2GradientPanel41
+            // 
+            this.guna2GradientPanel41.BorderRadius = 4;
+            this.guna2GradientPanel41.Controls.Add(this.lblFFPH2V);
+            this.guna2GradientPanel41.Controls.Add(this.label46);
+            this.guna2GradientPanel41.Controls.Add(this.titleM39);
+            this.guna2GradientPanel41.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel41.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel41.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel41.Name = "guna2GradientPanel41";
+            this.guna2GradientPanel41.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel41.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel41.TabIndex = 1;
+            // 
+            // lblFFPH2V
+            // 
+            this.lblFFPH2V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPH2V.AutoSize = true;
+            this.lblFFPH2V.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPH2V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPH2V.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPH2V.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPH2V.Name = "lblFFPH2V";
+            this.lblFFPH2V.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPH2V.TabIndex = 0;
+            this.lblFFPH2V.Text = "0.0";
+            // 
+            // label46
+            // 
+            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label46.AutoSize = true;
+            this.label46.BackColor = System.Drawing.Color.Transparent;
+            this.label46.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.ForeColor = System.Drawing.Color.Black;
+            this.label46.Location = new System.Drawing.Point(264, 6);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(38, 18);
+            this.label46.TabIndex = 0;
+            this.label46.Text = "M39";
+            // 
+            // titleM39
+            // 
+            this.titleM39.AutoSize = true;
+            this.titleM39.BackColor = System.Drawing.Color.Transparent;
+            this.titleM39.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM39.ForeColor = System.Drawing.Color.Black;
+            this.titleM39.Location = new System.Drawing.Point(9, 6);
+            this.titleM39.Name = "titleM39";
+            this.titleM39.Size = new System.Drawing.Size(77, 18);
+            this.titleM39.TabIndex = 0;
+            this.titleM39.Text = "FF-PH-2-V";
+            // 
+            // guna2GradientPanel42
+            // 
+            this.guna2GradientPanel42.BorderRadius = 4;
+            this.guna2GradientPanel42.Controls.Add(this.lblFFPH1V);
+            this.guna2GradientPanel42.Controls.Add(this.label49);
+            this.guna2GradientPanel42.Controls.Add(this.titleM38);
+            this.guna2GradientPanel42.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel42.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel42.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel42.Name = "guna2GradientPanel42";
+            this.guna2GradientPanel42.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel42.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel42.TabIndex = 0;
+            // 
+            // lblFFPH1V
+            // 
+            this.lblFFPH1V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFFPH1V.AutoSize = true;
+            this.lblFFPH1V.BackColor = System.Drawing.Color.Transparent;
+            this.lblFFPH1V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFFPH1V.ForeColor = System.Drawing.Color.Black;
+            this.lblFFPH1V.Location = new System.Drawing.Point(7, 42);
+            this.lblFFPH1V.Name = "lblFFPH1V";
+            this.lblFFPH1V.Size = new System.Drawing.Size(65, 40);
+            this.lblFFPH1V.TabIndex = 0;
+            this.lblFFPH1V.Text = "0.0";
+            // 
+            // label49
+            // 
+            this.label49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label49.AutoSize = true;
+            this.label49.BackColor = System.Drawing.Color.Transparent;
+            this.label49.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.Color.Black;
+            this.label49.Location = new System.Drawing.Point(264, 6);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(38, 18);
+            this.label49.TabIndex = 0;
+            this.label49.Text = "M38";
+            // 
+            // titleM38
+            // 
+            this.titleM38.AutoSize = true;
+            this.titleM38.BackColor = System.Drawing.Color.Transparent;
+            this.titleM38.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM38.ForeColor = System.Drawing.Color.Black;
+            this.titleM38.Location = new System.Drawing.Point(9, 6);
+            this.titleM38.Name = "titleM38";
+            this.titleM38.Size = new System.Drawing.Size(77, 18);
+            this.titleM38.TabIndex = 0;
+            this.titleM38.Text = "FF-PH-1-V";
+            // 
+            // tableLayoutForBoxRow9
+            // 
+            this.tableLayoutForBoxRow9.ColumnCount = 4;
+            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel35, 3, 0);
+            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel36, 2, 0);
+            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel37, 1, 0);
+            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel38, 0, 0);
+            this.tableLayoutForBoxRow9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow9.Location = new System.Drawing.Point(6, 906);
+            this.tableLayoutForBoxRow9.Name = "tableLayoutForBoxRow9";
+            this.tableLayoutForBoxRow9.RowCount = 1;
+            this.tableLayoutForBoxRow9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow9.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow9.TabIndex = 10;
+            // 
+            // guna2GradientPanel35
+            // 
+            this.guna2GradientPanel35.BorderRadius = 4;
+            this.guna2GradientPanel35.Controls.Add(this.lblSystemMeanA);
+            this.guna2GradientPanel35.Controls.Add(this.label23);
+            this.guna2GradientPanel35.Controls.Add(this.titleM37);
+            this.guna2GradientPanel35.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel35.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel35.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel35.Name = "guna2GradientPanel35";
+            this.guna2GradientPanel35.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel35.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel35.TabIndex = 3;
+            // 
+            // lblSystemMeanA
+            // 
+            this.lblSystemMeanA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblSystemMeanA.AutoSize = true;
+            this.lblSystemMeanA.BackColor = System.Drawing.Color.Transparent;
+            this.lblSystemMeanA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemMeanA.ForeColor = System.Drawing.Color.Black;
+            this.lblSystemMeanA.Location = new System.Drawing.Point(7, 42);
+            this.lblSystemMeanA.Name = "lblSystemMeanA";
+            this.lblSystemMeanA.Size = new System.Drawing.Size(65, 40);
+            this.lblSystemMeanA.TabIndex = 0;
+            this.lblSystemMeanA.Text = "0.0";
+            // 
+            // label23
+            // 
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(261, 6);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(38, 18);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "M37";
+            // 
+            // titleM37
+            // 
+            this.titleM37.AutoSize = true;
+            this.titleM37.BackColor = System.Drawing.Color.Transparent;
+            this.titleM37.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM37.ForeColor = System.Drawing.Color.Black;
+            this.titleM37.Location = new System.Drawing.Point(9, 6);
+            this.titleM37.Name = "titleM37";
+            this.titleM37.Size = new System.Drawing.Size(121, 18);
+            this.titleM37.TabIndex = 0;
+            this.titleM37.Text = "System Mean A";
+            // 
+            // guna2GradientPanel36
+            // 
+            this.guna2GradientPanel36.BorderRadius = 4;
+            this.guna2GradientPanel36.Controls.Add(this.lblMeanAmp3);
+            this.guna2GradientPanel36.Controls.Add(this.label36);
+            this.guna2GradientPanel36.Controls.Add(this.titleM36);
+            this.guna2GradientPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel36.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel36.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel36.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel36.Name = "guna2GradientPanel36";
+            this.guna2GradientPanel36.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel36.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel36.TabIndex = 2;
+            // 
+            // lblMeanAmp3
+            // 
+            this.lblMeanAmp3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblMeanAmp3.AutoSize = true;
+            this.lblMeanAmp3.BackColor = System.Drawing.Color.Transparent;
+            this.lblMeanAmp3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeanAmp3.ForeColor = System.Drawing.Color.Black;
+            this.lblMeanAmp3.Location = new System.Drawing.Point(7, 42);
+            this.lblMeanAmp3.Name = "lblMeanAmp3";
+            this.lblMeanAmp3.Size = new System.Drawing.Size(65, 40);
+            this.lblMeanAmp3.TabIndex = 0;
+            this.lblMeanAmp3.Text = "0.0";
+            // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.Black;
+            this.label36.Location = new System.Drawing.Point(264, 6);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(38, 18);
+            this.label36.TabIndex = 0;
+            this.label36.Text = "M36";
+            // 
+            // titleM36
+            // 
+            this.titleM36.AutoSize = true;
+            this.titleM36.BackColor = System.Drawing.Color.Transparent;
+            this.titleM36.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM36.ForeColor = System.Drawing.Color.Black;
+            this.titleM36.Location = new System.Drawing.Point(9, 6);
+            this.titleM36.Name = "titleM36";
+            this.titleM36.Size = new System.Drawing.Size(102, 18);
+            this.titleM36.TabIndex = 0;
+            this.titleM36.Text = "Mean Amp 3";
+            // 
+            // guna2GradientPanel37
+            // 
+            this.guna2GradientPanel37.BorderRadius = 4;
+            this.guna2GradientPanel37.Controls.Add(this.lblMeanAmp2);
+            this.guna2GradientPanel37.Controls.Add(this.label42);
+            this.guna2GradientPanel37.Controls.Add(this.titleM35);
+            this.guna2GradientPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel37.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel37.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel37.Name = "guna2GradientPanel37";
+            this.guna2GradientPanel37.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel37.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel37.TabIndex = 1;
+            // 
+            // lblMeanAmp2
+            // 
+            this.lblMeanAmp2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblMeanAmp2.AutoSize = true;
+            this.lblMeanAmp2.BackColor = System.Drawing.Color.Transparent;
+            this.lblMeanAmp2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeanAmp2.ForeColor = System.Drawing.Color.Black;
+            this.lblMeanAmp2.Location = new System.Drawing.Point(7, 42);
+            this.lblMeanAmp2.Name = "lblMeanAmp2";
+            this.lblMeanAmp2.Size = new System.Drawing.Size(65, 40);
+            this.lblMeanAmp2.TabIndex = 0;
+            this.lblMeanAmp2.Text = "0.0";
+            // 
+            // label42
+            // 
+            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label42.AutoSize = true;
+            this.label42.BackColor = System.Drawing.Color.Transparent;
+            this.label42.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.Black;
+            this.label42.Location = new System.Drawing.Point(264, 6);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(38, 18);
+            this.label42.TabIndex = 0;
+            this.label42.Text = "M35";
+            // 
+            // titleM35
+            // 
+            this.titleM35.AutoSize = true;
+            this.titleM35.BackColor = System.Drawing.Color.Transparent;
+            this.titleM35.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM35.ForeColor = System.Drawing.Color.Black;
+            this.titleM35.Location = new System.Drawing.Point(9, 6);
+            this.titleM35.Name = "titleM35";
+            this.titleM35.Size = new System.Drawing.Size(102, 18);
+            this.titleM35.TabIndex = 0;
+            this.titleM35.Text = "Mean Amp 2";
+            // 
+            // guna2GradientPanel38
+            // 
+            this.guna2GradientPanel38.BorderRadius = 4;
+            this.guna2GradientPanel38.Controls.Add(this.lblMeanAmp1);
+            this.guna2GradientPanel38.Controls.Add(this.label45);
+            this.guna2GradientPanel38.Controls.Add(this.titleM34);
+            this.guna2GradientPanel38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel38.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel38.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel38.Name = "guna2GradientPanel38";
+            this.guna2GradientPanel38.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel38.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel38.TabIndex = 0;
+            // 
+            // lblMeanAmp1
+            // 
+            this.lblMeanAmp1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblMeanAmp1.AutoSize = true;
+            this.lblMeanAmp1.BackColor = System.Drawing.Color.Transparent;
+            this.lblMeanAmp1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeanAmp1.ForeColor = System.Drawing.Color.Black;
+            this.lblMeanAmp1.Location = new System.Drawing.Point(7, 42);
+            this.lblMeanAmp1.Name = "lblMeanAmp1";
+            this.lblMeanAmp1.Size = new System.Drawing.Size(65, 40);
+            this.lblMeanAmp1.TabIndex = 0;
+            this.lblMeanAmp1.Text = "0.0";
+            // 
+            // label45
+            // 
+            this.label45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label45.AutoSize = true;
+            this.label45.BackColor = System.Drawing.Color.Transparent;
+            this.label45.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.Black;
+            this.label45.Location = new System.Drawing.Point(264, 6);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(38, 18);
+            this.label45.TabIndex = 0;
+            this.label45.Text = "M34";
+            // 
+            // titleM34
+            // 
+            this.titleM34.AutoSize = true;
+            this.titleM34.BackColor = System.Drawing.Color.Transparent;
+            this.titleM34.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM34.ForeColor = System.Drawing.Color.Black;
+            this.titleM34.Location = new System.Drawing.Point(9, 6);
+            this.titleM34.Name = "titleM34";
+            this.titleM34.Size = new System.Drawing.Size(102, 18);
+            this.titleM34.TabIndex = 0;
+            this.titleM34.Text = "Mean Amp 1";
+            // 
+            // tableLayoutForBoxRow8
+            // 
+            this.tableLayoutForBoxRow8.ColumnCount = 4;
+            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel31, 3, 0);
+            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel32, 2, 0);
+            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel33, 1, 0);
+            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel34, 0, 0);
+            this.tableLayoutForBoxRow8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow8.Location = new System.Drawing.Point(6, 806);
+            this.tableLayoutForBoxRow8.Name = "tableLayoutForBoxRow8";
+            this.tableLayoutForBoxRow8.RowCount = 1;
+            this.tableLayoutForBoxRow8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow8.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow8.TabIndex = 9;
+            // 
+            // guna2GradientPanel31
+            // 
+            this.guna2GradientPanel31.BorderRadius = 4;
+            this.guna2GradientPanel31.Controls.Add(this.lblSystemPeakV);
+            this.guna2GradientPanel31.Controls.Add(this.label18);
+            this.guna2GradientPanel31.Controls.Add(this.titleM33);
+            this.guna2GradientPanel31.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel31.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel31.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel31.Name = "guna2GradientPanel31";
+            this.guna2GradientPanel31.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel31.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel31.TabIndex = 3;
+            // 
+            // lblSystemPeakV
+            // 
+            this.lblSystemPeakV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblSystemPeakV.AutoSize = true;
+            this.lblSystemPeakV.BackColor = System.Drawing.Color.Transparent;
+            this.lblSystemPeakV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemPeakV.ForeColor = System.Drawing.Color.Black;
+            this.lblSystemPeakV.Location = new System.Drawing.Point(7, 42);
+            this.lblSystemPeakV.Name = "lblSystemPeakV";
+            this.lblSystemPeakV.Size = new System.Drawing.Size(65, 40);
+            this.lblSystemPeakV.TabIndex = 0;
+            this.lblSystemPeakV.Text = "0.0";
+            // 
+            // label18
+            // 
+            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(261, 6);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(38, 18);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "M33";
+            // 
+            // titleM33
+            // 
+            this.titleM33.AutoSize = true;
+            this.titleM33.BackColor = System.Drawing.Color.Transparent;
+            this.titleM33.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM33.ForeColor = System.Drawing.Color.Black;
+            this.titleM33.Location = new System.Drawing.Point(9, 6);
+            this.titleM33.Name = "titleM33";
+            this.titleM33.Size = new System.Drawing.Size(115, 18);
+            this.titleM33.TabIndex = 0;
+            this.titleM33.Text = "System Peak V";
+            // 
+            // guna2GradientPanel32
+            // 
+            this.guna2GradientPanel32.BorderRadius = 4;
+            this.guna2GradientPanel32.Controls.Add(this.lblPeakVolt3);
+            this.guna2GradientPanel32.Controls.Add(this.label31);
+            this.guna2GradientPanel32.Controls.Add(this.titleM32);
+            this.guna2GradientPanel32.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel32.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel32.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel32.Name = "guna2GradientPanel32";
+            this.guna2GradientPanel32.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel32.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel32.TabIndex = 2;
+            // 
+            // lblPeakVolt3
+            // 
+            this.lblPeakVolt3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPeakVolt3.AutoSize = true;
+            this.lblPeakVolt3.BackColor = System.Drawing.Color.Transparent;
+            this.lblPeakVolt3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeakVolt3.ForeColor = System.Drawing.Color.Black;
+            this.lblPeakVolt3.Location = new System.Drawing.Point(7, 42);
+            this.lblPeakVolt3.Name = "lblPeakVolt3";
+            this.lblPeakVolt3.Size = new System.Drawing.Size(65, 40);
+            this.lblPeakVolt3.TabIndex = 0;
+            this.lblPeakVolt3.Text = "0.0";
+            // 
+            // label31
+            // 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.Transparent;
+            this.label31.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.Black;
+            this.label31.Location = new System.Drawing.Point(264, 6);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(38, 18);
+            this.label31.TabIndex = 0;
+            this.label31.Text = "M32";
+            // 
+            // titleM32
+            // 
+            this.titleM32.AutoSize = true;
+            this.titleM32.BackColor = System.Drawing.Color.Transparent;
+            this.titleM32.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM32.ForeColor = System.Drawing.Color.Black;
+            this.titleM32.Location = new System.Drawing.Point(9, 6);
+            this.titleM32.Name = "titleM32";
+            this.titleM32.Size = new System.Drawing.Size(90, 18);
+            this.titleM32.TabIndex = 0;
+            this.titleM32.Text = "Peak Volt 3";
+            // 
+            // guna2GradientPanel33
+            // 
+            this.guna2GradientPanel33.BorderRadius = 4;
+            this.guna2GradientPanel33.Controls.Add(this.lblPeakVolt2);
+            this.guna2GradientPanel33.Controls.Add(this.label38);
+            this.guna2GradientPanel33.Controls.Add(this.titleM31);
+            this.guna2GradientPanel33.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel33.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel33.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel33.Name = "guna2GradientPanel33";
+            this.guna2GradientPanel33.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel33.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel33.TabIndex = 1;
+            // 
+            // lblPeakVolt2
+            // 
+            this.lblPeakVolt2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPeakVolt2.AutoSize = true;
+            this.lblPeakVolt2.BackColor = System.Drawing.Color.Transparent;
+            this.lblPeakVolt2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeakVolt2.ForeColor = System.Drawing.Color.Black;
+            this.lblPeakVolt2.Location = new System.Drawing.Point(7, 42);
+            this.lblPeakVolt2.Name = "lblPeakVolt2";
+            this.lblPeakVolt2.Size = new System.Drawing.Size(65, 40);
+            this.lblPeakVolt2.TabIndex = 0;
+            this.lblPeakVolt2.Text = "0.0";
+            // 
+            // label38
+            // 
+            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.Transparent;
+            this.label38.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.Color.Black;
+            this.label38.Location = new System.Drawing.Point(264, 6);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(38, 18);
+            this.label38.TabIndex = 0;
+            this.label38.Text = "M31";
+            // 
+            // titleM31
+            // 
+            this.titleM31.AutoSize = true;
+            this.titleM31.BackColor = System.Drawing.Color.Transparent;
+            this.titleM31.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM31.ForeColor = System.Drawing.Color.Black;
+            this.titleM31.Location = new System.Drawing.Point(9, 6);
+            this.titleM31.Name = "titleM31";
+            this.titleM31.Size = new System.Drawing.Size(90, 18);
+            this.titleM31.TabIndex = 0;
+            this.titleM31.Text = "Peak Volt 2";
+            // 
+            // guna2GradientPanel34
+            // 
+            this.guna2GradientPanel34.BorderRadius = 4;
+            this.guna2GradientPanel34.Controls.Add(this.lblPeakVolt1);
+            this.guna2GradientPanel34.Controls.Add(this.label41);
+            this.guna2GradientPanel34.Controls.Add(this.titleM30);
+            this.guna2GradientPanel34.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel34.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel34.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel34.Name = "guna2GradientPanel34";
+            this.guna2GradientPanel34.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel34.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel34.TabIndex = 0;
+            // 
+            // lblPeakVolt1
+            // 
+            this.lblPeakVolt1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPeakVolt1.AutoSize = true;
+            this.lblPeakVolt1.BackColor = System.Drawing.Color.Transparent;
+            this.lblPeakVolt1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeakVolt1.ForeColor = System.Drawing.Color.Black;
+            this.lblPeakVolt1.Location = new System.Drawing.Point(7, 42);
+            this.lblPeakVolt1.Name = "lblPeakVolt1";
+            this.lblPeakVolt1.Size = new System.Drawing.Size(65, 40);
+            this.lblPeakVolt1.TabIndex = 0;
+            this.lblPeakVolt1.Text = "0.0";
+            // 
+            // label41
+            // 
+            this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label41.AutoSize = true;
+            this.label41.BackColor = System.Drawing.Color.Transparent;
+            this.label41.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.Black;
+            this.label41.Location = new System.Drawing.Point(264, 6);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(38, 18);
+            this.label41.TabIndex = 0;
+            this.label41.Text = "M30";
+            // 
+            // titleM30
+            // 
+            this.titleM30.AutoSize = true;
+            this.titleM30.BackColor = System.Drawing.Color.Transparent;
+            this.titleM30.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM30.ForeColor = System.Drawing.Color.Black;
+            this.titleM30.Location = new System.Drawing.Point(9, 6);
+            this.titleM30.Name = "titleM30";
+            this.titleM30.Size = new System.Drawing.Size(90, 18);
+            this.titleM30.TabIndex = 0;
+            this.titleM30.Text = "Peak Volt 1";
+            // 
+            // tableLayoutForBoxRow7
+            // 
+            this.tableLayoutForBoxRow7.ColumnCount = 4;
+            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel27, 3, 0);
+            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel28, 2, 0);
+            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel29, 1, 0);
+            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel30, 0, 0);
+            this.tableLayoutForBoxRow7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow7.Location = new System.Drawing.Point(6, 706);
+            this.tableLayoutForBoxRow7.Name = "tableLayoutForBoxRow7";
+            this.tableLayoutForBoxRow7.RowCount = 1;
+            this.tableLayoutForBoxRow7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow7.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow7.TabIndex = 8;
+            // 
+            // guna2GradientPanel27
+            // 
+            this.guna2GradientPanel27.BorderRadius = 4;
+            this.guna2GradientPanel27.Controls.Add(this.lblSystemPeakA);
+            this.guna2GradientPanel27.Controls.Add(this.label14);
+            this.guna2GradientPanel27.Controls.Add(this.titleM29);
+            this.guna2GradientPanel27.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel27.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel27.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel27.Name = "guna2GradientPanel27";
+            this.guna2GradientPanel27.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel27.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel27.TabIndex = 3;
+            // 
+            // lblSystemPeakA
+            // 
+            this.lblSystemPeakA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblSystemPeakA.AutoSize = true;
+            this.lblSystemPeakA.BackColor = System.Drawing.Color.Transparent;
+            this.lblSystemPeakA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemPeakA.ForeColor = System.Drawing.Color.Black;
+            this.lblSystemPeakA.Location = new System.Drawing.Point(7, 42);
+            this.lblSystemPeakA.Name = "lblSystemPeakA";
+            this.lblSystemPeakA.Size = new System.Drawing.Size(65, 40);
+            this.lblSystemPeakA.TabIndex = 0;
+            this.lblSystemPeakA.Text = "0.0";
+            // 
+            // label14
+            // 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(261, 6);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(38, 18);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "M29";
+            // 
+            // titleM29
+            // 
+            this.titleM29.AutoSize = true;
+            this.titleM29.BackColor = System.Drawing.Color.Transparent;
+            this.titleM29.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM29.ForeColor = System.Drawing.Color.Black;
+            this.titleM29.Location = new System.Drawing.Point(9, 6);
+            this.titleM29.Name = "titleM29";
+            this.titleM29.Size = new System.Drawing.Size(115, 18);
+            this.titleM29.TabIndex = 0;
+            this.titleM29.Text = "System Peak A";
+            // 
+            // guna2GradientPanel28
+            // 
+            this.guna2GradientPanel28.BorderRadius = 4;
+            this.guna2GradientPanel28.Controls.Add(this.lblPeakAmp3);
+            this.guna2GradientPanel28.Controls.Add(this.label25);
+            this.guna2GradientPanel28.Controls.Add(this.titleM28);
+            this.guna2GradientPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel28.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel28.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel28.Name = "guna2GradientPanel28";
+            this.guna2GradientPanel28.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel28.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel28.TabIndex = 2;
+            // 
+            // lblPeakAmp3
+            // 
+            this.lblPeakAmp3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPeakAmp3.AutoSize = true;
+            this.lblPeakAmp3.BackColor = System.Drawing.Color.Transparent;
+            this.lblPeakAmp3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeakAmp3.ForeColor = System.Drawing.Color.Black;
+            this.lblPeakAmp3.Location = new System.Drawing.Point(7, 42);
+            this.lblPeakAmp3.Name = "lblPeakAmp3";
+            this.lblPeakAmp3.Size = new System.Drawing.Size(65, 40);
+            this.lblPeakAmp3.TabIndex = 0;
+            this.lblPeakAmp3.Text = "0.0";
+            // 
+            // label25
+            // 
+            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(264, 6);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(38, 18);
+            this.label25.TabIndex = 0;
+            this.label25.Text = "M28";
+            // 
+            // titleM28
+            // 
+            this.titleM28.AutoSize = true;
+            this.titleM28.BackColor = System.Drawing.Color.Transparent;
+            this.titleM28.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM28.ForeColor = System.Drawing.Color.Black;
+            this.titleM28.Location = new System.Drawing.Point(9, 6);
+            this.titleM28.Name = "titleM28";
+            this.titleM28.Size = new System.Drawing.Size(96, 18);
+            this.titleM28.TabIndex = 0;
+            this.titleM28.Text = "Peak Amp 3";
+            // 
+            // guna2GradientPanel29
+            // 
+            this.guna2GradientPanel29.BorderRadius = 4;
+            this.guna2GradientPanel29.Controls.Add(this.lblPeakAmp2);
+            this.guna2GradientPanel29.Controls.Add(this.label34);
+            this.guna2GradientPanel29.Controls.Add(this.titleM27);
+            this.guna2GradientPanel29.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel29.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel29.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel29.Name = "guna2GradientPanel29";
+            this.guna2GradientPanel29.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel29.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel29.TabIndex = 1;
+            // 
+            // lblPeakAmp2
+            // 
+            this.lblPeakAmp2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPeakAmp2.AutoSize = true;
+            this.lblPeakAmp2.BackColor = System.Drawing.Color.Transparent;
+            this.lblPeakAmp2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeakAmp2.ForeColor = System.Drawing.Color.Black;
+            this.lblPeakAmp2.Location = new System.Drawing.Point(7, 42);
+            this.lblPeakAmp2.Name = "lblPeakAmp2";
+            this.lblPeakAmp2.Size = new System.Drawing.Size(65, 40);
+            this.lblPeakAmp2.TabIndex = 0;
+            this.lblPeakAmp2.Text = "0.0";
+            // 
+            // label34
+            // 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.Color.Transparent;
+            this.label34.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.Black;
+            this.label34.Location = new System.Drawing.Point(264, 6);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(38, 18);
+            this.label34.TabIndex = 0;
+            this.label34.Text = "M27";
+            // 
+            // titleM27
+            // 
+            this.titleM27.AutoSize = true;
+            this.titleM27.BackColor = System.Drawing.Color.Transparent;
+            this.titleM27.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM27.ForeColor = System.Drawing.Color.Black;
+            this.titleM27.Location = new System.Drawing.Point(9, 6);
+            this.titleM27.Name = "titleM27";
+            this.titleM27.Size = new System.Drawing.Size(96, 18);
+            this.titleM27.TabIndex = 0;
+            this.titleM27.Text = "Peak Amp 2";
+            // 
+            // guna2GradientPanel30
+            // 
+            this.guna2GradientPanel30.BorderRadius = 4;
+            this.guna2GradientPanel30.Controls.Add(this.lblPeakAmp1);
+            this.guna2GradientPanel30.Controls.Add(this.label37);
+            this.guna2GradientPanel30.Controls.Add(this.titleM26);
+            this.guna2GradientPanel30.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel30.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel30.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel30.Name = "guna2GradientPanel30";
+            this.guna2GradientPanel30.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel30.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel30.TabIndex = 0;
+            // 
+            // lblPeakAmp1
+            // 
+            this.lblPeakAmp1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblPeakAmp1.AutoSize = true;
+            this.lblPeakAmp1.BackColor = System.Drawing.Color.Transparent;
+            this.lblPeakAmp1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPeakAmp1.ForeColor = System.Drawing.Color.Black;
+            this.lblPeakAmp1.Location = new System.Drawing.Point(7, 42);
+            this.lblPeakAmp1.Name = "lblPeakAmp1";
+            this.lblPeakAmp1.Size = new System.Drawing.Size(65, 40);
+            this.lblPeakAmp1.TabIndex = 0;
+            this.lblPeakAmp1.Text = "0.0";
+            // 
+            // label37
+            // 
+            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.label37.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.Black;
+            this.label37.Location = new System.Drawing.Point(264, 6);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(38, 18);
+            this.label37.TabIndex = 0;
+            this.label37.Text = "M26";
+            // 
+            // titleM26
+            // 
+            this.titleM26.AutoSize = true;
+            this.titleM26.BackColor = System.Drawing.Color.Transparent;
+            this.titleM26.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM26.ForeColor = System.Drawing.Color.Black;
+            this.titleM26.Location = new System.Drawing.Point(9, 6);
+            this.titleM26.Name = "titleM26";
+            this.titleM26.Size = new System.Drawing.Size(96, 18);
+            this.titleM26.TabIndex = 0;
+            this.titleM26.Text = "Peak Amp 1";
+            // 
+            // tableLayoutForBoxRow6
+            // 
+            this.tableLayoutForBoxRow6.ColumnCount = 4;
+            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel21, 3, 0);
+            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel24, 2, 0);
+            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel25, 1, 0);
+            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel26, 0, 0);
+            this.tableLayoutForBoxRow6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxRow6.Location = new System.Drawing.Point(6, 606);
+            this.tableLayoutForBoxRow6.Name = "tableLayoutForBoxRow6";
+            this.tableLayoutForBoxRow6.RowCount = 1;
+            this.tableLayoutForBoxRow6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxRow6.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxRow6.TabIndex = 7;
+            // 
+            // guna2GradientPanel21
+            // 
+            this.guna2GradientPanel21.BorderRadius = 4;
+            this.guna2GradientPanel21.Controls.Add(this.lblSystemMeanV);
+            this.guna2GradientPanel21.Controls.Add(this.label13);
+            this.guna2GradientPanel21.Controls.Add(this.titleM25);
+            this.guna2GradientPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel21.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel21.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel21.Name = "guna2GradientPanel21";
+            this.guna2GradientPanel21.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel21.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel21.TabIndex = 3;
+            // 
+            // lblSystemMeanV
+            // 
+            this.lblSystemMeanV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblSystemMeanV.AutoSize = true;
+            this.lblSystemMeanV.BackColor = System.Drawing.Color.Transparent;
+            this.lblSystemMeanV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemMeanV.ForeColor = System.Drawing.Color.Black;
+            this.lblSystemMeanV.Location = new System.Drawing.Point(7, 42);
+            this.lblSystemMeanV.Name = "lblSystemMeanV";
+            this.lblSystemMeanV.Size = new System.Drawing.Size(65, 40);
+            this.lblSystemMeanV.TabIndex = 0;
+            this.lblSystemMeanV.Text = "0.0";
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(261, 6);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(38, 18);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "M25";
+            // 
+            // titleM25
+            // 
+            this.titleM25.AutoSize = true;
+            this.titleM25.BackColor = System.Drawing.Color.Transparent;
+            this.titleM25.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM25.ForeColor = System.Drawing.Color.Black;
+            this.titleM25.Location = new System.Drawing.Point(9, 6);
+            this.titleM25.Name = "titleM25";
+            this.titleM25.Size = new System.Drawing.Size(121, 18);
+            this.titleM25.TabIndex = 0;
+            this.titleM25.Text = "System Mean V";
+            // 
+            // guna2GradientPanel24
+            // 
+            this.guna2GradientPanel24.BorderRadius = 4;
+            this.guna2GradientPanel24.Controls.Add(this.lblMeanVolt3);
+            this.guna2GradientPanel24.Controls.Add(this.label20);
+            this.guna2GradientPanel24.Controls.Add(this.titleM24);
+            this.guna2GradientPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel24.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel24.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel24.Name = "guna2GradientPanel24";
+            this.guna2GradientPanel24.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel24.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel24.TabIndex = 2;
+            // 
+            // lblMeanVolt3
+            // 
+            this.lblMeanVolt3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblMeanVolt3.AutoSize = true;
+            this.lblMeanVolt3.BackColor = System.Drawing.Color.Transparent;
+            this.lblMeanVolt3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeanVolt3.ForeColor = System.Drawing.Color.Black;
+            this.lblMeanVolt3.Location = new System.Drawing.Point(7, 42);
+            this.lblMeanVolt3.Name = "lblMeanVolt3";
+            this.lblMeanVolt3.Size = new System.Drawing.Size(65, 40);
+            this.lblMeanVolt3.TabIndex = 0;
+            this.lblMeanVolt3.Text = "0.0";
+            // 
+            // label20
+            // 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(264, 6);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(38, 18);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "M24";
+            // 
+            // titleM24
+            // 
+            this.titleM24.AutoSize = true;
+            this.titleM24.BackColor = System.Drawing.Color.Transparent;
+            this.titleM24.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM24.ForeColor = System.Drawing.Color.Black;
+            this.titleM24.Location = new System.Drawing.Point(9, 6);
+            this.titleM24.Name = "titleM24";
+            this.titleM24.Size = new System.Drawing.Size(96, 18);
+            this.titleM24.TabIndex = 0;
+            this.titleM24.Text = "Mean Volt 3";
+            // 
+            // guna2GradientPanel25
+            // 
+            this.guna2GradientPanel25.BorderRadius = 4;
+            this.guna2GradientPanel25.Controls.Add(this.lblMeanVolt2);
+            this.guna2GradientPanel25.Controls.Add(this.label28);
+            this.guna2GradientPanel25.Controls.Add(this.titleM23);
+            this.guna2GradientPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel25.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel25.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel25.Name = "guna2GradientPanel25";
+            this.guna2GradientPanel25.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel25.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel25.TabIndex = 1;
+            // 
+            // lblMeanVolt2
+            // 
+            this.lblMeanVolt2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblMeanVolt2.AutoSize = true;
+            this.lblMeanVolt2.BackColor = System.Drawing.Color.Transparent;
+            this.lblMeanVolt2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeanVolt2.ForeColor = System.Drawing.Color.Black;
+            this.lblMeanVolt2.Location = new System.Drawing.Point(7, 42);
+            this.lblMeanVolt2.Name = "lblMeanVolt2";
+            this.lblMeanVolt2.Size = new System.Drawing.Size(65, 40);
+            this.lblMeanVolt2.TabIndex = 0;
+            this.lblMeanVolt2.Text = "0.0";
+            // 
+            // label28
+            // 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.Transparent;
+            this.label28.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Black;
+            this.label28.Location = new System.Drawing.Point(264, 6);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(38, 18);
+            this.label28.TabIndex = 0;
+            this.label28.Text = "M23";
+            // 
+            // titleM23
+            // 
+            this.titleM23.AutoSize = true;
+            this.titleM23.BackColor = System.Drawing.Color.Transparent;
+            this.titleM23.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM23.ForeColor = System.Drawing.Color.Black;
+            this.titleM23.Location = new System.Drawing.Point(9, 6);
+            this.titleM23.Name = "titleM23";
+            this.titleM23.Size = new System.Drawing.Size(96, 18);
+            this.titleM23.TabIndex = 0;
+            this.titleM23.Text = "Mean Volt 2";
+            // 
+            // guna2GradientPanel26
+            // 
+            this.guna2GradientPanel26.BorderRadius = 4;
+            this.guna2GradientPanel26.Controls.Add(this.lblMeanVolt1);
+            this.guna2GradientPanel26.Controls.Add(this.label33);
+            this.guna2GradientPanel26.Controls.Add(this.titleM22);
+            this.guna2GradientPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel26.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel26.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel26.Name = "guna2GradientPanel26";
+            this.guna2GradientPanel26.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel26.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel26.TabIndex = 0;
+            // 
+            // lblMeanVolt1
+            // 
+            this.lblMeanVolt1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblMeanVolt1.AutoSize = true;
+            this.lblMeanVolt1.BackColor = System.Drawing.Color.Transparent;
+            this.lblMeanVolt1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeanVolt1.ForeColor = System.Drawing.Color.Black;
+            this.lblMeanVolt1.Location = new System.Drawing.Point(7, 42);
+            this.lblMeanVolt1.Name = "lblMeanVolt1";
+            this.lblMeanVolt1.Size = new System.Drawing.Size(65, 40);
+            this.lblMeanVolt1.TabIndex = 0;
+            this.lblMeanVolt1.Text = "0.0";
+            // 
+            // label33
+            // 
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.Transparent;
+            this.label33.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.Black;
+            this.label33.Location = new System.Drawing.Point(264, 6);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(38, 18);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "M22";
+            // 
+            // titleM22
+            // 
+            this.titleM22.AutoSize = true;
+            this.titleM22.BackColor = System.Drawing.Color.Transparent;
+            this.titleM22.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM22.ForeColor = System.Drawing.Color.Black;
+            this.titleM22.Location = new System.Drawing.Point(9, 6);
+            this.titleM22.Name = "titleM22";
+            this.titleM22.Size = new System.Drawing.Size(96, 18);
+            this.titleM22.TabIndex = 0;
+            this.titleM22.Text = "Mean Volt 1";
+            // 
+            // tableLayoutForBoxesFrequencyTemperature
+            // 
+            this.tableLayoutForBoxesFrequencyTemperature.ColumnCount = 4;
+            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel22, 2, 0);
+            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel23, 1, 0);
+            this.tableLayoutForBoxesFrequencyTemperature.Dock = System.Windows.Forms.DockStyle.Top;
+            this.tableLayoutForBoxesFrequencyTemperature.Location = new System.Drawing.Point(6, 506);
+            this.tableLayoutForBoxesFrequencyTemperature.Name = "tableLayoutForBoxesFrequencyTemperature";
+            this.tableLayoutForBoxesFrequencyTemperature.RowCount = 1;
+            this.tableLayoutForBoxesFrequencyTemperature.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutForBoxesFrequencyTemperature.Size = new System.Drawing.Size(1271, 100);
+            this.tableLayoutForBoxesFrequencyTemperature.TabIndex = 6;
+            // 
+            // guna2GradientPanel22
+            // 
+            this.guna2GradientPanel22.BorderRadius = 4;
+            this.guna2GradientPanel22.Controls.Add(this.lblTemperature);
+            this.guna2GradientPanel22.Controls.Add(this.label29);
+            this.guna2GradientPanel22.Controls.Add(this.titleM53);
+            this.guna2GradientPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel22.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel22.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel22.Name = "guna2GradientPanel22";
+            this.guna2GradientPanel22.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel22.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel22.TabIndex = 2;
+            // 
+            // lblTemperature
+            // 
+            this.lblTemperature.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblTemperature.AutoSize = true;
+            this.lblTemperature.BackColor = System.Drawing.Color.Transparent;
+            this.lblTemperature.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemperature.ForeColor = System.Drawing.Color.White;
+            this.lblTemperature.Location = new System.Drawing.Point(7, 42);
+            this.lblTemperature.Name = "lblTemperature";
+            this.lblTemperature.Size = new System.Drawing.Size(65, 40);
+            this.lblTemperature.TabIndex = 0;
+            this.lblTemperature.Text = "0.0";
+            // 
+            // label29
+            // 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(264, 6);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(38, 18);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "M53";
+            // 
+            // titleM53
+            // 
+            this.titleM53.AutoSize = true;
+            this.titleM53.BackColor = System.Drawing.Color.Transparent;
+            this.titleM53.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM53.ForeColor = System.Drawing.Color.White;
+            this.titleM53.Location = new System.Drawing.Point(9, 6);
+            this.titleM53.Name = "titleM53";
+            this.titleM53.Size = new System.Drawing.Size(101, 18);
+            this.titleM53.TabIndex = 0;
+            this.titleM53.Text = "Temperature";
+            // 
+            // guna2GradientPanel23
+            // 
+            this.guna2GradientPanel23.BorderRadius = 4;
+            this.guna2GradientPanel23.Controls.Add(this.lblFrequency);
+            this.guna2GradientPanel23.Controls.Add(this.label32);
+            this.guna2GradientPanel23.Controls.Add(this.titleM17);
+            this.guna2GradientPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel23.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel23.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel23.Name = "guna2GradientPanel23";
+            this.guna2GradientPanel23.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel23.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel23.TabIndex = 1;
+            // 
+            // lblFrequency
+            // 
+            this.lblFrequency.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFrequency.AutoSize = true;
+            this.lblFrequency.BackColor = System.Drawing.Color.Transparent;
+            this.lblFrequency.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrequency.ForeColor = System.Drawing.Color.White;
+            this.lblFrequency.Location = new System.Drawing.Point(7, 42);
+            this.lblFrequency.Name = "lblFrequency";
+            this.lblFrequency.Size = new System.Drawing.Size(65, 40);
+            this.lblFrequency.TabIndex = 0;
+            this.lblFrequency.Text = "0.0";
+            // 
+            // label32
+            // 
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(264, 6);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(38, 18);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "M17";
+            // 
+            // titleM17
+            // 
+            this.titleM17.AutoSize = true;
+            this.titleM17.BackColor = System.Drawing.Color.Transparent;
+            this.titleM17.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM17.ForeColor = System.Drawing.Color.White;
+            this.titleM17.Location = new System.Drawing.Point(9, 6);
+            this.titleM17.Name = "titleM17";
+            this.titleM17.Size = new System.Drawing.Size(87, 18);
+            this.titleM17.TabIndex = 0;
+            this.titleM17.Text = "Frequency";
             // 
             // tableLayoutForBoxRow5
             // 
@@ -1341,7 +3363,7 @@
             this.tableLayoutForBoxRow2.Name = "tableLayoutForBoxRow2";
             this.tableLayoutForBoxRow2.RowCount = 1;
             this.tableLayoutForBoxRow2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutForBoxRow2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutForBoxRow2.Size = new System.Drawing.Size(1271, 100);
             this.tableLayoutForBoxRow2.TabIndex = 1;
             // 
@@ -1557,229 +3579,6 @@
             this.titleM5.TabIndex = 0;
             this.titleM5.Text = "Amp 1";
             // 
-            // panelForDataGrid
-            // 
-            this.panelForDataGrid.AutoScroll = true;
-            this.panelForDataGrid.Controls.Add(this.guna2DataGridView1);
-            this.panelForDataGrid.Controls.Add(this.guna2Panel1);
-            this.panelForDataGrid.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelForDataGrid.Location = new System.Drawing.Point(0, 426);
-            this.panelForDataGrid.Name = "panelForDataGrid";
-            this.panelForDataGrid.Size = new System.Drawing.Size(1300, 294);
-            this.panelForDataGrid.TabIndex = 3;
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.BorderRadius = 4;
-            this.guna2GradientPanel1.Controls.Add(this.lblV1);
-            this.guna2GradientPanel1.Controls.Add(this.label3);
-            this.guna2GradientPanel1.Controls.Add(this.titleM1);
-            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel1.TabIndex = 0;
-            // 
-            // titleM1
-            // 
-            this.titleM1.AutoSize = true;
-            this.titleM1.BackColor = System.Drawing.Color.Transparent;
-            this.titleM1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM1.ForeColor = System.Drawing.Color.Black;
-            this.titleM1.Location = new System.Drawing.Point(9, 6);
-            this.titleM1.Name = "titleM1";
-            this.titleM1.Size = new System.Drawing.Size(49, 18);
-            this.titleM1.TabIndex = 0;
-            this.titleM1.Text = "Volt 1";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(272, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 18);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "M1";
-            // 
-            // lblV1
-            // 
-            this.lblV1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblV1.AutoSize = true;
-            this.lblV1.BackColor = System.Drawing.Color.Transparent;
-            this.lblV1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblV1.ForeColor = System.Drawing.Color.Black;
-            this.lblV1.Location = new System.Drawing.Point(7, 42);
-            this.lblV1.Name = "lblV1";
-            this.lblV1.Size = new System.Drawing.Size(65, 40);
-            this.lblV1.TabIndex = 0;
-            this.lblV1.Text = "0.0";
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.BorderRadius = 4;
-            this.guna2GradientPanel2.Controls.Add(this.lblV2);
-            this.guna2GradientPanel2.Controls.Add(this.label2);
-            this.guna2GradientPanel2.Controls.Add(this.titleM2);
-            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel2.TabIndex = 1;
-            // 
-            // titleM2
-            // 
-            this.titleM2.AutoSize = true;
-            this.titleM2.BackColor = System.Drawing.Color.Transparent;
-            this.titleM2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM2.ForeColor = System.Drawing.Color.Black;
-            this.titleM2.Location = new System.Drawing.Point(9, 6);
-            this.titleM2.Name = "titleM2";
-            this.titleM2.Size = new System.Drawing.Size(49, 18);
-            this.titleM2.TabIndex = 0;
-            this.titleM2.Text = "Volt 2";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(272, 6);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 18);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "M2";
-            // 
-            // lblV2
-            // 
-            this.lblV2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblV2.AutoSize = true;
-            this.lblV2.BackColor = System.Drawing.Color.Transparent;
-            this.lblV2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblV2.ForeColor = System.Drawing.Color.Black;
-            this.lblV2.Location = new System.Drawing.Point(7, 42);
-            this.lblV2.Name = "lblV2";
-            this.lblV2.Size = new System.Drawing.Size(65, 40);
-            this.lblV2.TabIndex = 0;
-            this.lblV2.Text = "0.0";
-            // 
-            // guna2GradientPanel3
-            // 
-            this.guna2GradientPanel3.BorderRadius = 4;
-            this.guna2GradientPanel3.Controls.Add(this.lblV3);
-            this.guna2GradientPanel3.Controls.Add(this.label4);
-            this.guna2GradientPanel3.Controls.Add(this.titleM3);
-            this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel3.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel3.Name = "guna2GradientPanel3";
-            this.guna2GradientPanel3.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel3.TabIndex = 2;
-            // 
-            // titleM3
-            // 
-            this.titleM3.AutoSize = true;
-            this.titleM3.BackColor = System.Drawing.Color.Transparent;
-            this.titleM3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM3.ForeColor = System.Drawing.Color.Black;
-            this.titleM3.Location = new System.Drawing.Point(9, 6);
-            this.titleM3.Name = "titleM3";
-            this.titleM3.Size = new System.Drawing.Size(49, 18);
-            this.titleM3.TabIndex = 0;
-            this.titleM3.Text = "Volt 3";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(272, 6);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 18);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "M3";
-            // 
-            // lblV3
-            // 
-            this.lblV3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblV3.AutoSize = true;
-            this.lblV3.BackColor = System.Drawing.Color.Transparent;
-            this.lblV3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblV3.ForeColor = System.Drawing.Color.Black;
-            this.lblV3.Location = new System.Drawing.Point(7, 42);
-            this.lblV3.Name = "lblV3";
-            this.lblV3.Size = new System.Drawing.Size(65, 40);
-            this.lblV3.TabIndex = 0;
-            this.lblV3.Text = "0.0";
-            // 
-            // guna2GradientPanel4
-            // 
-            this.guna2GradientPanel4.BorderRadius = 4;
-            this.guna2GradientPanel4.Controls.Add(this.lblSystemVolt);
-            this.guna2GradientPanel4.Controls.Add(this.label5);
-            this.guna2GradientPanel4.Controls.Add(this.titleM4);
-            this.guna2GradientPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel4.TabIndex = 3;
-            // 
-            // titleM4
-            // 
-            this.titleM4.AutoSize = true;
-            this.titleM4.BackColor = System.Drawing.Color.Transparent;
-            this.titleM4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM4.ForeColor = System.Drawing.Color.Black;
-            this.titleM4.Location = new System.Drawing.Point(9, 6);
-            this.titleM4.Name = "titleM4";
-            this.titleM4.Size = new System.Drawing.Size(92, 18);
-            this.titleM4.TabIndex = 0;
-            this.titleM4.Text = "System Volt";
-            // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(269, 6);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 18);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "M4";
-            // 
-            // lblSystemVolt
-            // 
-            this.lblSystemVolt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblSystemVolt.AutoSize = true;
-            this.lblSystemVolt.BackColor = System.Drawing.Color.Transparent;
-            this.lblSystemVolt.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemVolt.ForeColor = System.Drawing.Color.Black;
-            this.lblSystemVolt.Location = new System.Drawing.Point(7, 42);
-            this.lblSystemVolt.Name = "lblSystemVolt";
-            this.lblSystemVolt.Size = new System.Drawing.Size(65, 40);
-            this.lblSystemVolt.TabIndex = 0;
-            this.lblSystemVolt.Text = "0.0";
-            // 
             // tableLayoutForBoxRow1
             // 
             this.tableLayoutForBoxRow1.ColumnCount = 4;
@@ -1796,2032 +3595,251 @@
             this.tableLayoutForBoxRow1.Name = "tableLayoutForBoxRow1";
             this.tableLayoutForBoxRow1.RowCount = 1;
             this.tableLayoutForBoxRow1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutForBoxRow1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
             this.tableLayoutForBoxRow1.Size = new System.Drawing.Size(1271, 100);
             this.tableLayoutForBoxRow1.TabIndex = 0;
             // 
-            // tableLayoutForBoxesFrequencyTemperature
-            // 
-            this.tableLayoutForBoxesFrequencyTemperature.ColumnCount = 4;
-            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel22, 2, 0);
-            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel23, 1, 0);
-            this.tableLayoutForBoxesFrequencyTemperature.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxesFrequencyTemperature.Location = new System.Drawing.Point(6, 506);
-            this.tableLayoutForBoxesFrequencyTemperature.Name = "tableLayoutForBoxesFrequencyTemperature";
-            this.tableLayoutForBoxesFrequencyTemperature.RowCount = 1;
-            this.tableLayoutForBoxesFrequencyTemperature.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxesFrequencyTemperature.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxesFrequencyTemperature.TabIndex = 6;
-            // 
-            // guna2GradientPanel22
-            // 
-            this.guna2GradientPanel22.BorderRadius = 4;
-            this.guna2GradientPanel22.Controls.Add(this.lblTemperature);
-            this.guna2GradientPanel22.Controls.Add(this.label29);
-            this.guna2GradientPanel22.Controls.Add(this.titleM53);
-            this.guna2GradientPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel22.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel22.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel22.Name = "guna2GradientPanel22";
-            this.guna2GradientPanel22.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel22.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel22.TabIndex = 2;
-            // 
-            // lblTemperature
-            // 
-            this.lblTemperature.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblTemperature.AutoSize = true;
-            this.lblTemperature.BackColor = System.Drawing.Color.Transparent;
-            this.lblTemperature.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemperature.ForeColor = System.Drawing.Color.White;
-            this.lblTemperature.Location = new System.Drawing.Point(7, 42);
-            this.lblTemperature.Name = "lblTemperature";
-            this.lblTemperature.Size = new System.Drawing.Size(65, 40);
-            this.lblTemperature.TabIndex = 0;
-            this.lblTemperature.Text = "0.0";
-            // 
-            // label29
-            // 
-            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(264, 6);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(38, 18);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "M53";
-            // 
-            // titleM53
-            // 
-            this.titleM53.AutoSize = true;
-            this.titleM53.BackColor = System.Drawing.Color.Transparent;
-            this.titleM53.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM53.ForeColor = System.Drawing.Color.White;
-            this.titleM53.Location = new System.Drawing.Point(9, 6);
-            this.titleM53.Name = "titleM53";
-            this.titleM53.Size = new System.Drawing.Size(101, 18);
-            this.titleM53.TabIndex = 0;
-            this.titleM53.Text = "Temperature";
-            // 
-            // guna2GradientPanel23
-            // 
-            this.guna2GradientPanel23.BorderRadius = 4;
-            this.guna2GradientPanel23.Controls.Add(this.lblFrequency);
-            this.guna2GradientPanel23.Controls.Add(this.label32);
-            this.guna2GradientPanel23.Controls.Add(this.titleM17);
-            this.guna2GradientPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel23.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel23.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel23.Name = "guna2GradientPanel23";
-            this.guna2GradientPanel23.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel23.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel23.TabIndex = 1;
-            // 
-            // lblFrequency
-            // 
-            this.lblFrequency.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFrequency.AutoSize = true;
-            this.lblFrequency.BackColor = System.Drawing.Color.Transparent;
-            this.lblFrequency.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrequency.ForeColor = System.Drawing.Color.White;
-            this.lblFrequency.Location = new System.Drawing.Point(7, 42);
-            this.lblFrequency.Name = "lblFrequency";
-            this.lblFrequency.Size = new System.Drawing.Size(65, 40);
-            this.lblFrequency.TabIndex = 0;
-            this.lblFrequency.Text = "0.0";
-            // 
-            // label32
-            // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(264, 6);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(38, 18);
-            this.label32.TabIndex = 0;
-            this.label32.Text = "M17";
-            // 
-            // titleM17
-            // 
-            this.titleM17.AutoSize = true;
-            this.titleM17.BackColor = System.Drawing.Color.Transparent;
-            this.titleM17.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM17.ForeColor = System.Drawing.Color.White;
-            this.titleM17.Location = new System.Drawing.Point(9, 6);
-            this.titleM17.Name = "titleM17";
-            this.titleM17.Size = new System.Drawing.Size(87, 18);
-            this.titleM17.TabIndex = 0;
-            this.titleM17.Text = "Frequency";
-            // 
-            // tableLayoutForBoxRow6
-            // 
-            this.tableLayoutForBoxRow6.ColumnCount = 4;
-            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel21, 3, 0);
-            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel24, 2, 0);
-            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel25, 1, 0);
-            this.tableLayoutForBoxRow6.Controls.Add(this.guna2GradientPanel26, 0, 0);
-            this.tableLayoutForBoxRow6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow6.Location = new System.Drawing.Point(6, 606);
-            this.tableLayoutForBoxRow6.Name = "tableLayoutForBoxRow6";
-            this.tableLayoutForBoxRow6.RowCount = 1;
-            this.tableLayoutForBoxRow6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow6.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow6.TabIndex = 7;
-            // 
-            // guna2GradientPanel21
-            // 
-            this.guna2GradientPanel21.BorderRadius = 4;
-            this.guna2GradientPanel21.Controls.Add(this.lblSystemMeanV);
-            this.guna2GradientPanel21.Controls.Add(this.label13);
-            this.guna2GradientPanel21.Controls.Add(this.titleM25);
-            this.guna2GradientPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel21.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel21.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel21.Name = "guna2GradientPanel21";
-            this.guna2GradientPanel21.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel21.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel21.TabIndex = 3;
-            // 
-            // lblSystemMeanV
-            // 
-            this.lblSystemMeanV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblSystemMeanV.AutoSize = true;
-            this.lblSystemMeanV.BackColor = System.Drawing.Color.Transparent;
-            this.lblSystemMeanV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemMeanV.ForeColor = System.Drawing.Color.Black;
-            this.lblSystemMeanV.Location = new System.Drawing.Point(7, 42);
-            this.lblSystemMeanV.Name = "lblSystemMeanV";
-            this.lblSystemMeanV.Size = new System.Drawing.Size(65, 40);
-            this.lblSystemMeanV.TabIndex = 0;
-            this.lblSystemMeanV.Text = "0.0";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(261, 6);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(38, 18);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "M25";
-            // 
-            // titleM25
-            // 
-            this.titleM25.AutoSize = true;
-            this.titleM25.BackColor = System.Drawing.Color.Transparent;
-            this.titleM25.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM25.ForeColor = System.Drawing.Color.Black;
-            this.titleM25.Location = new System.Drawing.Point(9, 6);
-            this.titleM25.Name = "titleM25";
-            this.titleM25.Size = new System.Drawing.Size(121, 18);
-            this.titleM25.TabIndex = 0;
-            this.titleM25.Text = "System Mean V";
-            // 
-            // guna2GradientPanel24
-            // 
-            this.guna2GradientPanel24.BorderRadius = 4;
-            this.guna2GradientPanel24.Controls.Add(this.lblMeanVolt3);
-            this.guna2GradientPanel24.Controls.Add(this.label20);
-            this.guna2GradientPanel24.Controls.Add(this.titleM24);
-            this.guna2GradientPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel24.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel24.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel24.Name = "guna2GradientPanel24";
-            this.guna2GradientPanel24.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel24.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel24.TabIndex = 2;
-            // 
-            // lblMeanVolt3
-            // 
-            this.lblMeanVolt3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblMeanVolt3.AutoSize = true;
-            this.lblMeanVolt3.BackColor = System.Drawing.Color.Transparent;
-            this.lblMeanVolt3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeanVolt3.ForeColor = System.Drawing.Color.Black;
-            this.lblMeanVolt3.Location = new System.Drawing.Point(7, 42);
-            this.lblMeanVolt3.Name = "lblMeanVolt3";
-            this.lblMeanVolt3.Size = new System.Drawing.Size(65, 40);
-            this.lblMeanVolt3.TabIndex = 0;
-            this.lblMeanVolt3.Text = "0.0";
-            // 
-            // label20
-            // 
-            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label20.AutoSize = true;
-            this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Black;
-            this.label20.Location = new System.Drawing.Point(264, 6);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(38, 18);
-            this.label20.TabIndex = 0;
-            this.label20.Text = "M24";
-            // 
-            // titleM24
-            // 
-            this.titleM24.AutoSize = true;
-            this.titleM24.BackColor = System.Drawing.Color.Transparent;
-            this.titleM24.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM24.ForeColor = System.Drawing.Color.Black;
-            this.titleM24.Location = new System.Drawing.Point(9, 6);
-            this.titleM24.Name = "titleM24";
-            this.titleM24.Size = new System.Drawing.Size(96, 18);
-            this.titleM24.TabIndex = 0;
-            this.titleM24.Text = "Mean Volt 3";
-            // 
-            // guna2GradientPanel25
-            // 
-            this.guna2GradientPanel25.BorderRadius = 4;
-            this.guna2GradientPanel25.Controls.Add(this.lblMeanVolt2);
-            this.guna2GradientPanel25.Controls.Add(this.label28);
-            this.guna2GradientPanel25.Controls.Add(this.titleM23);
-            this.guna2GradientPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel25.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel25.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel25.Name = "guna2GradientPanel25";
-            this.guna2GradientPanel25.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel25.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel25.TabIndex = 1;
-            // 
-            // lblMeanVolt2
-            // 
-            this.lblMeanVolt2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblMeanVolt2.AutoSize = true;
-            this.lblMeanVolt2.BackColor = System.Drawing.Color.Transparent;
-            this.lblMeanVolt2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeanVolt2.ForeColor = System.Drawing.Color.Black;
-            this.lblMeanVolt2.Location = new System.Drawing.Point(7, 42);
-            this.lblMeanVolt2.Name = "lblMeanVolt2";
-            this.lblMeanVolt2.Size = new System.Drawing.Size(65, 40);
-            this.lblMeanVolt2.TabIndex = 0;
-            this.lblMeanVolt2.Text = "0.0";
-            // 
-            // label28
-            // 
-            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Black;
-            this.label28.Location = new System.Drawing.Point(264, 6);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(38, 18);
-            this.label28.TabIndex = 0;
-            this.label28.Text = "M23";
-            // 
-            // titleM23
-            // 
-            this.titleM23.AutoSize = true;
-            this.titleM23.BackColor = System.Drawing.Color.Transparent;
-            this.titleM23.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM23.ForeColor = System.Drawing.Color.Black;
-            this.titleM23.Location = new System.Drawing.Point(9, 6);
-            this.titleM23.Name = "titleM23";
-            this.titleM23.Size = new System.Drawing.Size(96, 18);
-            this.titleM23.TabIndex = 0;
-            this.titleM23.Text = "Mean Volt 2";
-            // 
-            // guna2GradientPanel26
-            // 
-            this.guna2GradientPanel26.BorderRadius = 4;
-            this.guna2GradientPanel26.Controls.Add(this.lblMeanVolt1);
-            this.guna2GradientPanel26.Controls.Add(this.label33);
-            this.guna2GradientPanel26.Controls.Add(this.titleM22);
-            this.guna2GradientPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel26.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel26.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel26.Name = "guna2GradientPanel26";
-            this.guna2GradientPanel26.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel26.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel26.TabIndex = 0;
-            // 
-            // lblMeanVolt1
-            // 
-            this.lblMeanVolt1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblMeanVolt1.AutoSize = true;
-            this.lblMeanVolt1.BackColor = System.Drawing.Color.Transparent;
-            this.lblMeanVolt1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeanVolt1.ForeColor = System.Drawing.Color.Black;
-            this.lblMeanVolt1.Location = new System.Drawing.Point(7, 42);
-            this.lblMeanVolt1.Name = "lblMeanVolt1";
-            this.lblMeanVolt1.Size = new System.Drawing.Size(65, 40);
-            this.lblMeanVolt1.TabIndex = 0;
-            this.lblMeanVolt1.Text = "0.0";
-            // 
-            // label33
-            // 
-            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.Black;
-            this.label33.Location = new System.Drawing.Point(264, 6);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(38, 18);
-            this.label33.TabIndex = 0;
-            this.label33.Text = "M22";
-            // 
-            // titleM22
-            // 
-            this.titleM22.AutoSize = true;
-            this.titleM22.BackColor = System.Drawing.Color.Transparent;
-            this.titleM22.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM22.ForeColor = System.Drawing.Color.Black;
-            this.titleM22.Location = new System.Drawing.Point(9, 6);
-            this.titleM22.Name = "titleM22";
-            this.titleM22.Size = new System.Drawing.Size(96, 18);
-            this.titleM22.TabIndex = 0;
-            this.titleM22.Text = "Mean Volt 1";
-            // 
-            // tableLayoutForBoxRow7
-            // 
-            this.tableLayoutForBoxRow7.ColumnCount = 4;
-            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel27, 3, 0);
-            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel28, 2, 0);
-            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel29, 1, 0);
-            this.tableLayoutForBoxRow7.Controls.Add(this.guna2GradientPanel30, 0, 0);
-            this.tableLayoutForBoxRow7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow7.Location = new System.Drawing.Point(6, 706);
-            this.tableLayoutForBoxRow7.Name = "tableLayoutForBoxRow7";
-            this.tableLayoutForBoxRow7.RowCount = 1;
-            this.tableLayoutForBoxRow7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow7.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow7.TabIndex = 8;
-            // 
-            // guna2GradientPanel27
-            // 
-            this.guna2GradientPanel27.BorderRadius = 4;
-            this.guna2GradientPanel27.Controls.Add(this.lblSystemPeakA);
-            this.guna2GradientPanel27.Controls.Add(this.label14);
-            this.guna2GradientPanel27.Controls.Add(this.titleM29);
-            this.guna2GradientPanel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel27.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel27.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel27.Name = "guna2GradientPanel27";
-            this.guna2GradientPanel27.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel27.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel27.TabIndex = 3;
-            // 
-            // lblSystemPeakA
-            // 
-            this.lblSystemPeakA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblSystemPeakA.AutoSize = true;
-            this.lblSystemPeakA.BackColor = System.Drawing.Color.Transparent;
-            this.lblSystemPeakA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemPeakA.ForeColor = System.Drawing.Color.Black;
-            this.lblSystemPeakA.Location = new System.Drawing.Point(7, 42);
-            this.lblSystemPeakA.Name = "lblSystemPeakA";
-            this.lblSystemPeakA.Size = new System.Drawing.Size(65, 40);
-            this.lblSystemPeakA.TabIndex = 0;
-            this.lblSystemPeakA.Text = "0.0";
-            // 
-            // label14
-            // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(261, 6);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(38, 18);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "M29";
-            // 
-            // titleM29
-            // 
-            this.titleM29.AutoSize = true;
-            this.titleM29.BackColor = System.Drawing.Color.Transparent;
-            this.titleM29.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM29.ForeColor = System.Drawing.Color.Black;
-            this.titleM29.Location = new System.Drawing.Point(9, 6);
-            this.titleM29.Name = "titleM29";
-            this.titleM29.Size = new System.Drawing.Size(115, 18);
-            this.titleM29.TabIndex = 0;
-            this.titleM29.Text = "System Peak A";
-            // 
-            // guna2GradientPanel28
-            // 
-            this.guna2GradientPanel28.BorderRadius = 4;
-            this.guna2GradientPanel28.Controls.Add(this.lblPeakAmp3);
-            this.guna2GradientPanel28.Controls.Add(this.label25);
-            this.guna2GradientPanel28.Controls.Add(this.titleM28);
-            this.guna2GradientPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel28.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel28.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel28.Name = "guna2GradientPanel28";
-            this.guna2GradientPanel28.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel28.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel28.TabIndex = 2;
-            // 
-            // lblPeakAmp3
-            // 
-            this.lblPeakAmp3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPeakAmp3.AutoSize = true;
-            this.lblPeakAmp3.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeakAmp3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeakAmp3.ForeColor = System.Drawing.Color.Black;
-            this.lblPeakAmp3.Location = new System.Drawing.Point(7, 42);
-            this.lblPeakAmp3.Name = "lblPeakAmp3";
-            this.lblPeakAmp3.Size = new System.Drawing.Size(65, 40);
-            this.lblPeakAmp3.TabIndex = 0;
-            this.lblPeakAmp3.Text = "0.0";
-            // 
-            // label25
-            // 
-            this.label25.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.Black;
-            this.label25.Location = new System.Drawing.Point(264, 6);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(38, 18);
-            this.label25.TabIndex = 0;
-            this.label25.Text = "M28";
-            // 
-            // titleM28
-            // 
-            this.titleM28.AutoSize = true;
-            this.titleM28.BackColor = System.Drawing.Color.Transparent;
-            this.titleM28.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM28.ForeColor = System.Drawing.Color.Black;
-            this.titleM28.Location = new System.Drawing.Point(9, 6);
-            this.titleM28.Name = "titleM28";
-            this.titleM28.Size = new System.Drawing.Size(96, 18);
-            this.titleM28.TabIndex = 0;
-            this.titleM28.Text = "Peak Amp 3";
-            // 
-            // guna2GradientPanel29
-            // 
-            this.guna2GradientPanel29.BorderRadius = 4;
-            this.guna2GradientPanel29.Controls.Add(this.lblPeakAmp2);
-            this.guna2GradientPanel29.Controls.Add(this.label34);
-            this.guna2GradientPanel29.Controls.Add(this.titleM27);
-            this.guna2GradientPanel29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel29.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel29.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel29.Name = "guna2GradientPanel29";
-            this.guna2GradientPanel29.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel29.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel29.TabIndex = 1;
-            // 
-            // lblPeakAmp2
-            // 
-            this.lblPeakAmp2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPeakAmp2.AutoSize = true;
-            this.lblPeakAmp2.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeakAmp2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeakAmp2.ForeColor = System.Drawing.Color.Black;
-            this.lblPeakAmp2.Location = new System.Drawing.Point(7, 42);
-            this.lblPeakAmp2.Name = "lblPeakAmp2";
-            this.lblPeakAmp2.Size = new System.Drawing.Size(65, 40);
-            this.lblPeakAmp2.TabIndex = 0;
-            this.lblPeakAmp2.Text = "0.0";
-            // 
-            // label34
-            // 
-            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.Black;
-            this.label34.Location = new System.Drawing.Point(264, 6);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(38, 18);
-            this.label34.TabIndex = 0;
-            this.label34.Text = "M27";
-            // 
-            // titleM27
-            // 
-            this.titleM27.AutoSize = true;
-            this.titleM27.BackColor = System.Drawing.Color.Transparent;
-            this.titleM27.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM27.ForeColor = System.Drawing.Color.Black;
-            this.titleM27.Location = new System.Drawing.Point(9, 6);
-            this.titleM27.Name = "titleM27";
-            this.titleM27.Size = new System.Drawing.Size(96, 18);
-            this.titleM27.TabIndex = 0;
-            this.titleM27.Text = "Peak Amp 2";
-            // 
-            // guna2GradientPanel30
-            // 
-            this.guna2GradientPanel30.BorderRadius = 4;
-            this.guna2GradientPanel30.Controls.Add(this.lblPeakAmp1);
-            this.guna2GradientPanel30.Controls.Add(this.label37);
-            this.guna2GradientPanel30.Controls.Add(this.titleM26);
-            this.guna2GradientPanel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel30.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel30.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel30.Name = "guna2GradientPanel30";
-            this.guna2GradientPanel30.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel30.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel30.TabIndex = 0;
-            // 
-            // lblPeakAmp1
-            // 
-            this.lblPeakAmp1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPeakAmp1.AutoSize = true;
-            this.lblPeakAmp1.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeakAmp1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeakAmp1.ForeColor = System.Drawing.Color.Black;
-            this.lblPeakAmp1.Location = new System.Drawing.Point(7, 42);
-            this.lblPeakAmp1.Name = "lblPeakAmp1";
-            this.lblPeakAmp1.Size = new System.Drawing.Size(65, 40);
-            this.lblPeakAmp1.TabIndex = 0;
-            this.lblPeakAmp1.Text = "0.0";
-            // 
-            // label37
-            // 
-            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.Black;
-            this.label37.Location = new System.Drawing.Point(264, 6);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(38, 18);
-            this.label37.TabIndex = 0;
-            this.label37.Text = "M26";
-            // 
-            // titleM26
-            // 
-            this.titleM26.AutoSize = true;
-            this.titleM26.BackColor = System.Drawing.Color.Transparent;
-            this.titleM26.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM26.ForeColor = System.Drawing.Color.Black;
-            this.titleM26.Location = new System.Drawing.Point(9, 6);
-            this.titleM26.Name = "titleM26";
-            this.titleM26.Size = new System.Drawing.Size(96, 18);
-            this.titleM26.TabIndex = 0;
-            this.titleM26.Text = "Peak Amp 1";
-            // 
-            // tableLayoutForBoxRow8
-            // 
-            this.tableLayoutForBoxRow8.ColumnCount = 4;
-            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel31, 3, 0);
-            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel32, 2, 0);
-            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel33, 1, 0);
-            this.tableLayoutForBoxRow8.Controls.Add(this.guna2GradientPanel34, 0, 0);
-            this.tableLayoutForBoxRow8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow8.Location = new System.Drawing.Point(6, 806);
-            this.tableLayoutForBoxRow8.Name = "tableLayoutForBoxRow8";
-            this.tableLayoutForBoxRow8.RowCount = 1;
-            this.tableLayoutForBoxRow8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow8.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow8.TabIndex = 9;
-            // 
-            // guna2GradientPanel31
-            // 
-            this.guna2GradientPanel31.BorderRadius = 4;
-            this.guna2GradientPanel31.Controls.Add(this.lblSystemPeakV);
-            this.guna2GradientPanel31.Controls.Add(this.label18);
-            this.guna2GradientPanel31.Controls.Add(this.titleM33);
-            this.guna2GradientPanel31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel31.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel31.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel31.Name = "guna2GradientPanel31";
-            this.guna2GradientPanel31.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel31.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel31.TabIndex = 3;
-            // 
-            // lblSystemPeakV
-            // 
-            this.lblSystemPeakV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblSystemPeakV.AutoSize = true;
-            this.lblSystemPeakV.BackColor = System.Drawing.Color.Transparent;
-            this.lblSystemPeakV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemPeakV.ForeColor = System.Drawing.Color.Black;
-            this.lblSystemPeakV.Location = new System.Drawing.Point(7, 42);
-            this.lblSystemPeakV.Name = "lblSystemPeakV";
-            this.lblSystemPeakV.Size = new System.Drawing.Size(65, 40);
-            this.lblSystemPeakV.TabIndex = 0;
-            this.lblSystemPeakV.Text = "0.0";
-            // 
-            // label18
-            // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(261, 6);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(38, 18);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "M33";
-            // 
-            // titleM33
-            // 
-            this.titleM33.AutoSize = true;
-            this.titleM33.BackColor = System.Drawing.Color.Transparent;
-            this.titleM33.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM33.ForeColor = System.Drawing.Color.Black;
-            this.titleM33.Location = new System.Drawing.Point(9, 6);
-            this.titleM33.Name = "titleM33";
-            this.titleM33.Size = new System.Drawing.Size(115, 18);
-            this.titleM33.TabIndex = 0;
-            this.titleM33.Text = "System Peak V";
-            // 
-            // guna2GradientPanel32
-            // 
-            this.guna2GradientPanel32.BorderRadius = 4;
-            this.guna2GradientPanel32.Controls.Add(this.lblPeakVolt3);
-            this.guna2GradientPanel32.Controls.Add(this.label31);
-            this.guna2GradientPanel32.Controls.Add(this.titleM32);
-            this.guna2GradientPanel32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel32.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel32.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel32.Name = "guna2GradientPanel32";
-            this.guna2GradientPanel32.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel32.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel32.TabIndex = 2;
-            // 
-            // lblPeakVolt3
-            // 
-            this.lblPeakVolt3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPeakVolt3.AutoSize = true;
-            this.lblPeakVolt3.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeakVolt3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeakVolt3.ForeColor = System.Drawing.Color.Black;
-            this.lblPeakVolt3.Location = new System.Drawing.Point(7, 42);
-            this.lblPeakVolt3.Name = "lblPeakVolt3";
-            this.lblPeakVolt3.Size = new System.Drawing.Size(65, 40);
-            this.lblPeakVolt3.TabIndex = 0;
-            this.lblPeakVolt3.Text = "0.0";
-            // 
-            // label31
-            // 
-            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.ForeColor = System.Drawing.Color.Black;
-            this.label31.Location = new System.Drawing.Point(264, 6);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(38, 18);
-            this.label31.TabIndex = 0;
-            this.label31.Text = "M32";
-            // 
-            // titleM32
-            // 
-            this.titleM32.AutoSize = true;
-            this.titleM32.BackColor = System.Drawing.Color.Transparent;
-            this.titleM32.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM32.ForeColor = System.Drawing.Color.Black;
-            this.titleM32.Location = new System.Drawing.Point(9, 6);
-            this.titleM32.Name = "titleM32";
-            this.titleM32.Size = new System.Drawing.Size(90, 18);
-            this.titleM32.TabIndex = 0;
-            this.titleM32.Text = "Peak Volt 3";
-            // 
-            // guna2GradientPanel33
-            // 
-            this.guna2GradientPanel33.BorderRadius = 4;
-            this.guna2GradientPanel33.Controls.Add(this.lblPeakVolt2);
-            this.guna2GradientPanel33.Controls.Add(this.label38);
-            this.guna2GradientPanel33.Controls.Add(this.titleM31);
-            this.guna2GradientPanel33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel33.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel33.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel33.Name = "guna2GradientPanel33";
-            this.guna2GradientPanel33.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel33.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel33.TabIndex = 1;
-            // 
-            // lblPeakVolt2
-            // 
-            this.lblPeakVolt2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPeakVolt2.AutoSize = true;
-            this.lblPeakVolt2.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeakVolt2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeakVolt2.ForeColor = System.Drawing.Color.Black;
-            this.lblPeakVolt2.Location = new System.Drawing.Point(7, 42);
-            this.lblPeakVolt2.Name = "lblPeakVolt2";
-            this.lblPeakVolt2.Size = new System.Drawing.Size(65, 40);
-            this.lblPeakVolt2.TabIndex = 0;
-            this.lblPeakVolt2.Text = "0.0";
-            // 
-            // label38
-            // 
-            this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.Black;
-            this.label38.Location = new System.Drawing.Point(264, 6);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(38, 18);
-            this.label38.TabIndex = 0;
-            this.label38.Text = "M31";
-            // 
-            // titleM31
-            // 
-            this.titleM31.AutoSize = true;
-            this.titleM31.BackColor = System.Drawing.Color.Transparent;
-            this.titleM31.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM31.ForeColor = System.Drawing.Color.Black;
-            this.titleM31.Location = new System.Drawing.Point(9, 6);
-            this.titleM31.Name = "titleM31";
-            this.titleM31.Size = new System.Drawing.Size(90, 18);
-            this.titleM31.TabIndex = 0;
-            this.titleM31.Text = "Peak Volt 2";
-            // 
-            // guna2GradientPanel34
-            // 
-            this.guna2GradientPanel34.BorderRadius = 4;
-            this.guna2GradientPanel34.Controls.Add(this.lblPeakVolt1);
-            this.guna2GradientPanel34.Controls.Add(this.label41);
-            this.guna2GradientPanel34.Controls.Add(this.titleM30);
-            this.guna2GradientPanel34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel34.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel34.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel34.Name = "guna2GradientPanel34";
-            this.guna2GradientPanel34.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel34.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel34.TabIndex = 0;
-            // 
-            // lblPeakVolt1
-            // 
-            this.lblPeakVolt1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblPeakVolt1.AutoSize = true;
-            this.lblPeakVolt1.BackColor = System.Drawing.Color.Transparent;
-            this.lblPeakVolt1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPeakVolt1.ForeColor = System.Drawing.Color.Black;
-            this.lblPeakVolt1.Location = new System.Drawing.Point(7, 42);
-            this.lblPeakVolt1.Name = "lblPeakVolt1";
-            this.lblPeakVolt1.Size = new System.Drawing.Size(65, 40);
-            this.lblPeakVolt1.TabIndex = 0;
-            this.lblPeakVolt1.Text = "0.0";
-            // 
-            // label41
-            // 
-            this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label41.AutoSize = true;
-            this.label41.BackColor = System.Drawing.Color.Transparent;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.Black;
-            this.label41.Location = new System.Drawing.Point(264, 6);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(38, 18);
-            this.label41.TabIndex = 0;
-            this.label41.Text = "M30";
-            // 
-            // titleM30
-            // 
-            this.titleM30.AutoSize = true;
-            this.titleM30.BackColor = System.Drawing.Color.Transparent;
-            this.titleM30.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM30.ForeColor = System.Drawing.Color.Black;
-            this.titleM30.Location = new System.Drawing.Point(9, 6);
-            this.titleM30.Name = "titleM30";
-            this.titleM30.Size = new System.Drawing.Size(90, 18);
-            this.titleM30.TabIndex = 0;
-            this.titleM30.Text = "Peak Volt 1";
-            // 
-            // tableLayoutForBoxRow9
-            // 
-            this.tableLayoutForBoxRow9.ColumnCount = 4;
-            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel35, 3, 0);
-            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel36, 2, 0);
-            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel37, 1, 0);
-            this.tableLayoutForBoxRow9.Controls.Add(this.guna2GradientPanel38, 0, 0);
-            this.tableLayoutForBoxRow9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow9.Location = new System.Drawing.Point(6, 906);
-            this.tableLayoutForBoxRow9.Name = "tableLayoutForBoxRow9";
-            this.tableLayoutForBoxRow9.RowCount = 1;
-            this.tableLayoutForBoxRow9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow9.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow9.TabIndex = 10;
-            // 
-            // guna2GradientPanel35
-            // 
-            this.guna2GradientPanel35.BorderRadius = 4;
-            this.guna2GradientPanel35.Controls.Add(this.lblSystemMeanA);
-            this.guna2GradientPanel35.Controls.Add(this.label23);
-            this.guna2GradientPanel35.Controls.Add(this.titleM37);
-            this.guna2GradientPanel35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel35.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel35.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel35.Name = "guna2GradientPanel35";
-            this.guna2GradientPanel35.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel35.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel35.TabIndex = 3;
-            // 
-            // lblSystemMeanA
-            // 
-            this.lblSystemMeanA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblSystemMeanA.AutoSize = true;
-            this.lblSystemMeanA.BackColor = System.Drawing.Color.Transparent;
-            this.lblSystemMeanA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSystemMeanA.ForeColor = System.Drawing.Color.Black;
-            this.lblSystemMeanA.Location = new System.Drawing.Point(7, 42);
-            this.lblSystemMeanA.Name = "lblSystemMeanA";
-            this.lblSystemMeanA.Size = new System.Drawing.Size(65, 40);
-            this.lblSystemMeanA.TabIndex = 0;
-            this.lblSystemMeanA.Text = "0.0";
-            // 
-            // label23
-            // 
-            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Black;
-            this.label23.Location = new System.Drawing.Point(261, 6);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(38, 18);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "M37";
-            // 
-            // titleM37
-            // 
-            this.titleM37.AutoSize = true;
-            this.titleM37.BackColor = System.Drawing.Color.Transparent;
-            this.titleM37.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM37.ForeColor = System.Drawing.Color.Black;
-            this.titleM37.Location = new System.Drawing.Point(9, 6);
-            this.titleM37.Name = "titleM37";
-            this.titleM37.Size = new System.Drawing.Size(121, 18);
-            this.titleM37.TabIndex = 0;
-            this.titleM37.Text = "System Mean A";
-            // 
-            // guna2GradientPanel36
-            // 
-            this.guna2GradientPanel36.BorderRadius = 4;
-            this.guna2GradientPanel36.Controls.Add(this.lblMeanAmp3);
-            this.guna2GradientPanel36.Controls.Add(this.label36);
-            this.guna2GradientPanel36.Controls.Add(this.titleM36);
-            this.guna2GradientPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel36.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel36.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel36.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel36.Name = "guna2GradientPanel36";
-            this.guna2GradientPanel36.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel36.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel36.TabIndex = 2;
-            // 
-            // lblMeanAmp3
-            // 
-            this.lblMeanAmp3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblMeanAmp3.AutoSize = true;
-            this.lblMeanAmp3.BackColor = System.Drawing.Color.Transparent;
-            this.lblMeanAmp3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeanAmp3.ForeColor = System.Drawing.Color.Black;
-            this.lblMeanAmp3.Location = new System.Drawing.Point(7, 42);
-            this.lblMeanAmp3.Name = "lblMeanAmp3";
-            this.lblMeanAmp3.Size = new System.Drawing.Size(65, 40);
-            this.lblMeanAmp3.TabIndex = 0;
-            this.lblMeanAmp3.Text = "0.0";
-            // 
-            // label36
-            // 
-            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.Black;
-            this.label36.Location = new System.Drawing.Point(264, 6);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(38, 18);
-            this.label36.TabIndex = 0;
-            this.label36.Text = "M36";
-            // 
-            // titleM36
-            // 
-            this.titleM36.AutoSize = true;
-            this.titleM36.BackColor = System.Drawing.Color.Transparent;
-            this.titleM36.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM36.ForeColor = System.Drawing.Color.Black;
-            this.titleM36.Location = new System.Drawing.Point(9, 6);
-            this.titleM36.Name = "titleM36";
-            this.titleM36.Size = new System.Drawing.Size(102, 18);
-            this.titleM36.TabIndex = 0;
-            this.titleM36.Text = "Mean Amp 3";
-            // 
-            // guna2GradientPanel37
-            // 
-            this.guna2GradientPanel37.BorderRadius = 4;
-            this.guna2GradientPanel37.Controls.Add(this.lblMeanAmp2);
-            this.guna2GradientPanel37.Controls.Add(this.label42);
-            this.guna2GradientPanel37.Controls.Add(this.titleM35);
-            this.guna2GradientPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel37.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel37.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel37.Name = "guna2GradientPanel37";
-            this.guna2GradientPanel37.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel37.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel37.TabIndex = 1;
-            // 
-            // lblMeanAmp2
-            // 
-            this.lblMeanAmp2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblMeanAmp2.AutoSize = true;
-            this.lblMeanAmp2.BackColor = System.Drawing.Color.Transparent;
-            this.lblMeanAmp2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeanAmp2.ForeColor = System.Drawing.Color.Black;
-            this.lblMeanAmp2.Location = new System.Drawing.Point(7, 42);
-            this.lblMeanAmp2.Name = "lblMeanAmp2";
-            this.lblMeanAmp2.Size = new System.Drawing.Size(65, 40);
-            this.lblMeanAmp2.TabIndex = 0;
-            this.lblMeanAmp2.Text = "0.0";
-            // 
-            // label42
-            // 
-            this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label42.AutoSize = true;
-            this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.Black;
-            this.label42.Location = new System.Drawing.Point(264, 6);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(38, 18);
-            this.label42.TabIndex = 0;
-            this.label42.Text = "M35";
-            // 
-            // titleM35
-            // 
-            this.titleM35.AutoSize = true;
-            this.titleM35.BackColor = System.Drawing.Color.Transparent;
-            this.titleM35.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM35.ForeColor = System.Drawing.Color.Black;
-            this.titleM35.Location = new System.Drawing.Point(9, 6);
-            this.titleM35.Name = "titleM35";
-            this.titleM35.Size = new System.Drawing.Size(102, 18);
-            this.titleM35.TabIndex = 0;
-            this.titleM35.Text = "Mean Amp 2";
-            // 
-            // guna2GradientPanel38
-            // 
-            this.guna2GradientPanel38.BorderRadius = 4;
-            this.guna2GradientPanel38.Controls.Add(this.lblMeanAmp1);
-            this.guna2GradientPanel38.Controls.Add(this.label45);
-            this.guna2GradientPanel38.Controls.Add(this.titleM34);
-            this.guna2GradientPanel38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel38.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel38.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel38.Name = "guna2GradientPanel38";
-            this.guna2GradientPanel38.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel38.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel38.TabIndex = 0;
-            // 
-            // lblMeanAmp1
-            // 
-            this.lblMeanAmp1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblMeanAmp1.AutoSize = true;
-            this.lblMeanAmp1.BackColor = System.Drawing.Color.Transparent;
-            this.lblMeanAmp1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeanAmp1.ForeColor = System.Drawing.Color.Black;
-            this.lblMeanAmp1.Location = new System.Drawing.Point(7, 42);
-            this.lblMeanAmp1.Name = "lblMeanAmp1";
-            this.lblMeanAmp1.Size = new System.Drawing.Size(65, 40);
-            this.lblMeanAmp1.TabIndex = 0;
-            this.lblMeanAmp1.Text = "0.0";
-            // 
-            // label45
-            // 
-            this.label45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label45.AutoSize = true;
-            this.label45.BackColor = System.Drawing.Color.Transparent;
-            this.label45.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.ForeColor = System.Drawing.Color.Black;
-            this.label45.Location = new System.Drawing.Point(264, 6);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(38, 18);
-            this.label45.TabIndex = 0;
-            this.label45.Text = "M34";
-            // 
-            // titleM34
-            // 
-            this.titleM34.AutoSize = true;
-            this.titleM34.BackColor = System.Drawing.Color.Transparent;
-            this.titleM34.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM34.ForeColor = System.Drawing.Color.Black;
-            this.titleM34.Location = new System.Drawing.Point(9, 6);
-            this.titleM34.Name = "titleM34";
-            this.titleM34.Size = new System.Drawing.Size(102, 18);
-            this.titleM34.TabIndex = 0;
-            this.titleM34.Text = "Mean Amp 1";
-            // 
-            // tableLayoutForBoxRow10
-            // 
-            this.tableLayoutForBoxRow10.ColumnCount = 4;
-            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel39, 3, 0);
-            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel40, 2, 0);
-            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel41, 1, 0);
-            this.tableLayoutForBoxRow10.Controls.Add(this.guna2GradientPanel42, 0, 0);
-            this.tableLayoutForBoxRow10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow10.Location = new System.Drawing.Point(6, 1006);
-            this.tableLayoutForBoxRow10.Name = "tableLayoutForBoxRow10";
-            this.tableLayoutForBoxRow10.RowCount = 1;
-            this.tableLayoutForBoxRow10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow10.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow10.TabIndex = 11;
-            // 
-            // guna2GradientPanel39
-            // 
-            this.guna2GradientPanel39.BorderRadius = 4;
-            this.guna2GradientPanel39.Controls.Add(this.lblFFPHSYSV);
-            this.guna2GradientPanel39.Controls.Add(this.label30);
-            this.guna2GradientPanel39.Controls.Add(this.titleM41);
-            this.guna2GradientPanel39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel39.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel39.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel39.Name = "guna2GradientPanel39";
-            this.guna2GradientPanel39.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel39.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel39.TabIndex = 3;
-            // 
-            // lblFFPHSYSV
-            // 
-            this.lblFFPHSYSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPHSYSV.AutoSize = true;
-            this.lblFFPHSYSV.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPHSYSV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPHSYSV.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPHSYSV.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPHSYSV.Name = "lblFFPHSYSV";
-            this.lblFFPHSYSV.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPHSYSV.TabIndex = 0;
-            this.lblFFPHSYSV.Text = "0.0";
-            // 
-            // label30
-            // 
-            this.label30.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Black;
-            this.label30.Location = new System.Drawing.Point(261, 6);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(38, 18);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "M41";
-            // 
-            // titleM41
-            // 
-            this.titleM41.AutoSize = true;
-            this.titleM41.BackColor = System.Drawing.Color.Transparent;
-            this.titleM41.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM41.ForeColor = System.Drawing.Color.Black;
-            this.titleM41.Location = new System.Drawing.Point(9, 6);
-            this.titleM41.Name = "titleM41";
-            this.titleM41.Size = new System.Drawing.Size(70, 18);
-            this.titleM41.TabIndex = 0;
-            this.titleM41.Text = "FF-SYS-V";
-            // 
-            // guna2GradientPanel40
-            // 
-            this.guna2GradientPanel40.BorderRadius = 4;
-            this.guna2GradientPanel40.Controls.Add(this.lblFFPH3V);
-            this.guna2GradientPanel40.Controls.Add(this.label40);
-            this.guna2GradientPanel40.Controls.Add(this.titleM40);
-            this.guna2GradientPanel40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel40.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel40.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel40.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel40.Name = "guna2GradientPanel40";
-            this.guna2GradientPanel40.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel40.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel40.TabIndex = 2;
-            // 
-            // lblFFPH3V
-            // 
-            this.lblFFPH3V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPH3V.AutoSize = true;
-            this.lblFFPH3V.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPH3V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPH3V.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPH3V.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPH3V.Name = "lblFFPH3V";
-            this.lblFFPH3V.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPH3V.TabIndex = 0;
-            this.lblFFPH3V.Text = "0.0";
-            // 
-            // label40
-            // 
-            this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.Black;
-            this.label40.Location = new System.Drawing.Point(264, 6);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(38, 18);
-            this.label40.TabIndex = 0;
-            this.label40.Text = "M40";
-            // 
-            // titleM40
-            // 
-            this.titleM40.AutoSize = true;
-            this.titleM40.BackColor = System.Drawing.Color.Transparent;
-            this.titleM40.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM40.ForeColor = System.Drawing.Color.Black;
-            this.titleM40.Location = new System.Drawing.Point(9, 6);
-            this.titleM40.Name = "titleM40";
-            this.titleM40.Size = new System.Drawing.Size(77, 18);
-            this.titleM40.TabIndex = 0;
-            this.titleM40.Text = "FF-PH-3-V";
-            // 
-            // guna2GradientPanel41
-            // 
-            this.guna2GradientPanel41.BorderRadius = 4;
-            this.guna2GradientPanel41.Controls.Add(this.lblFFPH2V);
-            this.guna2GradientPanel41.Controls.Add(this.label46);
-            this.guna2GradientPanel41.Controls.Add(this.titleM39);
-            this.guna2GradientPanel41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel41.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel41.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel41.Name = "guna2GradientPanel41";
-            this.guna2GradientPanel41.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel41.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel41.TabIndex = 1;
-            // 
-            // lblFFPH2V
-            // 
-            this.lblFFPH2V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPH2V.AutoSize = true;
-            this.lblFFPH2V.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPH2V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPH2V.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPH2V.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPH2V.Name = "lblFFPH2V";
-            this.lblFFPH2V.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPH2V.TabIndex = 0;
-            this.lblFFPH2V.Text = "0.0";
-            // 
-            // label46
-            // 
-            this.label46.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label46.AutoSize = true;
-            this.label46.BackColor = System.Drawing.Color.Transparent;
-            this.label46.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.ForeColor = System.Drawing.Color.Black;
-            this.label46.Location = new System.Drawing.Point(264, 6);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(38, 18);
-            this.label46.TabIndex = 0;
-            this.label46.Text = "M39";
-            // 
-            // titleM39
-            // 
-            this.titleM39.AutoSize = true;
-            this.titleM39.BackColor = System.Drawing.Color.Transparent;
-            this.titleM39.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM39.ForeColor = System.Drawing.Color.Black;
-            this.titleM39.Location = new System.Drawing.Point(9, 6);
-            this.titleM39.Name = "titleM39";
-            this.titleM39.Size = new System.Drawing.Size(77, 18);
-            this.titleM39.TabIndex = 0;
-            this.titleM39.Text = "FF-PH-2-V";
-            // 
-            // guna2GradientPanel42
-            // 
-            this.guna2GradientPanel42.BorderRadius = 4;
-            this.guna2GradientPanel42.Controls.Add(this.lblFFPH1V);
-            this.guna2GradientPanel42.Controls.Add(this.label49);
-            this.guna2GradientPanel42.Controls.Add(this.titleM38);
-            this.guna2GradientPanel42.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel42.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel42.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel42.Name = "guna2GradientPanel42";
-            this.guna2GradientPanel42.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel42.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel42.TabIndex = 0;
-            // 
-            // lblFFPH1V
-            // 
-            this.lblFFPH1V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPH1V.AutoSize = true;
-            this.lblFFPH1V.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPH1V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPH1V.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPH1V.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPH1V.Name = "lblFFPH1V";
-            this.lblFFPH1V.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPH1V.TabIndex = 0;
-            this.lblFFPH1V.Text = "0.0";
-            // 
-            // label49
-            // 
-            this.label49.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label49.AutoSize = true;
-            this.label49.BackColor = System.Drawing.Color.Transparent;
-            this.label49.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.Color.Black;
-            this.label49.Location = new System.Drawing.Point(264, 6);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(38, 18);
-            this.label49.TabIndex = 0;
-            this.label49.Text = "M38";
-            // 
-            // titleM38
-            // 
-            this.titleM38.AutoSize = true;
-            this.titleM38.BackColor = System.Drawing.Color.Transparent;
-            this.titleM38.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM38.ForeColor = System.Drawing.Color.Black;
-            this.titleM38.Location = new System.Drawing.Point(9, 6);
-            this.titleM38.Name = "titleM38";
-            this.titleM38.Size = new System.Drawing.Size(77, 18);
-            this.titleM38.TabIndex = 0;
-            this.titleM38.Text = "FF-PH-1-V";
-            // 
-            // tableLayoutForBoxRow11
-            // 
-            this.tableLayoutForBoxRow11.ColumnCount = 4;
-            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel43, 3, 0);
-            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel44, 2, 0);
-            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel45, 1, 0);
-            this.tableLayoutForBoxRow11.Controls.Add(this.guna2GradientPanel46, 0, 0);
-            this.tableLayoutForBoxRow11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow11.Location = new System.Drawing.Point(6, 1106);
-            this.tableLayoutForBoxRow11.Name = "tableLayoutForBoxRow11";
-            this.tableLayoutForBoxRow11.RowCount = 1;
-            this.tableLayoutForBoxRow11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow11.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow11.TabIndex = 12;
-            // 
-            // guna2GradientPanel43
-            // 
-            this.guna2GradientPanel43.BorderRadius = 4;
-            this.guna2GradientPanel43.Controls.Add(this.lblCFPHSYSV);
-            this.guna2GradientPanel43.Controls.Add(this.label35);
-            this.guna2GradientPanel43.Controls.Add(this.titleM45);
-            this.guna2GradientPanel43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel43.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel43.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel43.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel43.Name = "guna2GradientPanel43";
-            this.guna2GradientPanel43.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel43.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel43.TabIndex = 3;
-            // 
-            // lblCFPHSYSV
-            // 
-            this.lblCFPHSYSV.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPHSYSV.AutoSize = true;
-            this.lblCFPHSYSV.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPHSYSV.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPHSYSV.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPHSYSV.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPHSYSV.Name = "lblCFPHSYSV";
-            this.lblCFPHSYSV.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPHSYSV.TabIndex = 0;
-            this.lblCFPHSYSV.Text = "0.0";
-            // 
-            // label35
-            // 
-            this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.Black;
-            this.label35.Location = new System.Drawing.Point(261, 6);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(38, 18);
-            this.label35.TabIndex = 0;
-            this.label35.Text = "M45";
-            // 
-            // titleM45
-            // 
-            this.titleM45.AutoSize = true;
-            this.titleM45.BackColor = System.Drawing.Color.Transparent;
-            this.titleM45.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM45.ForeColor = System.Drawing.Color.Black;
-            this.titleM45.Location = new System.Drawing.Point(9, 6);
-            this.titleM45.Name = "titleM45";
-            this.titleM45.Size = new System.Drawing.Size(75, 18);
-            this.titleM45.TabIndex = 0;
-            this.titleM45.Text = "CF-SYS-V";
-            // 
-            // guna2GradientPanel44
-            // 
-            this.guna2GradientPanel44.BorderRadius = 4;
-            this.guna2GradientPanel44.Controls.Add(this.lblCFPH3V);
-            this.guna2GradientPanel44.Controls.Add(this.label44);
-            this.guna2GradientPanel44.Controls.Add(this.titleM44);
-            this.guna2GradientPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel44.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel44.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel44.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel44.Name = "guna2GradientPanel44";
-            this.guna2GradientPanel44.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel44.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel44.TabIndex = 2;
-            // 
-            // lblCFPH3V
-            // 
-            this.lblCFPH3V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPH3V.AutoSize = true;
-            this.lblCFPH3V.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPH3V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPH3V.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPH3V.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPH3V.Name = "lblCFPH3V";
-            this.lblCFPH3V.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPH3V.TabIndex = 0;
-            this.lblCFPH3V.Text = "0.0";
-            // 
-            // label44
-            // 
-            this.label44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label44.AutoSize = true;
-            this.label44.BackColor = System.Drawing.Color.Transparent;
-            this.label44.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.Black;
-            this.label44.Location = new System.Drawing.Point(264, 6);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(38, 18);
-            this.label44.TabIndex = 0;
-            this.label44.Text = "M44";
-            // 
-            // titleM44
-            // 
-            this.titleM44.AutoSize = true;
-            this.titleM44.BackColor = System.Drawing.Color.Transparent;
-            this.titleM44.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM44.ForeColor = System.Drawing.Color.Black;
-            this.titleM44.Location = new System.Drawing.Point(9, 6);
-            this.titleM44.Name = "titleM44";
-            this.titleM44.Size = new System.Drawing.Size(82, 18);
-            this.titleM44.TabIndex = 0;
-            this.titleM44.Text = "CF-PH-3-V";
-            // 
-            // guna2GradientPanel45
-            // 
-            this.guna2GradientPanel45.BorderRadius = 4;
-            this.guna2GradientPanel45.Controls.Add(this.lblCFPH2V);
-            this.guna2GradientPanel45.Controls.Add(this.label50);
-            this.guna2GradientPanel45.Controls.Add(this.titleM43);
-            this.guna2GradientPanel45.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel45.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel45.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel45.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel45.Name = "guna2GradientPanel45";
-            this.guna2GradientPanel45.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel45.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel45.TabIndex = 1;
-            // 
-            // lblCFPH2V
-            // 
-            this.lblCFPH2V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPH2V.AutoSize = true;
-            this.lblCFPH2V.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPH2V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPH2V.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPH2V.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPH2V.Name = "lblCFPH2V";
-            this.lblCFPH2V.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPH2V.TabIndex = 0;
-            this.lblCFPH2V.Text = "0.0";
-            // 
-            // label50
-            // 
-            this.label50.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label50.AutoSize = true;
-            this.label50.BackColor = System.Drawing.Color.Transparent;
-            this.label50.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.Color.Black;
-            this.label50.Location = new System.Drawing.Point(264, 6);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(38, 18);
-            this.label50.TabIndex = 0;
-            this.label50.Text = "M43";
-            // 
-            // titleM43
-            // 
-            this.titleM43.AutoSize = true;
-            this.titleM43.BackColor = System.Drawing.Color.Transparent;
-            this.titleM43.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM43.ForeColor = System.Drawing.Color.Black;
-            this.titleM43.Location = new System.Drawing.Point(9, 6);
-            this.titleM43.Name = "titleM43";
-            this.titleM43.Size = new System.Drawing.Size(82, 18);
-            this.titleM43.TabIndex = 0;
-            this.titleM43.Text = "CF-PH-2-V";
-            // 
-            // guna2GradientPanel46
-            // 
-            this.guna2GradientPanel46.BorderRadius = 4;
-            this.guna2GradientPanel46.Controls.Add(this.lblCFPH1V);
-            this.guna2GradientPanel46.Controls.Add(this.label53);
-            this.guna2GradientPanel46.Controls.Add(this.titleM42);
-            this.guna2GradientPanel46.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel46.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel46.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel46.Name = "guna2GradientPanel46";
-            this.guna2GradientPanel46.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel46.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel46.TabIndex = 0;
-            // 
-            // lblCFPH1V
-            // 
-            this.lblCFPH1V.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPH1V.AutoSize = true;
-            this.lblCFPH1V.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPH1V.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPH1V.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPH1V.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPH1V.Name = "lblCFPH1V";
-            this.lblCFPH1V.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPH1V.TabIndex = 0;
-            this.lblCFPH1V.Text = "0.0";
-            // 
-            // label53
-            // 
-            this.label53.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label53.AutoSize = true;
-            this.label53.BackColor = System.Drawing.Color.Transparent;
-            this.label53.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.Black;
-            this.label53.Location = new System.Drawing.Point(264, 6);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(38, 18);
-            this.label53.TabIndex = 0;
-            this.label53.Text = "M42";
-            // 
-            // titleM42
-            // 
-            this.titleM42.AutoSize = true;
-            this.titleM42.BackColor = System.Drawing.Color.Transparent;
-            this.titleM42.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM42.ForeColor = System.Drawing.Color.Black;
-            this.titleM42.Location = new System.Drawing.Point(9, 6);
-            this.titleM42.Name = "titleM42";
-            this.titleM42.Size = new System.Drawing.Size(82, 18);
-            this.titleM42.TabIndex = 0;
-            this.titleM42.Text = "CF-PH-1-V";
-            // 
-            // tableLayoutForBoxRow12
-            // 
-            this.tableLayoutForBoxRow12.ColumnCount = 4;
-            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel47, 3, 0);
-            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel48, 2, 0);
-            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel49, 1, 0);
-            this.tableLayoutForBoxRow12.Controls.Add(this.guna2GradientPanel50, 0, 0);
-            this.tableLayoutForBoxRow12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow12.Location = new System.Drawing.Point(6, 1206);
-            this.tableLayoutForBoxRow12.Name = "tableLayoutForBoxRow12";
-            this.tableLayoutForBoxRow12.RowCount = 1;
-            this.tableLayoutForBoxRow12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow12.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow12.TabIndex = 13;
-            // 
-            // guna2GradientPanel47
-            // 
-            this.guna2GradientPanel47.BorderRadius = 4;
-            this.guna2GradientPanel47.Controls.Add(this.lblFFPHSYSA);
-            this.guna2GradientPanel47.Controls.Add(this.label39);
-            this.guna2GradientPanel47.Controls.Add(this.titleM49);
-            this.guna2GradientPanel47.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel47.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel47.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel47.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel47.Name = "guna2GradientPanel47";
-            this.guna2GradientPanel47.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel47.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel47.TabIndex = 3;
-            // 
-            // lblFFPHSYSA
-            // 
-            this.lblFFPHSYSA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPHSYSA.AutoSize = true;
-            this.lblFFPHSYSA.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPHSYSA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPHSYSA.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPHSYSA.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPHSYSA.Name = "lblFFPHSYSA";
-            this.lblFFPHSYSA.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPHSYSA.TabIndex = 0;
-            this.lblFFPHSYSA.Text = "0.0";
-            // 
-            // label39
-            // 
-            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.Transparent;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.Black;
-            this.label39.Location = new System.Drawing.Point(261, 6);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(38, 18);
-            this.label39.TabIndex = 0;
-            this.label39.Text = "M49";
-            // 
-            // titleM49
-            // 
-            this.titleM49.AutoSize = true;
-            this.titleM49.BackColor = System.Drawing.Color.Transparent;
-            this.titleM49.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM49.ForeColor = System.Drawing.Color.Black;
-            this.titleM49.Location = new System.Drawing.Point(9, 6);
-            this.titleM49.Name = "titleM49";
-            this.titleM49.Size = new System.Drawing.Size(70, 18);
-            this.titleM49.TabIndex = 0;
-            this.titleM49.Text = "FF-SYS-A";
-            // 
-            // guna2GradientPanel48
-            // 
-            this.guna2GradientPanel48.BorderRadius = 4;
-            this.guna2GradientPanel48.Controls.Add(this.lblFFPH3A);
-            this.guna2GradientPanel48.Controls.Add(this.label48);
-            this.guna2GradientPanel48.Controls.Add(this.titleM48);
-            this.guna2GradientPanel48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel48.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel48.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel48.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel48.Name = "guna2GradientPanel48";
-            this.guna2GradientPanel48.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel48.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel48.TabIndex = 2;
-            // 
-            // lblFFPH3A
-            // 
-            this.lblFFPH3A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPH3A.AutoSize = true;
-            this.lblFFPH3A.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPH3A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPH3A.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPH3A.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPH3A.Name = "lblFFPH3A";
-            this.lblFFPH3A.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPH3A.TabIndex = 0;
-            this.lblFFPH3A.Text = "0.0";
-            // 
-            // label48
-            // 
-            this.label48.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label48.AutoSize = true;
-            this.label48.BackColor = System.Drawing.Color.Transparent;
-            this.label48.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.Color.Black;
-            this.label48.Location = new System.Drawing.Point(264, 6);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(38, 18);
-            this.label48.TabIndex = 0;
-            this.label48.Text = "M48";
-            // 
-            // titleM48
-            // 
-            this.titleM48.AutoSize = true;
-            this.titleM48.BackColor = System.Drawing.Color.Transparent;
-            this.titleM48.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM48.ForeColor = System.Drawing.Color.Black;
-            this.titleM48.Location = new System.Drawing.Point(9, 6);
-            this.titleM48.Name = "titleM48";
-            this.titleM48.Size = new System.Drawing.Size(77, 18);
-            this.titleM48.TabIndex = 0;
-            this.titleM48.Text = "FF-PH-3-A";
-            // 
-            // guna2GradientPanel49
-            // 
-            this.guna2GradientPanel49.BorderRadius = 4;
-            this.guna2GradientPanel49.Controls.Add(this.lblFFPH2A);
-            this.guna2GradientPanel49.Controls.Add(this.label54);
-            this.guna2GradientPanel49.Controls.Add(this.titleM47);
-            this.guna2GradientPanel49.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel49.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel49.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel49.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel49.Name = "guna2GradientPanel49";
-            this.guna2GradientPanel49.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel49.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel49.TabIndex = 1;
-            // 
-            // lblFFPH2A
-            // 
-            this.lblFFPH2A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPH2A.AutoSize = true;
-            this.lblFFPH2A.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPH2A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPH2A.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPH2A.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPH2A.Name = "lblFFPH2A";
-            this.lblFFPH2A.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPH2A.TabIndex = 0;
-            this.lblFFPH2A.Text = "0.0";
-            // 
-            // label54
-            // 
-            this.label54.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label54.AutoSize = true;
-            this.label54.BackColor = System.Drawing.Color.Transparent;
-            this.label54.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.Black;
-            this.label54.Location = new System.Drawing.Point(264, 6);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(38, 18);
-            this.label54.TabIndex = 0;
-            this.label54.Text = "M47";
-            // 
-            // titleM47
-            // 
-            this.titleM47.AutoSize = true;
-            this.titleM47.BackColor = System.Drawing.Color.Transparent;
-            this.titleM47.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM47.ForeColor = System.Drawing.Color.Black;
-            this.titleM47.Location = new System.Drawing.Point(9, 6);
-            this.titleM47.Name = "titleM47";
-            this.titleM47.Size = new System.Drawing.Size(77, 18);
-            this.titleM47.TabIndex = 0;
-            this.titleM47.Text = "FF-PH-2-A";
-            // 
-            // guna2GradientPanel50
-            // 
-            this.guna2GradientPanel50.BorderRadius = 4;
-            this.guna2GradientPanel50.Controls.Add(this.lblFFPH1A);
-            this.guna2GradientPanel50.Controls.Add(this.label57);
-            this.guna2GradientPanel50.Controls.Add(this.titleM46);
-            this.guna2GradientPanel50.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel50.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel50.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel50.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel50.Name = "guna2GradientPanel50";
-            this.guna2GradientPanel50.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel50.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel50.TabIndex = 0;
-            // 
-            // lblFFPH1A
-            // 
-            this.lblFFPH1A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFFPH1A.AutoSize = true;
-            this.lblFFPH1A.BackColor = System.Drawing.Color.Transparent;
-            this.lblFFPH1A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFFPH1A.ForeColor = System.Drawing.Color.Black;
-            this.lblFFPH1A.Location = new System.Drawing.Point(7, 42);
-            this.lblFFPH1A.Name = "lblFFPH1A";
-            this.lblFFPH1A.Size = new System.Drawing.Size(65, 40);
-            this.lblFFPH1A.TabIndex = 0;
-            this.lblFFPH1A.Text = "0.0";
-            // 
-            // label57
-            // 
-            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label57.AutoSize = true;
-            this.label57.BackColor = System.Drawing.Color.Transparent;
-            this.label57.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.Black;
-            this.label57.Location = new System.Drawing.Point(264, 6);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(38, 18);
-            this.label57.TabIndex = 0;
-            this.label57.Text = "M46";
-            // 
-            // titleM46
-            // 
-            this.titleM46.AutoSize = true;
-            this.titleM46.BackColor = System.Drawing.Color.Transparent;
-            this.titleM46.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM46.ForeColor = System.Drawing.Color.Black;
-            this.titleM46.Location = new System.Drawing.Point(9, 6);
-            this.titleM46.Name = "titleM46";
-            this.titleM46.Size = new System.Drawing.Size(77, 18);
-            this.titleM46.TabIndex = 0;
-            this.titleM46.Text = "FF-PH-1-A";
-            // 
-            // tableLayoutForBoxRow13
-            // 
-            this.tableLayoutForBoxRow13.ColumnCount = 4;
-            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel51, 3, 0);
-            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel52, 2, 0);
-            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel53, 1, 0);
-            this.tableLayoutForBoxRow13.Controls.Add(this.guna2GradientPanel54, 0, 0);
-            this.tableLayoutForBoxRow13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.tableLayoutForBoxRow13.Location = new System.Drawing.Point(6, 1306);
-            this.tableLayoutForBoxRow13.Name = "tableLayoutForBoxRow13";
-            this.tableLayoutForBoxRow13.RowCount = 1;
-            this.tableLayoutForBoxRow13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutForBoxRow13.Size = new System.Drawing.Size(1271, 100);
-            this.tableLayoutForBoxRow13.TabIndex = 14;
-            // 
-            // guna2GradientPanel51
-            // 
-            this.guna2GradientPanel51.BorderRadius = 4;
-            this.guna2GradientPanel51.Controls.Add(this.lblCFPHSYSA);
-            this.guna2GradientPanel51.Controls.Add(this.label60);
-            this.guna2GradientPanel51.Controls.Add(this.titleM54);
-            this.guna2GradientPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel51.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel51.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel51.Location = new System.Drawing.Point(954, 3);
-            this.guna2GradientPanel51.Name = "guna2GradientPanel51";
-            this.guna2GradientPanel51.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel51.Size = new System.Drawing.Size(314, 94);
-            this.guna2GradientPanel51.TabIndex = 3;
-            // 
-            // lblCFPHSYSA
-            // 
-            this.lblCFPHSYSA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPHSYSA.AutoSize = true;
-            this.lblCFPHSYSA.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPHSYSA.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPHSYSA.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPHSYSA.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPHSYSA.Name = "lblCFPHSYSA";
-            this.lblCFPHSYSA.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPHSYSA.TabIndex = 0;
-            this.lblCFPHSYSA.Text = "0.0";
-            // 
-            // label60
-            // 
-            this.label60.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label60.AutoSize = true;
-            this.label60.BackColor = System.Drawing.Color.Transparent;
-            this.label60.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.Black;
-            this.label60.Location = new System.Drawing.Point(261, 6);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(38, 18);
-            this.label60.TabIndex = 0;
-            this.label60.Text = "M54";
-            // 
-            // titleM54
-            // 
-            this.titleM54.AutoSize = true;
-            this.titleM54.BackColor = System.Drawing.Color.Transparent;
-            this.titleM54.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM54.ForeColor = System.Drawing.Color.Black;
-            this.titleM54.Location = new System.Drawing.Point(9, 6);
-            this.titleM54.Name = "titleM54";
-            this.titleM54.Size = new System.Drawing.Size(75, 18);
-            this.titleM54.TabIndex = 0;
-            this.titleM54.Text = "CF-SYS-A";
-            // 
-            // guna2GradientPanel52
-            // 
-            this.guna2GradientPanel52.BorderRadius = 4;
-            this.guna2GradientPanel52.Controls.Add(this.lblCFPH3A);
-            this.guna2GradientPanel52.Controls.Add(this.label63);
-            this.guna2GradientPanel52.Controls.Add(this.titleM52);
-            this.guna2GradientPanel52.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel52.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel52.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel52.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel52.Name = "guna2GradientPanel52";
-            this.guna2GradientPanel52.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel52.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel52.TabIndex = 2;
-            // 
-            // lblCFPH3A
-            // 
-            this.lblCFPH3A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPH3A.AutoSize = true;
-            this.lblCFPH3A.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPH3A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPH3A.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPH3A.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPH3A.Name = "lblCFPH3A";
-            this.lblCFPH3A.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPH3A.TabIndex = 0;
-            this.lblCFPH3A.Text = "0.0";
-            // 
-            // label63
-            // 
-            this.label63.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label63.AutoSize = true;
-            this.label63.BackColor = System.Drawing.Color.Transparent;
-            this.label63.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.Black;
-            this.label63.Location = new System.Drawing.Point(264, 6);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(38, 18);
-            this.label63.TabIndex = 0;
-            this.label63.Text = "M52";
-            // 
-            // titleM52
-            // 
-            this.titleM52.AutoSize = true;
-            this.titleM52.BackColor = System.Drawing.Color.Transparent;
-            this.titleM52.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM52.ForeColor = System.Drawing.Color.Black;
-            this.titleM52.Location = new System.Drawing.Point(9, 6);
-            this.titleM52.Name = "titleM52";
-            this.titleM52.Size = new System.Drawing.Size(82, 18);
-            this.titleM52.TabIndex = 0;
-            this.titleM52.Text = "CF-PH-3-A";
-            // 
-            // guna2GradientPanel53
-            // 
-            this.guna2GradientPanel53.BorderRadius = 4;
-            this.guna2GradientPanel53.Controls.Add(this.lblCFPH2A);
-            this.guna2GradientPanel53.Controls.Add(this.label66);
-            this.guna2GradientPanel53.Controls.Add(this.titleM51);
-            this.guna2GradientPanel53.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel53.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel53.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel53.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel53.Name = "guna2GradientPanel53";
-            this.guna2GradientPanel53.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel53.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel53.TabIndex = 1;
-            // 
-            // lblCFPH2A
-            // 
-            this.lblCFPH2A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPH2A.AutoSize = true;
-            this.lblCFPH2A.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPH2A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPH2A.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPH2A.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPH2A.Name = "lblCFPH2A";
-            this.lblCFPH2A.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPH2A.TabIndex = 0;
-            this.lblCFPH2A.Text = "0.0";
-            // 
-            // label66
-            // 
-            this.label66.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.Transparent;
-            this.label66.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.Color.Black;
-            this.label66.Location = new System.Drawing.Point(264, 6);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(38, 18);
-            this.label66.TabIndex = 0;
-            this.label66.Text = "M51";
-            // 
-            // titleM51
-            // 
-            this.titleM51.AutoSize = true;
-            this.titleM51.BackColor = System.Drawing.Color.Transparent;
-            this.titleM51.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM51.ForeColor = System.Drawing.Color.Black;
-            this.titleM51.Location = new System.Drawing.Point(9, 6);
-            this.titleM51.Name = "titleM51";
-            this.titleM51.Size = new System.Drawing.Size(82, 18);
-            this.titleM51.TabIndex = 0;
-            this.titleM51.Text = "CF-PH-2-A";
-            // 
-            // guna2GradientPanel54
-            // 
-            this.guna2GradientPanel54.BorderRadius = 4;
-            this.guna2GradientPanel54.Controls.Add(this.lblCFPH1A);
-            this.guna2GradientPanel54.Controls.Add(this.label69);
-            this.guna2GradientPanel54.Controls.Add(this.titleM50);
-            this.guna2GradientPanel54.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel54.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel54.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel54.Location = new System.Drawing.Point(3, 3);
-            this.guna2GradientPanel54.Name = "guna2GradientPanel54";
-            this.guna2GradientPanel54.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel54.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel54.TabIndex = 0;
-            // 
-            // lblCFPH1A
-            // 
-            this.lblCFPH1A.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCFPH1A.AutoSize = true;
-            this.lblCFPH1A.BackColor = System.Drawing.Color.Transparent;
-            this.lblCFPH1A.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCFPH1A.ForeColor = System.Drawing.Color.Black;
-            this.lblCFPH1A.Location = new System.Drawing.Point(7, 42);
-            this.lblCFPH1A.Name = "lblCFPH1A";
-            this.lblCFPH1A.Size = new System.Drawing.Size(65, 40);
-            this.lblCFPH1A.TabIndex = 0;
-            this.lblCFPH1A.Text = "0.0";
-            // 
-            // label69
-            // 
-            this.label69.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label69.AutoSize = true;
-            this.label69.BackColor = System.Drawing.Color.Transparent;
-            this.label69.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.ForeColor = System.Drawing.Color.Black;
-            this.label69.Location = new System.Drawing.Point(264, 6);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(38, 18);
-            this.label69.TabIndex = 0;
-            this.label69.Text = "M50";
-            // 
-            // titleM50
-            // 
-            this.titleM50.AutoSize = true;
-            this.titleM50.BackColor = System.Drawing.Color.Transparent;
-            this.titleM50.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM50.ForeColor = System.Drawing.Color.Black;
-            this.titleM50.Location = new System.Drawing.Point(9, 6);
-            this.titleM50.Name = "titleM50";
-            this.titleM50.Size = new System.Drawing.Size(82, 18);
-            this.titleM50.TabIndex = 0;
-            this.titleM50.Text = "CF-PH-1-A";
-            // 
-            // guna2VScrollBar1
-            // 
-            this.guna2VScrollBar1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2VScrollBar1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(49, 1422);
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 18;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(18, 300);
-            this.guna2VScrollBar1.TabIndex = 0;
-            this.guna2VScrollBar1.ThumbColor = System.Drawing.Color.Transparent;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton16);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton15);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton12);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton11);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton8);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton14);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton7);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton10);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton4);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton13);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton6);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton9);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton3);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton5);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton2);
-            this.guna2Panel1.Controls.Add(this.guna2CircleButton1);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(272, 294);
-            this.guna2Panel1.TabIndex = 0;
-            // 
-            // guna2DataGridView1
-            // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            // guna2GradientPanel4
+            // 
+            this.guna2GradientPanel4.BorderRadius = 4;
+            this.guna2GradientPanel4.Controls.Add(this.lblSystemVolt);
+            this.guna2GradientPanel4.Controls.Add(this.label5);
+            this.guna2GradientPanel4.Controls.Add(this.titleM4);
+            this.guna2GradientPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(954, 3);
+            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
+            this.guna2GradientPanel4.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(314, 94);
+            this.guna2GradientPanel4.TabIndex = 3;
+            // 
+            // lblSystemVolt
+            // 
+            this.lblSystemVolt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblSystemVolt.AutoSize = true;
+            this.lblSystemVolt.BackColor = System.Drawing.Color.Transparent;
+            this.lblSystemVolt.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSystemVolt.ForeColor = System.Drawing.Color.Black;
+            this.lblSystemVolt.Location = new System.Drawing.Point(7, 42);
+            this.lblSystemVolt.Name = "lblSystemVolt";
+            this.lblSystemVolt.Size = new System.Drawing.Size(65, 40);
+            this.lblSystemVolt.TabIndex = 0;
+            this.lblSystemVolt.Text = "0.0";
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(269, 6);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(30, 18);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "M4";
+            // 
+            // titleM4
+            // 
+            this.titleM4.AutoSize = true;
+            this.titleM4.BackColor = System.Drawing.Color.Transparent;
+            this.titleM4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM4.ForeColor = System.Drawing.Color.Black;
+            this.titleM4.Location = new System.Drawing.Point(9, 6);
+            this.titleM4.Name = "titleM4";
+            this.titleM4.Size = new System.Drawing.Size(92, 18);
+            this.titleM4.TabIndex = 0;
+            this.titleM4.Text = "System Volt";
+            // 
+            // guna2GradientPanel3
+            // 
+            this.guna2GradientPanel3.BorderRadius = 4;
+            this.guna2GradientPanel3.Controls.Add(this.lblV3);
+            this.guna2GradientPanel3.Controls.Add(this.label4);
+            this.guna2GradientPanel3.Controls.Add(this.titleM3);
+            this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel3.Location = new System.Drawing.Point(637, 3);
+            this.guna2GradientPanel3.Name = "guna2GradientPanel3";
+            this.guna2GradientPanel3.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel3.TabIndex = 2;
+            // 
+            // lblV3
+            // 
+            this.lblV3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblV3.AutoSize = true;
+            this.lblV3.BackColor = System.Drawing.Color.Transparent;
+            this.lblV3.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblV3.ForeColor = System.Drawing.Color.Black;
+            this.lblV3.Location = new System.Drawing.Point(7, 42);
+            this.lblV3.Name = "lblV3";
+            this.lblV3.Size = new System.Drawing.Size(65, 40);
+            this.lblV3.TabIndex = 0;
+            this.lblV3.Text = "0.0";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(272, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(30, 18);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "M3";
+            // 
+            // titleM3
+            // 
+            this.titleM3.AutoSize = true;
+            this.titleM3.BackColor = System.Drawing.Color.Transparent;
+            this.titleM3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM3.ForeColor = System.Drawing.Color.Black;
+            this.titleM3.Location = new System.Drawing.Point(9, 6);
+            this.titleM3.Name = "titleM3";
+            this.titleM3.Size = new System.Drawing.Size(49, 18);
+            this.titleM3.TabIndex = 0;
+            this.titleM3.Text = "Volt 3";
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BorderRadius = 4;
+            this.guna2GradientPanel2.Controls.Add(this.lblV2);
+            this.guna2GradientPanel2.Controls.Add(this.label2);
+            this.guna2GradientPanel2.Controls.Add(this.titleM2);
+            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel2.TabIndex = 1;
+            // 
+            // lblV2
+            // 
+            this.lblV2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblV2.AutoSize = true;
+            this.lblV2.BackColor = System.Drawing.Color.Transparent;
+            this.lblV2.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblV2.ForeColor = System.Drawing.Color.Black;
+            this.lblV2.Location = new System.Drawing.Point(7, 42);
+            this.lblV2.Name = "lblV2";
+            this.lblV2.Size = new System.Drawing.Size(65, 40);
+            this.lblV2.TabIndex = 0;
+            this.lblV2.Text = "0.0";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(272, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(30, 18);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "M2";
+            // 
+            // titleM2
+            // 
+            this.titleM2.AutoSize = true;
+            this.titleM2.BackColor = System.Drawing.Color.Transparent;
+            this.titleM2.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM2.ForeColor = System.Drawing.Color.Black;
+            this.titleM2.Location = new System.Drawing.Point(9, 6);
+            this.titleM2.Name = "titleM2";
+            this.titleM2.Size = new System.Drawing.Size(49, 18);
+            this.titleM2.TabIndex = 0;
+            this.titleM2.Text = "Volt 2";
+            // 
+            // guna2GradientPanel1
+            // 
+            this.guna2GradientPanel1.BorderRadius = 4;
+            this.guna2GradientPanel1.Controls.Add(this.lblV1);
+            this.guna2GradientPanel1.Controls.Add(this.label3);
+            this.guna2GradientPanel1.Controls.Add(this.titleM1);
+            this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel1.TabIndex = 0;
+            // 
+            // lblV1
+            // 
+            this.lblV1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblV1.AutoSize = true;
+            this.lblV1.BackColor = System.Drawing.Color.Transparent;
+            this.lblV1.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblV1.ForeColor = System.Drawing.Color.Black;
+            this.lblV1.Location = new System.Drawing.Point(7, 42);
+            this.lblV1.Name = "lblV1";
+            this.lblV1.Size = new System.Drawing.Size(65, 40);
+            this.lblV1.TabIndex = 0;
+            this.lblV1.Text = "0.0";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(272, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(30, 18);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "M1";
+            // 
+            // titleM1
+            // 
+            this.titleM1.AutoSize = true;
+            this.titleM1.BackColor = System.Drawing.Color.Transparent;
+            this.titleM1.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM1.ForeColor = System.Drawing.Color.Black;
+            this.titleM1.Location = new System.Drawing.Point(9, 6);
+            this.titleM1.Name = "titleM1";
+            this.titleM1.Size = new System.Drawing.Size(49, 18);
+            this.titleM1.TabIndex = 0;
+            this.titleM1.Text = "Volt 1";
+            // 
+            // panelForDataGrid
+            // 
+            this.panelForDataGrid.AutoScroll = true;
+            this.panelForDataGrid.Controls.Add(this.guna2Panel2);
+            this.panelForDataGrid.Controls.Add(this.dataGrid);
+            this.panelForDataGrid.Controls.Add(this.guna2Panel1);
+            this.panelForDataGrid.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelForDataGrid.Location = new System.Drawing.Point(0, 426);
+            this.panelForDataGrid.Name = "panelForDataGrid";
+            this.panelForDataGrid.Size = new System.Drawing.Size(1300, 294);
+            this.panelForDataGrid.TabIndex = 3;
+            // 
+            // dataGrid
+            // 
+            this.dataGrid.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGrid.ColumnHeadersHeight = 30;
+            this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
@@ -3831,333 +3849,477 @@
             this.Column7,
             this.Column8,
             this.Column9,
-            this.Column10});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            this.guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(272, 0);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1028, 294);
-            this.guna2DataGridView1.TabIndex = 1;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 21;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.Column10,
+            this.Column11,
+            this.Column12,
+            this.Column13,
+            this.Column14,
+            this.Column15,
+            this.Column16,
+            this.Column17,
+            this.Column18,
+            this.Column19,
+            this.Column20,
+            this.Column21,
+            this.Column22,
+            this.Column23,
+            this.Column24,
+            this.Column25,
+            this.Column26,
+            this.Column27,
+            this.Column28,
+            this.Column29,
+            this.Column30,
+            this.Column31,
+            this.Column32,
+            this.Column33,
+            this.Column34,
+            this.Column35,
+            this.Column36,
+            this.Column37,
+            this.Column38,
+            this.Column39,
+            this.Column40,
+            this.Column41,
+            this.Column42,
+            this.Column43,
+            this.Column44,
+            this.Column45,
+            this.Column46,
+            this.Column47,
+            this.Column48,
+            this.Column49,
+            this.Column50,
+            this.Column51,
+            this.Column52,
+            this.Column53,
+            this.Column54});
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGrid.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dataGrid.Location = new System.Drawing.Point(187, 0);
+            this.dataGrid.Name = "dataGrid";
+            this.dataGrid.ReadOnly = true;
+            this.dataGrid.RowHeadersVisible = false;
+            this.dataGrid.Size = new System.Drawing.Size(1113, 294);
+            this.dataGrid.TabIndex = 1;
+            this.dataGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
+            this.dataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dataGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dataGrid.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dataGrid.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dataGrid.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dataGrid.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dataGrid.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dataGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.dataGrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
+            this.dataGrid.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dataGrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dataGrid.ThemeStyle.HeaderStyle.Height = 30;
+            this.dataGrid.ThemeStyle.ReadOnly = true;
+            this.dataGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            this.dataGrid.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dataGrid.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGrid.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.dataGrid.ThemeStyle.RowsStyle.Height = 22;
+            this.dataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            this.dataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Controls.Add(this.btnClearAll);
+            this.guna2Panel1.Controls.Add(this.btnLog);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(187, 294);
+            this.guna2Panel1.TabIndex = 0;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Column1";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Column2";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Column3";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Column4";
             this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
             // 
             // Column5
             // 
             this.Column5.HeaderText = "Column5";
             this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             // 
             // Column6
             // 
             this.Column6.HeaderText = "Column6";
             this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
             // 
             // Column7
             // 
             this.Column7.HeaderText = "Column7";
             this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
             // 
             // Column8
             // 
             this.Column8.HeaderText = "Column8";
             this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
             // 
             // Column9
             // 
             this.Column9.HeaderText = "Column9";
             this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
             // 
             // Column10
             // 
             this.Column10.HeaderText = "Column10";
             this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
             // 
-            // guna2CircleButton1
+            // Column11
             // 
-            this.guna2CircleButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Location = new System.Drawing.Point(23, 23);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton1.TabIndex = 0;
-            this.guna2CircleButton1.Text = "guna2CircleButton1";
+            this.Column11.HeaderText = "Column11";
+            this.Column11.Name = "Column11";
+            this.Column11.ReadOnly = true;
             // 
-            // guna2CircleButton2
+            // Column12
             // 
-            this.guna2CircleButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.Location = new System.Drawing.Point(79, 23);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton2.TabIndex = 0;
-            this.guna2CircleButton2.Text = "guna2CircleButton1";
+            this.Column12.HeaderText = "Column12";
+            this.Column12.Name = "Column12";
+            this.Column12.ReadOnly = true;
             // 
-            // guna2CircleButton3
+            // Column13
             // 
-            this.guna2CircleButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton3.Location = new System.Drawing.Point(135, 23);
-            this.guna2CircleButton3.Name = "guna2CircleButton3";
-            this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton3.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton3.TabIndex = 0;
-            this.guna2CircleButton3.Text = "guna2CircleButton1";
+            this.Column13.HeaderText = "Column13";
+            this.Column13.Name = "Column13";
+            this.Column13.ReadOnly = true;
             // 
-            // guna2CircleButton4
+            // Column14
             // 
-            this.guna2CircleButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton4.Location = new System.Drawing.Point(191, 23);
-            this.guna2CircleButton4.Name = "guna2CircleButton4";
-            this.guna2CircleButton4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton4.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton4.TabIndex = 0;
-            this.guna2CircleButton4.Text = "guna2CircleButton1";
+            this.Column14.HeaderText = "Column14";
+            this.Column14.Name = "Column14";
+            this.Column14.ReadOnly = true;
             // 
-            // guna2CircleButton5
+            // Column15
             // 
-            this.guna2CircleButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton5.Location = new System.Drawing.Point(23, 79);
-            this.guna2CircleButton5.Name = "guna2CircleButton5";
-            this.guna2CircleButton5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton5.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton5.TabIndex = 0;
-            this.guna2CircleButton5.Text = "guna2CircleButton1";
+            this.Column15.HeaderText = "Column15";
+            this.Column15.Name = "Column15";
+            this.Column15.ReadOnly = true;
             // 
-            // guna2CircleButton6
+            // Column16
             // 
-            this.guna2CircleButton6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton6.Location = new System.Drawing.Point(79, 79);
-            this.guna2CircleButton6.Name = "guna2CircleButton6";
-            this.guna2CircleButton6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton6.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton6.TabIndex = 0;
-            this.guna2CircleButton6.Text = "guna2CircleButton1";
+            this.Column16.HeaderText = "Column16";
+            this.Column16.Name = "Column16";
+            this.Column16.ReadOnly = true;
             // 
-            // guna2CircleButton7
+            // Column17
             // 
-            this.guna2CircleButton7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton7.Location = new System.Drawing.Point(135, 79);
-            this.guna2CircleButton7.Name = "guna2CircleButton7";
-            this.guna2CircleButton7.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton7.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton7.TabIndex = 0;
-            this.guna2CircleButton7.Text = "guna2CircleButton1";
+            this.Column17.HeaderText = "Column17";
+            this.Column17.Name = "Column17";
+            this.Column17.ReadOnly = true;
             // 
-            // guna2CircleButton8
+            // Column18
             // 
-            this.guna2CircleButton8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton8.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton8.Location = new System.Drawing.Point(191, 79);
-            this.guna2CircleButton8.Name = "guna2CircleButton8";
-            this.guna2CircleButton8.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton8.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton8.TabIndex = 0;
-            this.guna2CircleButton8.Text = "guna2CircleButton1";
+            this.Column18.HeaderText = "Column18";
+            this.Column18.Name = "Column18";
+            this.Column18.ReadOnly = true;
             // 
-            // guna2CircleButton9
+            // Column19
             // 
-            this.guna2CircleButton9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton9.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton9.Location = new System.Drawing.Point(23, 135);
-            this.guna2CircleButton9.Name = "guna2CircleButton9";
-            this.guna2CircleButton9.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton9.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton9.TabIndex = 0;
-            this.guna2CircleButton9.Text = "guna2CircleButton1";
+            this.Column19.HeaderText = "Column19";
+            this.Column19.Name = "Column19";
+            this.Column19.ReadOnly = true;
             // 
-            // guna2CircleButton10
+            // Column20
             // 
-            this.guna2CircleButton10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton10.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton10.Location = new System.Drawing.Point(79, 135);
-            this.guna2CircleButton10.Name = "guna2CircleButton10";
-            this.guna2CircleButton10.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton10.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton10.TabIndex = 0;
-            this.guna2CircleButton10.Text = "guna2CircleButton1";
+            this.Column20.HeaderText = "Column20";
+            this.Column20.Name = "Column20";
+            this.Column20.ReadOnly = true;
             // 
-            // guna2CircleButton11
+            // Column21
             // 
-            this.guna2CircleButton11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton11.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton11.Location = new System.Drawing.Point(135, 135);
-            this.guna2CircleButton11.Name = "guna2CircleButton11";
-            this.guna2CircleButton11.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton11.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton11.TabIndex = 0;
-            this.guna2CircleButton11.Text = "guna2CircleButton1";
+            this.Column21.HeaderText = "Column21";
+            this.Column21.Name = "Column21";
+            this.Column21.ReadOnly = true;
             // 
-            // guna2CircleButton12
+            // Column22
             // 
-            this.guna2CircleButton12.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton12.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton12.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton12.Location = new System.Drawing.Point(191, 135);
-            this.guna2CircleButton12.Name = "guna2CircleButton12";
-            this.guna2CircleButton12.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton12.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton12.TabIndex = 0;
-            this.guna2CircleButton12.Text = "guna2CircleButton1";
+            this.Column22.HeaderText = "Column22";
+            this.Column22.Name = "Column22";
+            this.Column22.ReadOnly = true;
             // 
-            // guna2CircleButton13
+            // Column23
             // 
-            this.guna2CircleButton13.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton13.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton13.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton13.Location = new System.Drawing.Point(23, 191);
-            this.guna2CircleButton13.Name = "guna2CircleButton13";
-            this.guna2CircleButton13.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton13.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton13.TabIndex = 0;
-            this.guna2CircleButton13.Text = "guna2CircleButton1";
+            this.Column23.HeaderText = "Column23";
+            this.Column23.Name = "Column23";
+            this.Column23.ReadOnly = true;
             // 
-            // guna2CircleButton14
+            // Column24
             // 
-            this.guna2CircleButton14.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton14.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton14.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton14.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton14.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton14.Location = new System.Drawing.Point(79, 191);
-            this.guna2CircleButton14.Name = "guna2CircleButton14";
-            this.guna2CircleButton14.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton14.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton14.TabIndex = 0;
-            this.guna2CircleButton14.Text = "guna2CircleButton1";
+            this.Column24.HeaderText = "Column24";
+            this.Column24.Name = "Column24";
+            this.Column24.ReadOnly = true;
             // 
-            // guna2CircleButton15
+            // Column25
             // 
-            this.guna2CircleButton15.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton15.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton15.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton15.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton15.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton15.Location = new System.Drawing.Point(135, 191);
-            this.guna2CircleButton15.Name = "guna2CircleButton15";
-            this.guna2CircleButton15.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton15.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton15.TabIndex = 0;
-            this.guna2CircleButton15.Text = "guna2CircleButton1";
+            this.Column25.HeaderText = "Column25";
+            this.Column25.Name = "Column25";
+            this.Column25.ReadOnly = true;
             // 
-            // guna2CircleButton16
+            // Column26
             // 
-            this.guna2CircleButton16.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton16.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2CircleButton16.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2CircleButton16.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2CircleButton16.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton16.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton16.Location = new System.Drawing.Point(191, 191);
-            this.guna2CircleButton16.Name = "guna2CircleButton16";
-            this.guna2CircleButton16.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton16.Size = new System.Drawing.Size(50, 50);
-            this.guna2CircleButton16.TabIndex = 0;
-            this.guna2CircleButton16.Text = "guna2CircleButton1";
+            this.Column26.HeaderText = "Column26";
+            this.Column26.Name = "Column26";
+            this.Column26.ReadOnly = true;
+            // 
+            // Column27
+            // 
+            this.Column27.HeaderText = "Column27";
+            this.Column27.Name = "Column27";
+            this.Column27.ReadOnly = true;
+            // 
+            // Column28
+            // 
+            this.Column28.HeaderText = "Column28";
+            this.Column28.Name = "Column28";
+            this.Column28.ReadOnly = true;
+            // 
+            // Column29
+            // 
+            this.Column29.HeaderText = "Column29";
+            this.Column29.Name = "Column29";
+            this.Column29.ReadOnly = true;
+            // 
+            // Column30
+            // 
+            this.Column30.HeaderText = "Column30";
+            this.Column30.Name = "Column30";
+            this.Column30.ReadOnly = true;
+            // 
+            // Column31
+            // 
+            this.Column31.HeaderText = "Column31";
+            this.Column31.Name = "Column31";
+            this.Column31.ReadOnly = true;
+            // 
+            // Column32
+            // 
+            this.Column32.HeaderText = "Column32";
+            this.Column32.Name = "Column32";
+            this.Column32.ReadOnly = true;
+            // 
+            // Column33
+            // 
+            this.Column33.HeaderText = "Column33";
+            this.Column33.Name = "Column33";
+            this.Column33.ReadOnly = true;
+            // 
+            // Column34
+            // 
+            this.Column34.HeaderText = "Column34";
+            this.Column34.Name = "Column34";
+            this.Column34.ReadOnly = true;
+            // 
+            // Column35
+            // 
+            this.Column35.HeaderText = "Column35";
+            this.Column35.Name = "Column35";
+            this.Column35.ReadOnly = true;
+            // 
+            // Column36
+            // 
+            this.Column36.HeaderText = "Column36";
+            this.Column36.Name = "Column36";
+            this.Column36.ReadOnly = true;
+            // 
+            // Column37
+            // 
+            this.Column37.HeaderText = "Column37";
+            this.Column37.Name = "Column37";
+            this.Column37.ReadOnly = true;
+            // 
+            // Column38
+            // 
+            this.Column38.HeaderText = "Column38";
+            this.Column38.Name = "Column38";
+            this.Column38.ReadOnly = true;
+            // 
+            // Column39
+            // 
+            this.Column39.HeaderText = "Column39";
+            this.Column39.Name = "Column39";
+            this.Column39.ReadOnly = true;
+            // 
+            // Column40
+            // 
+            this.Column40.HeaderText = "Column40";
+            this.Column40.Name = "Column40";
+            this.Column40.ReadOnly = true;
+            // 
+            // Column41
+            // 
+            this.Column41.HeaderText = "Column41";
+            this.Column41.Name = "Column41";
+            this.Column41.ReadOnly = true;
+            // 
+            // Column42
+            // 
+            this.Column42.HeaderText = "Column42";
+            this.Column42.Name = "Column42";
+            this.Column42.ReadOnly = true;
+            // 
+            // Column43
+            // 
+            this.Column43.HeaderText = "Column43";
+            this.Column43.Name = "Column43";
+            this.Column43.ReadOnly = true;
+            // 
+            // Column44
+            // 
+            this.Column44.HeaderText = "Column44";
+            this.Column44.Name = "Column44";
+            this.Column44.ReadOnly = true;
+            // 
+            // Column45
+            // 
+            this.Column45.HeaderText = "Column45";
+            this.Column45.Name = "Column45";
+            this.Column45.ReadOnly = true;
+            // 
+            // Column46
+            // 
+            this.Column46.HeaderText = "Column46";
+            this.Column46.Name = "Column46";
+            this.Column46.ReadOnly = true;
+            // 
+            // Column47
+            // 
+            this.Column47.HeaderText = "Column47";
+            this.Column47.Name = "Column47";
+            this.Column47.ReadOnly = true;
+            // 
+            // Column48
+            // 
+            this.Column48.HeaderText = "Column48";
+            this.Column48.Name = "Column48";
+            this.Column48.ReadOnly = true;
+            // 
+            // Column49
+            // 
+            this.Column49.HeaderText = "Column49";
+            this.Column49.Name = "Column49";
+            this.Column49.ReadOnly = true;
+            // 
+            // Column50
+            // 
+            this.Column50.HeaderText = "Column50";
+            this.Column50.Name = "Column50";
+            this.Column50.ReadOnly = true;
+            // 
+            // Column51
+            // 
+            this.Column51.HeaderText = "Column51";
+            this.Column51.Name = "Column51";
+            this.Column51.ReadOnly = true;
+            // 
+            // Column52
+            // 
+            this.Column52.HeaderText = "Column52";
+            this.Column52.Name = "Column52";
+            this.Column52.ReadOnly = true;
+            // 
+            // Column53
+            // 
+            this.Column53.HeaderText = "Column53";
+            this.Column53.Name = "Column53";
+            this.Column53.ReadOnly = true;
+            // 
+            // Column54
+            // 
+            this.Column54.HeaderText = "Column54";
+            this.Column54.Name = "Column54";
+            this.Column54.ReadOnly = true;
+            // 
+            // btnLog
+            // 
+            this.btnLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLog.Animated = true;
+            this.btnLog.BackColor = System.Drawing.Color.Transparent;
+            this.btnLog.BorderRadius = 4;
+            this.btnLog.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLog.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLog.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLog.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLog.Enabled = false;
+            this.btnLog.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnLog.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnLog.ForeColor = System.Drawing.Color.White;
+            this.btnLog.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnLog.Location = new System.Drawing.Point(9, 11);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(164, 36);
+            this.btnLog.TabIndex = 3;
+            this.btnLog.Text = "Log";
+            this.btnLog.UseTransparentBackground = true;
+            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
+            // 
+            // btnClearAll
+            // 
+            this.btnClearAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClearAll.Animated = true;
+            this.btnClearAll.BackColor = System.Drawing.Color.Transparent;
+            this.btnClearAll.BorderRadius = 4;
+            this.btnClearAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClearAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClearAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClearAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClearAll.Enabled = false;
+            this.btnClearAll.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnClearAll.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnClearAll.ForeColor = System.Drawing.Color.White;
+            this.btnClearAll.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnClearAll.Location = new System.Drawing.Point(9, 53);
+            this.btnClearAll.Name = "btnClearAll";
+            this.btnClearAll.Size = new System.Drawing.Size(164, 36);
+            this.btnClearAll.TabIndex = 4;
+            this.btnClearAll.Text = "Clear All";
+            this.btnClearAll.UseTransparentBackground = true;
+            this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel2.Location = new System.Drawing.Point(1280, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(20, 294);
+            this.guna2Panel2.TabIndex = 2;
             // 
             // MainFormV2
             // 
@@ -4182,6 +4344,83 @@
             this.panelHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDP)).EndInit();
             this.panelForBoxes.ResumeLayout(false);
+            this.tableLayoutForBoxRow13.ResumeLayout(false);
+            this.guna2GradientPanel51.ResumeLayout(false);
+            this.guna2GradientPanel51.PerformLayout();
+            this.guna2GradientPanel52.ResumeLayout(false);
+            this.guna2GradientPanel52.PerformLayout();
+            this.guna2GradientPanel53.ResumeLayout(false);
+            this.guna2GradientPanel53.PerformLayout();
+            this.guna2GradientPanel54.ResumeLayout(false);
+            this.guna2GradientPanel54.PerformLayout();
+            this.tableLayoutForBoxRow12.ResumeLayout(false);
+            this.guna2GradientPanel47.ResumeLayout(false);
+            this.guna2GradientPanel47.PerformLayout();
+            this.guna2GradientPanel48.ResumeLayout(false);
+            this.guna2GradientPanel48.PerformLayout();
+            this.guna2GradientPanel49.ResumeLayout(false);
+            this.guna2GradientPanel49.PerformLayout();
+            this.guna2GradientPanel50.ResumeLayout(false);
+            this.guna2GradientPanel50.PerformLayout();
+            this.tableLayoutForBoxRow11.ResumeLayout(false);
+            this.guna2GradientPanel43.ResumeLayout(false);
+            this.guna2GradientPanel43.PerformLayout();
+            this.guna2GradientPanel44.ResumeLayout(false);
+            this.guna2GradientPanel44.PerformLayout();
+            this.guna2GradientPanel45.ResumeLayout(false);
+            this.guna2GradientPanel45.PerformLayout();
+            this.guna2GradientPanel46.ResumeLayout(false);
+            this.guna2GradientPanel46.PerformLayout();
+            this.tableLayoutForBoxRow10.ResumeLayout(false);
+            this.guna2GradientPanel39.ResumeLayout(false);
+            this.guna2GradientPanel39.PerformLayout();
+            this.guna2GradientPanel40.ResumeLayout(false);
+            this.guna2GradientPanel40.PerformLayout();
+            this.guna2GradientPanel41.ResumeLayout(false);
+            this.guna2GradientPanel41.PerformLayout();
+            this.guna2GradientPanel42.ResumeLayout(false);
+            this.guna2GradientPanel42.PerformLayout();
+            this.tableLayoutForBoxRow9.ResumeLayout(false);
+            this.guna2GradientPanel35.ResumeLayout(false);
+            this.guna2GradientPanel35.PerformLayout();
+            this.guna2GradientPanel36.ResumeLayout(false);
+            this.guna2GradientPanel36.PerformLayout();
+            this.guna2GradientPanel37.ResumeLayout(false);
+            this.guna2GradientPanel37.PerformLayout();
+            this.guna2GradientPanel38.ResumeLayout(false);
+            this.guna2GradientPanel38.PerformLayout();
+            this.tableLayoutForBoxRow8.ResumeLayout(false);
+            this.guna2GradientPanel31.ResumeLayout(false);
+            this.guna2GradientPanel31.PerformLayout();
+            this.guna2GradientPanel32.ResumeLayout(false);
+            this.guna2GradientPanel32.PerformLayout();
+            this.guna2GradientPanel33.ResumeLayout(false);
+            this.guna2GradientPanel33.PerformLayout();
+            this.guna2GradientPanel34.ResumeLayout(false);
+            this.guna2GradientPanel34.PerformLayout();
+            this.tableLayoutForBoxRow7.ResumeLayout(false);
+            this.guna2GradientPanel27.ResumeLayout(false);
+            this.guna2GradientPanel27.PerformLayout();
+            this.guna2GradientPanel28.ResumeLayout(false);
+            this.guna2GradientPanel28.PerformLayout();
+            this.guna2GradientPanel29.ResumeLayout(false);
+            this.guna2GradientPanel29.PerformLayout();
+            this.guna2GradientPanel30.ResumeLayout(false);
+            this.guna2GradientPanel30.PerformLayout();
+            this.tableLayoutForBoxRow6.ResumeLayout(false);
+            this.guna2GradientPanel21.ResumeLayout(false);
+            this.guna2GradientPanel21.PerformLayout();
+            this.guna2GradientPanel24.ResumeLayout(false);
+            this.guna2GradientPanel24.PerformLayout();
+            this.guna2GradientPanel25.ResumeLayout(false);
+            this.guna2GradientPanel25.PerformLayout();
+            this.guna2GradientPanel26.ResumeLayout(false);
+            this.guna2GradientPanel26.PerformLayout();
+            this.tableLayoutForBoxesFrequencyTemperature.ResumeLayout(false);
+            this.guna2GradientPanel22.ResumeLayout(false);
+            this.guna2GradientPanel22.PerformLayout();
+            this.guna2GradientPanel23.ResumeLayout(false);
+            this.guna2GradientPanel23.PerformLayout();
             this.tableLayoutForBoxRow5.ResumeLayout(false);
             this.guna2GradientPanel17.ResumeLayout(false);
             this.guna2GradientPanel17.PerformLayout();
@@ -4218,95 +4457,18 @@
             this.guna2GradientPanel7.PerformLayout();
             this.guna2GradientPanel8.ResumeLayout(false);
             this.guna2GradientPanel8.PerformLayout();
-            this.panelForDataGrid.ResumeLayout(false);
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
-            this.guna2GradientPanel2.ResumeLayout(false);
-            this.guna2GradientPanel2.PerformLayout();
-            this.guna2GradientPanel3.ResumeLayout(false);
-            this.guna2GradientPanel3.PerformLayout();
+            this.tableLayoutForBoxRow1.ResumeLayout(false);
             this.guna2GradientPanel4.ResumeLayout(false);
             this.guna2GradientPanel4.PerformLayout();
-            this.tableLayoutForBoxRow1.ResumeLayout(false);
-            this.tableLayoutForBoxesFrequencyTemperature.ResumeLayout(false);
-            this.guna2GradientPanel22.ResumeLayout(false);
-            this.guna2GradientPanel22.PerformLayout();
-            this.guna2GradientPanel23.ResumeLayout(false);
-            this.guna2GradientPanel23.PerformLayout();
-            this.tableLayoutForBoxRow6.ResumeLayout(false);
-            this.guna2GradientPanel21.ResumeLayout(false);
-            this.guna2GradientPanel21.PerformLayout();
-            this.guna2GradientPanel24.ResumeLayout(false);
-            this.guna2GradientPanel24.PerformLayout();
-            this.guna2GradientPanel25.ResumeLayout(false);
-            this.guna2GradientPanel25.PerformLayout();
-            this.guna2GradientPanel26.ResumeLayout(false);
-            this.guna2GradientPanel26.PerformLayout();
-            this.tableLayoutForBoxRow7.ResumeLayout(false);
-            this.guna2GradientPanel27.ResumeLayout(false);
-            this.guna2GradientPanel27.PerformLayout();
-            this.guna2GradientPanel28.ResumeLayout(false);
-            this.guna2GradientPanel28.PerformLayout();
-            this.guna2GradientPanel29.ResumeLayout(false);
-            this.guna2GradientPanel29.PerformLayout();
-            this.guna2GradientPanel30.ResumeLayout(false);
-            this.guna2GradientPanel30.PerformLayout();
-            this.tableLayoutForBoxRow8.ResumeLayout(false);
-            this.guna2GradientPanel31.ResumeLayout(false);
-            this.guna2GradientPanel31.PerformLayout();
-            this.guna2GradientPanel32.ResumeLayout(false);
-            this.guna2GradientPanel32.PerformLayout();
-            this.guna2GradientPanel33.ResumeLayout(false);
-            this.guna2GradientPanel33.PerformLayout();
-            this.guna2GradientPanel34.ResumeLayout(false);
-            this.guna2GradientPanel34.PerformLayout();
-            this.tableLayoutForBoxRow9.ResumeLayout(false);
-            this.guna2GradientPanel35.ResumeLayout(false);
-            this.guna2GradientPanel35.PerformLayout();
-            this.guna2GradientPanel36.ResumeLayout(false);
-            this.guna2GradientPanel36.PerformLayout();
-            this.guna2GradientPanel37.ResumeLayout(false);
-            this.guna2GradientPanel37.PerformLayout();
-            this.guna2GradientPanel38.ResumeLayout(false);
-            this.guna2GradientPanel38.PerformLayout();
-            this.tableLayoutForBoxRow10.ResumeLayout(false);
-            this.guna2GradientPanel39.ResumeLayout(false);
-            this.guna2GradientPanel39.PerformLayout();
-            this.guna2GradientPanel40.ResumeLayout(false);
-            this.guna2GradientPanel40.PerformLayout();
-            this.guna2GradientPanel41.ResumeLayout(false);
-            this.guna2GradientPanel41.PerformLayout();
-            this.guna2GradientPanel42.ResumeLayout(false);
-            this.guna2GradientPanel42.PerformLayout();
-            this.tableLayoutForBoxRow11.ResumeLayout(false);
-            this.guna2GradientPanel43.ResumeLayout(false);
-            this.guna2GradientPanel43.PerformLayout();
-            this.guna2GradientPanel44.ResumeLayout(false);
-            this.guna2GradientPanel44.PerformLayout();
-            this.guna2GradientPanel45.ResumeLayout(false);
-            this.guna2GradientPanel45.PerformLayout();
-            this.guna2GradientPanel46.ResumeLayout(false);
-            this.guna2GradientPanel46.PerformLayout();
-            this.tableLayoutForBoxRow12.ResumeLayout(false);
-            this.guna2GradientPanel47.ResumeLayout(false);
-            this.guna2GradientPanel47.PerformLayout();
-            this.guna2GradientPanel48.ResumeLayout(false);
-            this.guna2GradientPanel48.PerformLayout();
-            this.guna2GradientPanel49.ResumeLayout(false);
-            this.guna2GradientPanel49.PerformLayout();
-            this.guna2GradientPanel50.ResumeLayout(false);
-            this.guna2GradientPanel50.PerformLayout();
-            this.tableLayoutForBoxRow13.ResumeLayout(false);
-            this.guna2GradientPanel51.ResumeLayout(false);
-            this.guna2GradientPanel51.PerformLayout();
-            this.guna2GradientPanel52.ResumeLayout(false);
-            this.guna2GradientPanel52.PerformLayout();
-            this.guna2GradientPanel53.ResumeLayout(false);
-            this.guna2GradientPanel53.PerformLayout();
-            this.guna2GradientPanel54.ResumeLayout(false);
-            this.guna2GradientPanel54.PerformLayout();
+            this.guna2GradientPanel3.ResumeLayout(false);
+            this.guna2GradientPanel3.PerformLayout();
+            this.guna2GradientPanel2.ResumeLayout(false);
+            this.guna2GradientPanel2.PerformLayout();
+            this.guna2GradientPanel1.ResumeLayout(false);
+            this.guna2GradientPanel1.PerformLayout();
+            this.panelForDataGrid.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4561,7 +4723,7 @@
         private System.Windows.Forms.Label titleM50;
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGrid;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
@@ -4572,21 +4734,52 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton16;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton15;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton12;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton11;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton8;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton14;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton7;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton10;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton4;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton13;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton6;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton9;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton3;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton5;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column18;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column19;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column20;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column22;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column23;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column24;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column25;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column26;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column27;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column28;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column29;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column30;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column31;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column33;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column34;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column35;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column36;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column37;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column38;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column39;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column40;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column41;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column42;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column43;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column44;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column45;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column46;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column47;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column48;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column49;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column50;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column51;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column52;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column53;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column54;
+        private Guna.UI2.WinForms.Guna2Button btnLog;
+        private Guna.UI2.WinForms.Guna2Button btnClearAll;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }

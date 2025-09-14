@@ -79,6 +79,7 @@
     </Compile>
     <Compile Include="Util\Helper.cs" />
     <Compile Include="Util\HexDecimalConverter.cs" />
+    <Compile Include="Util\Prefs.cs" />
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
