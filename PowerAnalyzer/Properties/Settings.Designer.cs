@@ -25,7 +25,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Volt 1")]
         public string m1 {
             get {
                 return ((string)(this["m1"]));
@@ -37,7 +37,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Volt 2")]
         public string m2 {
             get {
                 return ((string)(this["m2"]));
@@ -49,7 +49,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Volt 3")]
         public string m3 {
             get {
                 return ((string)(this["m3"]));
@@ -61,7 +61,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Volt")]
         public string m4 {
             get {
                 return ((string)(this["m4"]));
@@ -73,7 +73,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Amp 1")]
         public string m5 {
             get {
                 return ((string)(this["m5"]));
@@ -85,7 +85,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Amp 2")]
         public string m6 {
             get {
                 return ((string)(this["m6"]));
@@ -97,7 +97,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Amp 3")]
         public string m7 {
             get {
                 return ((string)(this["m7"]));
@@ -109,7 +109,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Amp")]
         public string m8 {
             get {
                 return ((string)(this["m8"]));
@@ -121,7 +121,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Watt 1")]
         public string m9 {
             get {
                 return ((string)(this["m9"]));
@@ -133,7 +133,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Watt 2")]
         public string m10 {
             get {
                 return ((string)(this["m10"]));
@@ -145,7 +145,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Watt 3")]
         public string m11 {
             get {
                 return ((string)(this["m11"]));
@@ -157,7 +157,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Watt")]
         public string m12 {
             get {
                 return ((string)(this["m12"]));
@@ -169,7 +169,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PF 1")]
         public string m13 {
             get {
                 return ((string)(this["m13"]));
@@ -181,7 +181,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PF 2")]
         public string m14 {
             get {
                 return ((string)(this["m14"]));
@@ -193,7 +193,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("PF 3")]
         public string m15 {
             get {
                 return ((string)(this["m15"]));
@@ -205,7 +205,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System PF")]
         public string m16 {
             get {
                 return ((string)(this["m16"]));
@@ -217,7 +217,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Frequency")]
         public string m17 {
             get {
                 return ((string)(this["m17"]));
@@ -229,7 +229,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VA 1")]
         public string m18 {
             get {
                 return ((string)(this["m18"]));
@@ -241,7 +241,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VA 2")]
         public string m19 {
             get {
                 return ((string)(this["m19"]));
@@ -253,7 +253,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VA 3")]
         public string m20 {
             get {
                 return ((string)(this["m20"]));
@@ -265,7 +265,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System VA")]
         public string m21 {
             get {
                 return ((string)(this["m21"]));
@@ -277,7 +277,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mean Volt 1")]
         public string m22 {
             get {
                 return ((string)(this["m22"]));
@@ -289,7 +289,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mean Volt 2")]
         public string m23 {
             get {
                 return ((string)(this["m23"]));
@@ -301,7 +301,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mean Volt 3")]
         public string m24 {
             get {
                 return ((string)(this["m24"]));
@@ -313,7 +313,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Mean V")]
         public string m25 {
             get {
                 return ((string)(this["m25"]));
@@ -325,7 +325,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Peak Amp 1")]
         public string m26 {
             get {
                 return ((string)(this["m26"]));
@@ -337,7 +337,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Peak Amp 2")]
         public string m27 {
             get {
                 return ((string)(this["m27"]));
@@ -349,7 +349,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Peak Amp 3")]
         public string m28 {
             get {
                 return ((string)(this["m28"]));
@@ -361,7 +361,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Peak A")]
         public string m29 {
             get {
                 return ((string)(this["m29"]));
@@ -373,7 +373,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Peak Volt 1")]
         public string m30 {
             get {
                 return ((string)(this["m30"]));
@@ -385,7 +385,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Peak Volt 2")]
         public string m31 {
             get {
                 return ((string)(this["m31"]));
@@ -397,7 +397,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Peak Volt 3")]
         public string m32 {
             get {
                 return ((string)(this["m32"]));
@@ -409,7 +409,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Peak V")]
         public string m33 {
             get {
                 return ((string)(this["m33"]));
@@ -421,7 +421,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mean Amp 1")]
         public string m34 {
             get {
                 return ((string)(this["m34"]));
@@ -433,7 +433,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mean Amp 2")]
         public string m35 {
             get {
                 return ((string)(this["m35"]));
@@ -445,7 +445,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Mean Amp 3")]
         public string m36 {
             get {
                 return ((string)(this["m36"]));
@@ -457,7 +457,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("System Mean A")]
         public string m37 {
             get {
                 return ((string)(this["m37"]));
@@ -469,7 +469,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-PH-1-V")]
         public string m38 {
             get {
                 return ((string)(this["m38"]));
@@ -481,7 +481,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-PH-2-V")]
         public string m39 {
             get {
                 return ((string)(this["m39"]));
@@ -493,7 +493,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-PH-3-V")]
         public string m40 {
             get {
                 return ((string)(this["m40"]));
@@ -505,7 +505,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-SYS-V")]
         public string m41 {
             get {
                 return ((string)(this["m41"]));
@@ -517,7 +517,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-PH-1-V")]
         public string m42 {
             get {
                 return ((string)(this["m42"]));
@@ -529,7 +529,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-PH-2-V")]
         public string m43 {
             get {
                 return ((string)(this["m43"]));
@@ -541,7 +541,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-PH-3-V")]
         public string m44 {
             get {
                 return ((string)(this["m44"]));
@@ -553,7 +553,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-SYS-V")]
         public string m45 {
             get {
                 return ((string)(this["m45"]));
@@ -565,7 +565,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-PH-1-A")]
         public string m46 {
             get {
                 return ((string)(this["m46"]));
@@ -577,7 +577,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-PH-2-A")]
         public string m47 {
             get {
                 return ((string)(this["m47"]));
@@ -589,7 +589,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-PH-3-A")]
         public string m48 {
             get {
                 return ((string)(this["m48"]));
@@ -601,7 +601,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("FF-SYS-A")]
         public string m49 {
             get {
                 return ((string)(this["m49"]));
@@ -613,7 +613,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-PH-1-A")]
         public string m50 {
             get {
                 return ((string)(this["m50"]));
@@ -625,7 +625,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-PH-2-A")]
         public string m51 {
             get {
                 return ((string)(this["m51"]));
@@ -637,7 +637,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-PH-3-A")]
         public string m52 {
             get {
                 return ((string)(this["m52"]));
@@ -649,7 +649,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Temperature")]
         public string m53 {
             get {
                 return ((string)(this["m53"]));
@@ -661,7 +661,7 @@ namespace PowerAnalyzer.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("CF-SYS-A")]
         public string m54 {
             get {
                 return ((string)(this["m54"]));

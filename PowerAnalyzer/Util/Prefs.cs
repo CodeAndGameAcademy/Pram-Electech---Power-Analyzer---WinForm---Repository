@@ -16,6 +16,12 @@ namespace PowerAnalyzer.Util
             return (T)value;
         }
 
+        public static string Get(string key)
+        {
+            string value = Properties.Settings.Default[key].ToString();            
+            return value;
+        }
+
         public static void Set<T>(string key, T value)
         {
             Properties.Settings.Default[key] = value;

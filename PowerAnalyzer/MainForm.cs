@@ -36,6 +36,8 @@ namespace PowerAnalyzer
             _serialPort.DataReceived += SerialPort_DataReceived;
 
             LoadAvailablePorts();
+
+            
         }
 
 

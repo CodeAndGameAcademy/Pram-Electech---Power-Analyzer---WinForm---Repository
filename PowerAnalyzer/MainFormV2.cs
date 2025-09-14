@@ -54,6 +54,11 @@ namespace PowerAnalyzer
 
             LoadAvailablePorts();
             LoadPreference();
+
+            foreach(DataGridViewColumn column in dataGrid.Columns)
+            {
+                column.AutoSizeMode = DataGridViewAutoSizeColumnMode.ColumnHeader;
+            }
         }
 
         
@@ -562,60 +567,84 @@ namespace PowerAnalyzer
 
         private void LoadPreference()
         {
-            titleM1.Text = Prefs.Get("m1", "Volt 1");
-            titleM2.Text = Prefs.Get("m2", "Volt 2");
-            titleM3.Text = Prefs.Get("m3", "Volt 3");
-            titleM4.Text = Prefs.Get("m4", "System Volt");
-            titleM5.Text = Prefs.Get("m5", "Amp 1");
-            titleM6.Text = Prefs.Get("m6", "Amp 2");
-            titleM7.Text = Prefs.Get("m7", "Amp 3");
-            titleM8.Text = Prefs.Get("m8", "System Amp");
-            titleM9.Text = Prefs.Get("m9", "Watt 1");
-            titleM10.Text = Prefs.Get("m10", "Watt 2");
-            titleM11.Text = Prefs.Get("m11", "Watt 3");
-            titleM12.Text = Prefs.Get("m12", "System Watt");
-            titleM13.Text = Prefs.Get("m13", "PF - 1");
-            titleM14.Text = Prefs.Get("m14", "PF - 2");
-            titleM15.Text = Prefs.Get("m15", "PF - 3");
-            titleM16.Text = Prefs.Get("m16", "System PF");
-            titleM17.Text = Prefs.Get("m17", "Frequency");
-            titleM18.Text = Prefs.Get("m18", "VA 1");
-            titleM19.Text = Prefs.Get("m19", "VA 2");
-            titleM20.Text = Prefs.Get("m20", "VA 3");
-            titleM21.Text = Prefs.Get("m21", "System VA");
-            titleM22.Text = Prefs.Get("m22", "Mean Volt 1");
-            titleM23.Text = Prefs.Get("m23", "Mean Volt 2");
-            titleM24.Text = Prefs.Get("m24", "Mean Volt 3");
-            titleM25.Text = Prefs.Get("m25", "System Mean V");
-            titleM26.Text = Prefs.Get("m26", "Peak Amp 1");
-            titleM27.Text = Prefs.Get("m27", "Peak Amp 2");
-            titleM28.Text = Prefs.Get("m28", "Peak Amp 3");
-            titleM29.Text = Prefs.Get("m29", "System Peak A");
-            titleM30.Text = Prefs.Get("m30", "Peak Volt 1");
-            titleM31.Text = Prefs.Get("m31", "Peak Volt 2");
-            titleM32.Text = Prefs.Get("m32", "Peak Volt 3");
-            titleM33.Text = Prefs.Get("m33", "System Peak V");
-            titleM34.Text = Prefs.Get("m34", "Mean Amp 1");
-            titleM35.Text = Prefs.Get("m35", "Mean Amp 2");
-            titleM36.Text = Prefs.Get("m36", "Mean Amp 3");
-            titleM37.Text = Prefs.Get("m37", "System Mean A");
-            titleM38.Text = Prefs.Get("m38", "FF-PH-1-V");
-            titleM39.Text = Prefs.Get("m39", "FF-PH-2-V");
-            titleM40.Text = Prefs.Get("m40", "FF-PH-3-V");
-            titleM41.Text = Prefs.Get("m41", "FF-SYS-V");
-            titleM42.Text = Prefs.Get("m42", "CF-PH-1-V");
-            titleM43.Text = Prefs.Get("m43", "CF-PH-2-V");
-            titleM44.Text = Prefs.Get("m44", "CF-PH-3-V");
-            titleM45.Text = Prefs.Get("m45", "CF-SYS-V");
-            titleM46.Text = Prefs.Get("m46", "FF-PH-1-A");
-            titleM47.Text = Prefs.Get("m47", "FF-PH-2-A");
-            titleM48.Text = Prefs.Get("m48", "FF-PH-3-A");
-            titleM49.Text = Prefs.Get("m49", "FF-SYS-A");
-            titleM50.Text = Prefs.Get("m50", "CF-PH-1-A");
-            titleM51.Text = Prefs.Get("m51", "CF-PH-2-A");
-            titleM52.Text = Prefs.Get("m52", "CF-PH-3-A");
-            titleM53.Text = Prefs.Get("m53", "Temperature");
-            titleM54.Text = Prefs.Get("m54", "CF-SYS-A");
+            for(int i=1;i<=54;i++)
+            {
+                Label lbl = Controls.Find("titleM" + i, true).FirstOrDefault() as Label;
+
+                if(lbl != null)
+                {
+                    lbl.Text = Prefs.Get("m" + i);
+                }
+            }
+
+            //titleM1.Text = Prefs.Get("m1", "Volt 1");
+            //titleM2.Text = Prefs.Get("m2", "Volt 2");
+            //titleM3.Text = Prefs.Get("m3", "Volt 3");
+            //titleM4.Text = Prefs.Get("m4", "System Volt");
+            //titleM5.Text = Prefs.Get("m5", "Amp 1");
+            //titleM6.Text = Prefs.Get("m6", "Amp 2");
+            //titleM7.Text = Prefs.Get("m7", "Amp 3");
+            //titleM8.Text = Prefs.Get("m8", "System Amp");
+            //titleM9.Text = Prefs.Get("m9", "Watt 1");
+            //titleM10.Text = Prefs.Get("m10", "Watt 2");
+            //titleM11.Text = Prefs.Get("m11", "Watt 3");
+            //titleM12.Text = Prefs.Get("m12", "System Watt");
+            //titleM13.Text = Prefs.Get("m13", "PF - 1");
+            //titleM14.Text = Prefs.Get("m14", "PF - 2");
+            //titleM15.Text = Prefs.Get("m15", "PF - 3");
+            //titleM16.Text = Prefs.Get("m16", "System PF");
+            //titleM17.Text = Prefs.Get("m17", "Frequency");
+            //titleM18.Text = Prefs.Get("m18", "VA 1");
+            //titleM19.Text = Prefs.Get("m19", "VA 2");
+            //titleM20.Text = Prefs.Get("m20", "VA 3");
+            //titleM21.Text = Prefs.Get("m21", "System VA");
+            //titleM22.Text = Prefs.Get("m22", "Mean Volt 1");
+            //titleM23.Text = Prefs.Get("m23", "Mean Volt 2");
+            //titleM24.Text = Prefs.Get("m24", "Mean Volt 3");
+            //titleM25.Text = Prefs.Get("m25", "System Mean V");
+            //titleM26.Text = Prefs.Get("m26", "Peak Amp 1");
+            //titleM27.Text = Prefs.Get("m27", "Peak Amp 2");
+            //titleM28.Text = Prefs.Get("m28", "Peak Amp 3");
+            //titleM29.Text = Prefs.Get("m29", "System Peak A");
+            //titleM30.Text = Prefs.Get("m30", "Peak Volt 1");
+            //titleM31.Text = Prefs.Get("m31", "Peak Volt 2");
+            //titleM32.Text = Prefs.Get("m32", "Peak Volt 3");
+            //titleM33.Text = Prefs.Get("m33", "System Peak V");
+            //titleM34.Text = Prefs.Get("m34", "Mean Amp 1");
+            //titleM35.Text = Prefs.Get("m35", "Mean Amp 2");
+            //titleM36.Text = Prefs.Get("m36", "Mean Amp 3");
+            //titleM37.Text = Prefs.Get("m37", "System Mean A");
+            //titleM38.Text = Prefs.Get("m38", "FF-PH-1-V");
+            //titleM39.Text = Prefs.Get("m39", "FF-PH-2-V");
+            //titleM40.Text = Prefs.Get("m40", "FF-PH-3-V");
+            //titleM41.Text = Prefs.Get("m41", "FF-SYS-V");
+            //titleM42.Text = Prefs.Get("m42", "CF-PH-1-V");
+            //titleM43.Text = Prefs.Get("m43", "CF-PH-2-V");
+            //titleM44.Text = Prefs.Get("m44", "CF-PH-3-V");
+            //titleM45.Text = Prefs.Get("m45", "CF-SYS-V");
+            //titleM46.Text = Prefs.Get("m46", "FF-PH-1-A");
+            //titleM47.Text = Prefs.Get("m47", "FF-PH-2-A");
+            //titleM48.Text = Prefs.Get("m48", "FF-PH-3-A");
+            //titleM49.Text = Prefs.Get("m49", "FF-SYS-A");
+            //titleM50.Text = Prefs.Get("m50", "CF-PH-1-A");
+            //titleM51.Text = Prefs.Get("m51", "CF-PH-2-A");
+            //titleM52.Text = Prefs.Get("m52", "CF-PH-3-A");
+            //titleM53.Text = Prefs.Get("m53", "Temperature");
+            //titleM54.Text = Prefs.Get("m54", "CF-SYS-A");
+
+            SetDataGridColumnTitle();
+        }
+
+        private void SetDataGridColumnTitle()
+        {
+            for(int i=0;i<=dataGrid.Columns.Count-1;i++)
+            {
+                Label lbl = Controls.Find("titleM" + (i+1), true).FirstOrDefault() as Label;
+                if (lbl != null)
+                {
+                    dataGrid.Columns[i].HeaderText = lbl.Text;
+                }
+            }
         }
 
         private void ResetPreference()

@@ -3,166 +3,166 @@
   <Profiles />
   <Settings>
     <Setting Name="m1" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Volt 1</Value>
     </Setting>
     <Setting Name="m2" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Volt 2</Value>
     </Setting>
     <Setting Name="m3" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Volt 3</Value>
     </Setting>
     <Setting Name="m4" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Volt</Value>
     </Setting>
     <Setting Name="m5" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Amp 1</Value>
     </Setting>
     <Setting Name="m6" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Amp 2</Value>
     </Setting>
     <Setting Name="m7" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Amp 3</Value>
     </Setting>
     <Setting Name="m8" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Amp</Value>
     </Setting>
     <Setting Name="m9" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Watt 1</Value>
     </Setting>
     <Setting Name="m10" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Watt 2</Value>
     </Setting>
     <Setting Name="m11" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Watt 3</Value>
     </Setting>
     <Setting Name="m12" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Watt</Value>
     </Setting>
     <Setting Name="m13" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">PF 1</Value>
     </Setting>
     <Setting Name="m14" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">PF 2</Value>
     </Setting>
     <Setting Name="m15" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">PF 3</Value>
     </Setting>
     <Setting Name="m16" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System PF</Value>
     </Setting>
     <Setting Name="m17" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Frequency</Value>
     </Setting>
     <Setting Name="m18" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">VA 1</Value>
     </Setting>
     <Setting Name="m19" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">VA 2</Value>
     </Setting>
     <Setting Name="m20" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">VA 3</Value>
     </Setting>
     <Setting Name="m21" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System VA</Value>
     </Setting>
     <Setting Name="m22" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Mean Volt 1</Value>
     </Setting>
     <Setting Name="m23" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Mean Volt 2</Value>
     </Setting>
     <Setting Name="m24" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Mean Volt 3</Value>
     </Setting>
     <Setting Name="m25" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Mean V</Value>
     </Setting>
     <Setting Name="m26" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Peak Amp 1</Value>
     </Setting>
     <Setting Name="m27" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Peak Amp 2</Value>
     </Setting>
     <Setting Name="m28" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Peak Amp 3</Value>
     </Setting>
     <Setting Name="m29" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Peak A</Value>
     </Setting>
     <Setting Name="m30" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Peak Volt 1</Value>
     </Setting>
     <Setting Name="m31" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Peak Volt 2</Value>
     </Setting>
     <Setting Name="m32" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Peak Volt 3</Value>
     </Setting>
     <Setting Name="m33" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Peak V</Value>
     </Setting>
     <Setting Name="m34" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Mean Amp 1</Value>
     </Setting>
     <Setting Name="m35" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Mean Amp 2</Value>
     </Setting>
     <Setting Name="m36" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Mean Amp 3</Value>
     </Setting>
     <Setting Name="m37" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">System Mean A</Value>
     </Setting>
     <Setting Name="m38" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-PH-1-V</Value>
     </Setting>
     <Setting Name="m39" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-PH-2-V</Value>
     </Setting>
     <Setting Name="m40" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-PH-3-V</Value>
     </Setting>
     <Setting Name="m41" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-SYS-V</Value>
     </Setting>
     <Setting Name="m42" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-PH-1-V</Value>
     </Setting>
     <Setting Name="m43" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-PH-2-V</Value>
     </Setting>
     <Setting Name="m44" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-PH-3-V</Value>
     </Setting>
     <Setting Name="m45" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-SYS-V</Value>
     </Setting>
     <Setting Name="m46" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-PH-1-A</Value>
     </Setting>
     <Setting Name="m47" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-PH-2-A</Value>
     </Setting>
     <Setting Name="m48" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-PH-3-A</Value>
     </Setting>
     <Setting Name="m49" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">FF-SYS-A</Value>
     </Setting>
     <Setting Name="m50" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-PH-1-A</Value>
     </Setting>
     <Setting Name="m51" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-PH-2-A</Value>
     </Setting>
     <Setting Name="m52" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-PH-3-A</Value>
     </Setting>
     <Setting Name="m53" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Temperature</Value>
     </Setting>
     <Setting Name="m54" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">CF-SYS-A</Value>
     </Setting>
   </Settings>
 </SettingsFile>
