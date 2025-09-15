@@ -3,44 +3,50 @@
   "WorkspaceRootPath": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
-      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PowerAnalyzer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\util\\hexdecimalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:util\\hexdecimalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\util\\prefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:util\\prefs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\mainformv2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:mainformv2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\util\\hexdecimalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:util\\hexdecimalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\util\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:util\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,49 +56,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Properties\\Settings.settings",
-              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Properties\\Settings.settings",
-              "RelativeToolTip": "Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2025-09-14T17:47:54.754Z",
+              "DocumentIndex": 1,
+              "Title": "PowerAnalyzer",
+              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\PowerAnalyzer.csproj",
+              "RelativeDocumentMoniker": "PowerAnalyzer.csproj",
+              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\PowerAnalyzer.csproj",
+              "RelativeToolTip": "PowerAnalyzer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-15T08:05:24.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsForm.cs",
+              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "SettingsForm.cs",
+              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\SettingsForm.cs",
+              "RelativeToolTip": "SettingsForm.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAiwDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:29:09.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:17:47.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainFormV2.Designer.cs",
-              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.Designer.cs",
-              "RelativeDocumentMoniker": "MainFormV2.Designer.cs",
-              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.Designer.cs",
-              "RelativeToolTip": "MainFormV2.Designer.cs",
-              "ViewState": "AgIAAJYPAAAAAAAAAAAowKEPAAAAAAAAAAAAAA==",
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T17:33:14.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T07:17:16.444Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Prefs.cs",
               "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Util\\Prefs.cs",
               "RelativeDocumentMoniker": "Util\\Prefs.cs",
               "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Util\\Prefs.cs",
               "RelativeToolTip": "Util\\Prefs.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAEwBIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAvwBIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-14T15:59:48.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Helper.cs",
               "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Util\\Helper.cs",
               "RelativeDocumentMoniker": "Util\\Helper.cs",
@@ -104,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "HexDecimalConverter.cs",
               "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Util\\HexDecimalConverter.cs",
               "RelativeDocumentMoniker": "Util\\HexDecimalConverter.cs",
@@ -112,38 +143,24 @@
               "RelativeToolTip": "Util\\HexDecimalConverter.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-05T07:53:20.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T07:53:20.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAowIcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-05T05:43:16.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainFormV2.cs",
               "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.cs",
               "RelativeDocumentMoniker": "MainFormV2.cs",
               "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.cs",
               "RelativeToolTip": "MainFormV2.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAEwHgCAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAMcCAAAAAAAAAAAtwNICAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-05T03:27:11.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainFormV2.cs [Design]",
               "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.cs",
               "RelativeDocumentMoniker": "MainFormV2.cs",
@@ -155,28 +172,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainForm.cs",
-              "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAowCcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T15:24:38.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T06:20:33.484Z"
+              "WhenOpened": "2025-09-04T06:20:33.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SettingsForm.cs [Design]",
+              "DocumentMoniker": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "SettingsForm.cs",
+              "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\SettingsForm.cs [Design]",
+              "RelativeToolTip": "SettingsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:22:07.921Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

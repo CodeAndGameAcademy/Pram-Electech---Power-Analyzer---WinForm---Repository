@@ -11,5 +11,5 @@ F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyze
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.pdb
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.exe.config
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.LoginForm.resources
-F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.MainForm.resources
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.MainFormV2.resources
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Debug\PowerAnalyzer.SettingsForm.resources

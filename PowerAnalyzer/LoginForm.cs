@@ -21,13 +21,13 @@ namespace PowerAnalyzer
         {
             if(txtUsername.Text == "Mahesh" && txtPassword.Text == "Gurjar")
             {
-                MainForm mainForm = new MainForm();
+                MainFormV2 mainForm = new MainFormV2();
                 mainForm.Show();
                 this.Hide();
             }
             else
             {
-                MessageBox.Show("Invalie Username or Password", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Invalid Username or Password", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }

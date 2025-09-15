@@ -29,6 +29,7 @@ namespace PowerAnalyzer
         string meanVolt1, meanVolt2, meanVolt3, systemMeanVolt;
         string peakAmp1, peakAmp2, peakAmp3, systemPeakAmp;
         string peakVolt1, peakVolt2, peakVolt3, systemPeakVolt;
+
         string meanAmp1, meanAmp2, meanAmp3, systemMeanAmp;
         string FfPh1V, FfPh2V, FfPh3V, FfPhSysV;
         string CfPh1V, CfPh2V, CfPh3V, CfPhSysV;
@@ -565,7 +566,7 @@ namespace PowerAnalyzer
 
         #region Preference
 
-        private void LoadPreference()
+        public void LoadPreference()
         {
             for(int i=1;i<=54;i++)
             {
@@ -708,12 +709,18 @@ namespace PowerAnalyzer
 
         #endregion
 
-        #region Button - Refresh, Fast, Hold, Accurate
+        #region Button - Refresh, Settings, Fast, Hold, Accurate
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             toggleSwitchConnectDisconnect.Checked = false;            
             LoadAvailablePorts();
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            SettingsForm settingsForm = new SettingsForm(this);
+            settingsForm.ShowDialog();
         }
 
         private void btnHold_Click(object sender, EventArgs e)

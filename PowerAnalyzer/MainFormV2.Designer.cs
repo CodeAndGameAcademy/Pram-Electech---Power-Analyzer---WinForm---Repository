@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFormV2));
             this.panelTitleBar = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -41,7 +42,6 @@
             this.btnFast = new Guna.UI2.WinForms.Guna2Button();
             this.btnAccurate = new Guna.UI2.WinForms.Guna2Button();
             this.btnHold = new Guna.UI2.WinForms.Guna2Button();
-            this.btnRefresh = new Guna.UI2.WinForms.Guna2Button();
             this.toggleSwitchConnectDisconnect = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.numericUpDownDP = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.cmbPort = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -280,9 +280,6 @@
             this.panelForDataGrid = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.dataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.btnClearAll = new Guna.UI2.WinForms.Guna2Button();
-            this.btnLog = new Guna.UI2.WinForms.Guna2Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -337,6 +334,11 @@
             this.Column52 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnClearAll = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLog = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRefresh = new Guna.UI2.WinForms.Guna2Button();
             this.panelTitleBar.SuspendLayout();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDP)).BeginInit();
@@ -495,6 +497,7 @@
             // 
             // panelHeader
             // 
+            this.panelHeader.Controls.Add(this.btnSettings);
             this.panelHeader.Controls.Add(this.btnFast);
             this.panelHeader.Controls.Add(this.btnAccurate);
             this.panelHeader.Controls.Add(this.btnHold);
@@ -577,28 +580,6 @@
             this.btnHold.Text = "Hold";
             this.btnHold.UseTransparentBackground = true;
             this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
-            // 
-            // btnRefresh
-            // 
-            this.btnRefresh.Animated = true;
-            this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
-            this.btnRefresh.BorderRadius = 4;
-            this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
-            this.btnRefresh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.ForeColor = System.Drawing.Color.White;
-            this.btnRefresh.Image = global::PowerAnalyzer.Properties.Resources.Refresh1;
-            this.btnRefresh.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnRefresh.Location = new System.Drawing.Point(376, 6);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(106, 36);
-            this.btnRefresh.TabIndex = 2;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseTransparentBackground = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // toggleSwitchConnectDisconnect
             // 
@@ -3912,11 +3893,11 @@
             this.dataGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dataGrid.Location = new System.Drawing.Point(187, 0);
+            this.dataGrid.Location = new System.Drawing.Point(191, 0);
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.ReadOnly = true;
             this.dataGrid.RowHeadersVisible = false;
-            this.dataGrid.Size = new System.Drawing.Size(1113, 294);
+            this.dataGrid.Size = new System.Drawing.Size(1109, 294);
             this.dataGrid.TabIndex = 1;
             this.dataGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
             this.dataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
@@ -3940,62 +3921,6 @@
             this.dataGrid.ThemeStyle.RowsStyle.Height = 22;
             this.dataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
             this.dataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.Controls.Add(this.btnClearAll);
-            this.guna2Panel1.Controls.Add(this.btnLog);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(187, 294);
-            this.guna2Panel1.TabIndex = 0;
-            // 
-            // btnClearAll
-            // 
-            this.btnClearAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClearAll.Animated = true;
-            this.btnClearAll.BackColor = System.Drawing.Color.Transparent;
-            this.btnClearAll.BorderRadius = 4;
-            this.btnClearAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnClearAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnClearAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnClearAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnClearAll.Enabled = false;
-            this.btnClearAll.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
-            this.btnClearAll.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.btnClearAll.ForeColor = System.Drawing.Color.White;
-            this.btnClearAll.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnClearAll.Location = new System.Drawing.Point(9, 53);
-            this.btnClearAll.Name = "btnClearAll";
-            this.btnClearAll.Size = new System.Drawing.Size(164, 36);
-            this.btnClearAll.TabIndex = 4;
-            this.btnClearAll.Text = "Clear All";
-            this.btnClearAll.UseTransparentBackground = true;
-            this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
-            // 
-            // btnLog
-            // 
-            this.btnLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnLog.Animated = true;
-            this.btnLog.BackColor = System.Drawing.Color.Transparent;
-            this.btnLog.BorderRadius = 4;
-            this.btnLog.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnLog.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnLog.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnLog.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnLog.Enabled = false;
-            this.btnLog.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
-            this.btnLog.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.btnLog.ForeColor = System.Drawing.Color.White;
-            this.btnLog.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnLog.Location = new System.Drawing.Point(9, 11);
-            this.btnLog.Name = "btnLog";
-            this.btnLog.Size = new System.Drawing.Size(164, 36);
-            this.btnLog.TabIndex = 3;
-            this.btnLog.Text = "Log";
-            this.btnLog.UseTransparentBackground = true;
-            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
             // Column1
             // 
@@ -4320,6 +4245,106 @@
             this.Column54.HeaderText = "Column54";
             this.Column54.Name = "Column54";
             this.Column54.ReadOnly = true;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Controls.Add(this.btnClearAll);
+            this.guna2Panel1.Controls.Add(this.btnLog);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(191, 294);
+            this.guna2Panel1.TabIndex = 0;
+            // 
+            // btnClearAll
+            // 
+            this.btnClearAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClearAll.Animated = true;
+            this.btnClearAll.BackColor = System.Drawing.Color.Transparent;
+            this.btnClearAll.BorderRadius = 4;
+            this.btnClearAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClearAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClearAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClearAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClearAll.Enabled = false;
+            this.btnClearAll.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnClearAll.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnClearAll.ForeColor = System.Drawing.Color.White;
+            this.btnClearAll.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnClearAll.Location = new System.Drawing.Point(13, 53);
+            this.btnClearAll.Name = "btnClearAll";
+            this.btnClearAll.Size = new System.Drawing.Size(164, 36);
+            this.btnClearAll.TabIndex = 4;
+            this.btnClearAll.Text = "Clear All";
+            this.btnClearAll.UseTransparentBackground = true;
+            this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
+            // 
+            // btnLog
+            // 
+            this.btnLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLog.Animated = true;
+            this.btnLog.BackColor = System.Drawing.Color.Transparent;
+            this.btnLog.BorderRadius = 4;
+            this.btnLog.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnLog.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnLog.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnLog.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnLog.Enabled = false;
+            this.btnLog.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnLog.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnLog.ForeColor = System.Drawing.Color.White;
+            this.btnLog.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnLog.Location = new System.Drawing.Point(13, 11);
+            this.btnLog.Name = "btnLog";
+            this.btnLog.Size = new System.Drawing.Size(164, 36);
+            this.btnLog.TabIndex = 3;
+            this.btnLog.Text = "Log";
+            this.btnLog.UseTransparentBackground = true;
+            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
+            // 
+            // btnSettings
+            // 
+            this.btnSettings.Animated = true;
+            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnSettings.BorderRadius = 4;
+            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
+            this.btnSettings.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
+            this.btnSettings.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnSettings.Location = new System.Drawing.Point(488, 6);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(106, 36);
+            this.btnSettings.TabIndex = 3;
+            this.btnSettings.Text = "Settings";
+            this.btnSettings.UseTransparentBackground = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Animated = true;
+            this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
+            this.btnRefresh.BorderRadius = 4;
+            this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
+            this.btnRefresh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.ForeColor = System.Drawing.Color.White;
+            this.btnRefresh.Image = global::PowerAnalyzer.Properties.Resources.Refresh1;
+            this.btnRefresh.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnRefresh.Location = new System.Drawing.Point(376, 6);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(106, 36);
+            this.btnRefresh.TabIndex = 2;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseTransparentBackground = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // MainFormV2
             // 
@@ -4781,5 +4806,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column52;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column53;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column54;
+        private Guna.UI2.WinForms.Guna2Button btnSettings;
     }
 }
