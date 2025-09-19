@@ -19,7 +19,7 @@ namespace PowerAnalyzer
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUsername.Text == "Mahesh" && txtPassword.Text == "Gurjar")
+            if(txtUsername.Text == "PRAM" && txtPassword.Text == "123456")
             {
                 MainFormV2 mainForm = new MainFormV2();
                 mainForm.Show();

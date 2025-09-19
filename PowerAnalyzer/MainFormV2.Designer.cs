@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFormV2));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFormV2));
             this.panelTitleBar = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.btnMinimize = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnMaximize = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -39,9 +39,11 @@
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelHeader = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
             this.btnFast = new Guna.UI2.WinForms.Guna2Button();
             this.btnAccurate = new Guna.UI2.WinForms.Guna2Button();
             this.btnHold = new Guna.UI2.WinForms.Guna2Button();
+            this.btnRefresh = new Guna.UI2.WinForms.Guna2Button();
             this.toggleSwitchConnectDisconnect = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.numericUpDownDP = new Guna.UI2.WinForms.Guna2NumericUpDown();
             this.cmbPort = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -337,8 +339,6 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnClearAll = new Guna.UI2.WinForms.Guna2Button();
             this.btnLog = new Guna.UI2.WinForms.Guna2Button();
-            this.btnSettings = new Guna.UI2.WinForms.Guna2Button();
-            this.btnRefresh = new Guna.UI2.WinForms.Guna2Button();
             this.panelTitleBar.SuspendLayout();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDP)).BeginInit();
@@ -512,6 +512,28 @@
             this.panelHeader.Size = new System.Drawing.Size(1300, 48);
             this.panelHeader.TabIndex = 1;
             // 
+            // btnSettings
+            // 
+            this.btnSettings.Animated = true;
+            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
+            this.btnSettings.BorderRadius = 4;
+            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnSettings.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSettings.ForeColor = System.Drawing.Color.White;
+            this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
+            this.btnSettings.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnSettings.Location = new System.Drawing.Point(488, 6);
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.Size = new System.Drawing.Size(106, 36);
+            this.btnSettings.TabIndex = 3;
+            this.btnSettings.Text = "Settings";
+            this.btnSettings.UseTransparentBackground = true;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
+            // 
             // btnFast
             // 
             this.btnFast.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -581,6 +603,28 @@
             this.btnHold.UseTransparentBackground = true;
             this.btnHold.Click += new System.EventHandler(this.btnHold_Click);
             // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Animated = true;
+            this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
+            this.btnRefresh.BorderRadius = 4;
+            this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnRefresh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRefresh.ForeColor = System.Drawing.Color.White;
+            this.btnRefresh.Image = global::PowerAnalyzer.Properties.Resources.Refresh1;
+            this.btnRefresh.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnRefresh.Location = new System.Drawing.Point(376, 6);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(106, 36);
+            this.btnRefresh.TabIndex = 2;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseTransparentBackground = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
+            // 
             // toggleSwitchConnectDisconnect
             // 
             this.toggleSwitchConnectDisconnect.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -607,7 +651,7 @@
             this.numericUpDownDP.Name = "numericUpDownDP";
             this.numericUpDownDP.Size = new System.Drawing.Size(77, 36);
             this.numericUpDownDP.TabIndex = 1;
-            this.numericUpDownDP.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
+            this.numericUpDownDP.UpDownButtonFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
             // 
             // cmbPort
             // 
@@ -690,8 +734,9 @@
             this.guna2GradientPanel51.Controls.Add(this.label60);
             this.guna2GradientPanel51.Controls.Add(this.titleM54);
             this.guna2GradientPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel51.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel51.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel51.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel51.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel51.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel51.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel51.Name = "guna2GradientPanel51";
             this.guna2GradientPanel51.Padding = new System.Windows.Forms.Padding(6);
@@ -743,8 +788,9 @@
             this.guna2GradientPanel52.Controls.Add(this.label63);
             this.guna2GradientPanel52.Controls.Add(this.titleM52);
             this.guna2GradientPanel52.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel52.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel52.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel52.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel52.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel52.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel52.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel52.Name = "guna2GradientPanel52";
             this.guna2GradientPanel52.Padding = new System.Windows.Forms.Padding(6);
@@ -796,8 +842,9 @@
             this.guna2GradientPanel53.Controls.Add(this.label66);
             this.guna2GradientPanel53.Controls.Add(this.titleM51);
             this.guna2GradientPanel53.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel53.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel53.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel53.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel53.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel53.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel53.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel53.Name = "guna2GradientPanel53";
             this.guna2GradientPanel53.Padding = new System.Windows.Forms.Padding(6);
@@ -849,8 +896,9 @@
             this.guna2GradientPanel54.Controls.Add(this.label69);
             this.guna2GradientPanel54.Controls.Add(this.titleM50);
             this.guna2GradientPanel54.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel54.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel54.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel54.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel54.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel54.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel54.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel54.Name = "guna2GradientPanel54";
             this.guna2GradientPanel54.Padding = new System.Windows.Forms.Padding(6);
@@ -921,8 +969,9 @@
             this.guna2GradientPanel47.Controls.Add(this.label39);
             this.guna2GradientPanel47.Controls.Add(this.titleM49);
             this.guna2GradientPanel47.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel47.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel47.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel47.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel47.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel47.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel47.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel47.Name = "guna2GradientPanel47";
             this.guna2GradientPanel47.Padding = new System.Windows.Forms.Padding(6);
@@ -974,8 +1023,9 @@
             this.guna2GradientPanel48.Controls.Add(this.label48);
             this.guna2GradientPanel48.Controls.Add(this.titleM48);
             this.guna2GradientPanel48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel48.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel48.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel48.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel48.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel48.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel48.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel48.Name = "guna2GradientPanel48";
             this.guna2GradientPanel48.Padding = new System.Windows.Forms.Padding(6);
@@ -1027,8 +1077,9 @@
             this.guna2GradientPanel49.Controls.Add(this.label54);
             this.guna2GradientPanel49.Controls.Add(this.titleM47);
             this.guna2GradientPanel49.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel49.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel49.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel49.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel49.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel49.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel49.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel49.Name = "guna2GradientPanel49";
             this.guna2GradientPanel49.Padding = new System.Windows.Forms.Padding(6);
@@ -1080,8 +1131,9 @@
             this.guna2GradientPanel50.Controls.Add(this.label57);
             this.guna2GradientPanel50.Controls.Add(this.titleM46);
             this.guna2GradientPanel50.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel50.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel50.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel50.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel50.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel50.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel50.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel50.Name = "guna2GradientPanel50";
             this.guna2GradientPanel50.Padding = new System.Windows.Forms.Padding(6);
@@ -1152,8 +1204,9 @@
             this.guna2GradientPanel43.Controls.Add(this.label35);
             this.guna2GradientPanel43.Controls.Add(this.titleM45);
             this.guna2GradientPanel43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel43.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel43.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel43.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel43.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel43.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel43.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel43.Name = "guna2GradientPanel43";
             this.guna2GradientPanel43.Padding = new System.Windows.Forms.Padding(6);
@@ -1205,8 +1258,9 @@
             this.guna2GradientPanel44.Controls.Add(this.label44);
             this.guna2GradientPanel44.Controls.Add(this.titleM44);
             this.guna2GradientPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel44.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel44.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel44.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel44.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel44.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel44.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel44.Name = "guna2GradientPanel44";
             this.guna2GradientPanel44.Padding = new System.Windows.Forms.Padding(6);
@@ -1258,8 +1312,9 @@
             this.guna2GradientPanel45.Controls.Add(this.label50);
             this.guna2GradientPanel45.Controls.Add(this.titleM43);
             this.guna2GradientPanel45.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel45.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel45.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel45.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel45.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel45.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel45.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel45.Name = "guna2GradientPanel45";
             this.guna2GradientPanel45.Padding = new System.Windows.Forms.Padding(6);
@@ -1311,8 +1366,9 @@
             this.guna2GradientPanel46.Controls.Add(this.label53);
             this.guna2GradientPanel46.Controls.Add(this.titleM42);
             this.guna2GradientPanel46.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel46.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel46.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel46.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel46.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel46.Name = "guna2GradientPanel46";
             this.guna2GradientPanel46.Padding = new System.Windows.Forms.Padding(6);
@@ -1383,8 +1439,9 @@
             this.guna2GradientPanel39.Controls.Add(this.label30);
             this.guna2GradientPanel39.Controls.Add(this.titleM41);
             this.guna2GradientPanel39.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel39.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel39.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel39.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel39.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel39.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel39.Name = "guna2GradientPanel39";
             this.guna2GradientPanel39.Padding = new System.Windows.Forms.Padding(6);
@@ -1436,8 +1493,9 @@
             this.guna2GradientPanel40.Controls.Add(this.label40);
             this.guna2GradientPanel40.Controls.Add(this.titleM40);
             this.guna2GradientPanel40.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel40.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel40.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel40.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel40.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel40.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel40.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel40.Name = "guna2GradientPanel40";
             this.guna2GradientPanel40.Padding = new System.Windows.Forms.Padding(6);
@@ -1489,8 +1547,9 @@
             this.guna2GradientPanel41.Controls.Add(this.label46);
             this.guna2GradientPanel41.Controls.Add(this.titleM39);
             this.guna2GradientPanel41.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel41.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel41.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel41.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel41.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel41.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel41.Name = "guna2GradientPanel41";
             this.guna2GradientPanel41.Padding = new System.Windows.Forms.Padding(6);
@@ -1542,8 +1601,9 @@
             this.guna2GradientPanel42.Controls.Add(this.label49);
             this.guna2GradientPanel42.Controls.Add(this.titleM38);
             this.guna2GradientPanel42.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel42.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel42.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel42.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel42.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel42.Name = "guna2GradientPanel42";
             this.guna2GradientPanel42.Padding = new System.Windows.Forms.Padding(6);
@@ -1614,8 +1674,9 @@
             this.guna2GradientPanel35.Controls.Add(this.label23);
             this.guna2GradientPanel35.Controls.Add(this.titleM37);
             this.guna2GradientPanel35.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel35.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel35.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel35.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel35.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel35.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel35.Name = "guna2GradientPanel35";
             this.guna2GradientPanel35.Padding = new System.Windows.Forms.Padding(6);
@@ -1667,8 +1728,9 @@
             this.guna2GradientPanel36.Controls.Add(this.label36);
             this.guna2GradientPanel36.Controls.Add(this.titleM36);
             this.guna2GradientPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel36.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel36.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel36.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel36.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel36.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel36.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel36.Name = "guna2GradientPanel36";
             this.guna2GradientPanel36.Padding = new System.Windows.Forms.Padding(6);
@@ -1720,8 +1782,9 @@
             this.guna2GradientPanel37.Controls.Add(this.label42);
             this.guna2GradientPanel37.Controls.Add(this.titleM35);
             this.guna2GradientPanel37.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel37.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel37.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel37.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel37.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel37.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel37.Name = "guna2GradientPanel37";
             this.guna2GradientPanel37.Padding = new System.Windows.Forms.Padding(6);
@@ -1773,8 +1836,9 @@
             this.guna2GradientPanel38.Controls.Add(this.label45);
             this.guna2GradientPanel38.Controls.Add(this.titleM34);
             this.guna2GradientPanel38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel38.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel38.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel38.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel38.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel38.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel38.Name = "guna2GradientPanel38";
             this.guna2GradientPanel38.Padding = new System.Windows.Forms.Padding(6);
@@ -1845,8 +1909,9 @@
             this.guna2GradientPanel31.Controls.Add(this.label18);
             this.guna2GradientPanel31.Controls.Add(this.titleM33);
             this.guna2GradientPanel31.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel31.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel31.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel31.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel31.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel31.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel31.Name = "guna2GradientPanel31";
             this.guna2GradientPanel31.Padding = new System.Windows.Forms.Padding(6);
@@ -1898,8 +1963,9 @@
             this.guna2GradientPanel32.Controls.Add(this.label31);
             this.guna2GradientPanel32.Controls.Add(this.titleM32);
             this.guna2GradientPanel32.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel32.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel32.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel32.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel32.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel32.Name = "guna2GradientPanel32";
             this.guna2GradientPanel32.Padding = new System.Windows.Forms.Padding(6);
@@ -1951,8 +2017,9 @@
             this.guna2GradientPanel33.Controls.Add(this.label38);
             this.guna2GradientPanel33.Controls.Add(this.titleM31);
             this.guna2GradientPanel33.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel33.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel33.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel33.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel33.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel33.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel33.Name = "guna2GradientPanel33";
             this.guna2GradientPanel33.Padding = new System.Windows.Forms.Padding(6);
@@ -2004,8 +2071,9 @@
             this.guna2GradientPanel34.Controls.Add(this.label41);
             this.guna2GradientPanel34.Controls.Add(this.titleM30);
             this.guna2GradientPanel34.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel34.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel34.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel34.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel34.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel34.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel34.Name = "guna2GradientPanel34";
             this.guna2GradientPanel34.Padding = new System.Windows.Forms.Padding(6);
@@ -2076,8 +2144,9 @@
             this.guna2GradientPanel27.Controls.Add(this.label14);
             this.guna2GradientPanel27.Controls.Add(this.titleM29);
             this.guna2GradientPanel27.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel27.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel27.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel27.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel27.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel27.Name = "guna2GradientPanel27";
             this.guna2GradientPanel27.Padding = new System.Windows.Forms.Padding(6);
@@ -2129,8 +2198,9 @@
             this.guna2GradientPanel28.Controls.Add(this.label25);
             this.guna2GradientPanel28.Controls.Add(this.titleM28);
             this.guna2GradientPanel28.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel28.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel28.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel28.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel28.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel28.Name = "guna2GradientPanel28";
             this.guna2GradientPanel28.Padding = new System.Windows.Forms.Padding(6);
@@ -2182,8 +2252,9 @@
             this.guna2GradientPanel29.Controls.Add(this.label34);
             this.guna2GradientPanel29.Controls.Add(this.titleM27);
             this.guna2GradientPanel29.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel29.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel29.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel29.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel29.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel29.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel29.Name = "guna2GradientPanel29";
             this.guna2GradientPanel29.Padding = new System.Windows.Forms.Padding(6);
@@ -2235,8 +2306,9 @@
             this.guna2GradientPanel30.Controls.Add(this.label37);
             this.guna2GradientPanel30.Controls.Add(this.titleM26);
             this.guna2GradientPanel30.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel30.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel30.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel30.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel30.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel30.Name = "guna2GradientPanel30";
             this.guna2GradientPanel30.Padding = new System.Windows.Forms.Padding(6);
@@ -2307,8 +2379,9 @@
             this.guna2GradientPanel21.Controls.Add(this.label13);
             this.guna2GradientPanel21.Controls.Add(this.titleM25);
             this.guna2GradientPanel21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel21.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel21.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel21.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel21.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel21.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel21.Name = "guna2GradientPanel21";
             this.guna2GradientPanel21.Padding = new System.Windows.Forms.Padding(6);
@@ -2360,8 +2433,9 @@
             this.guna2GradientPanel24.Controls.Add(this.label20);
             this.guna2GradientPanel24.Controls.Add(this.titleM24);
             this.guna2GradientPanel24.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel24.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel24.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel24.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel24.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel24.Name = "guna2GradientPanel24";
             this.guna2GradientPanel24.Padding = new System.Windows.Forms.Padding(6);
@@ -2413,8 +2487,9 @@
             this.guna2GradientPanel25.Controls.Add(this.label28);
             this.guna2GradientPanel25.Controls.Add(this.titleM23);
             this.guna2GradientPanel25.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel25.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel25.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel25.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel25.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel25.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel25.Name = "guna2GradientPanel25";
             this.guna2GradientPanel25.Padding = new System.Windows.Forms.Padding(6);
@@ -2466,8 +2541,9 @@
             this.guna2GradientPanel26.Controls.Add(this.label33);
             this.guna2GradientPanel26.Controls.Add(this.titleM22);
             this.guna2GradientPanel26.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel26.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel26.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel26.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel26.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel26.Name = "guna2GradientPanel26";
             this.guna2GradientPanel26.Padding = new System.Windows.Forms.Padding(6);
@@ -2661,8 +2737,9 @@
             this.guna2GradientPanel17.Controls.Add(this.label8);
             this.guna2GradientPanel17.Controls.Add(this.titleM21);
             this.guna2GradientPanel17.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel17.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel17.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel17.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel17.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel17.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel17.Name = "guna2GradientPanel17";
             this.guna2GradientPanel17.Padding = new System.Windows.Forms.Padding(6);
@@ -2714,8 +2791,9 @@
             this.guna2GradientPanel18.Controls.Add(this.label17);
             this.guna2GradientPanel18.Controls.Add(this.titleM20);
             this.guna2GradientPanel18.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel18.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel18.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel18.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel18.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel18.Name = "guna2GradientPanel18";
             this.guna2GradientPanel18.Padding = new System.Windows.Forms.Padding(6);
@@ -2767,8 +2845,9 @@
             this.guna2GradientPanel19.Controls.Add(this.label22);
             this.guna2GradientPanel19.Controls.Add(this.titleM19);
             this.guna2GradientPanel19.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel19.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel19.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel19.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel19.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel19.Name = "guna2GradientPanel19";
             this.guna2GradientPanel19.Padding = new System.Windows.Forms.Padding(6);
@@ -2820,8 +2899,9 @@
             this.guna2GradientPanel20.Controls.Add(this.label26);
             this.guna2GradientPanel20.Controls.Add(this.titleM18);
             this.guna2GradientPanel20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel20.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel20.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel20.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel20.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel20.Name = "guna2GradientPanel20";
             this.guna2GradientPanel20.Padding = new System.Windows.Forms.Padding(6);
@@ -2892,8 +2972,9 @@
             this.guna2GradientPanel13.Controls.Add(this.label10);
             this.guna2GradientPanel13.Controls.Add(this.titleM16);
             this.guna2GradientPanel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel13.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel13.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel13.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel13.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel13.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel13.Name = "guna2GradientPanel13";
             this.guna2GradientPanel13.Padding = new System.Windows.Forms.Padding(6);
@@ -2945,8 +3026,9 @@
             this.guna2GradientPanel14.Controls.Add(this.label21);
             this.guna2GradientPanel14.Controls.Add(this.titleM15);
             this.guna2GradientPanel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel14.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel14.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel14.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel14.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel14.Name = "guna2GradientPanel14";
             this.guna2GradientPanel14.Padding = new System.Windows.Forms.Padding(6);
@@ -2998,8 +3080,9 @@
             this.guna2GradientPanel15.Controls.Add(this.label24);
             this.guna2GradientPanel15.Controls.Add(this.titleM14);
             this.guna2GradientPanel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel15.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel15.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel15.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel15.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel15.Name = "guna2GradientPanel15";
             this.guna2GradientPanel15.Padding = new System.Windows.Forms.Padding(6);
@@ -3051,8 +3134,9 @@
             this.guna2GradientPanel16.Controls.Add(this.label27);
             this.guna2GradientPanel16.Controls.Add(this.titleM13);
             this.guna2GradientPanel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel16.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel16.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel16.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel16.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel16.Name = "guna2GradientPanel16";
             this.guna2GradientPanel16.Padding = new System.Windows.Forms.Padding(6);
@@ -3123,8 +3207,9 @@
             this.guna2GradientPanel9.Controls.Add(this.label7);
             this.guna2GradientPanel9.Controls.Add(this.titleM12);
             this.guna2GradientPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel9.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel9.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel9.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel9.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel9.Name = "guna2GradientPanel9";
             this.guna2GradientPanel9.Padding = new System.Windows.Forms.Padding(6);
@@ -3176,8 +3261,9 @@
             this.guna2GradientPanel10.Controls.Add(this.label11);
             this.guna2GradientPanel10.Controls.Add(this.titleM11);
             this.guna2GradientPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel10.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel10.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel10.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel10.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel10.Name = "guna2GradientPanel10";
             this.guna2GradientPanel10.Padding = new System.Windows.Forms.Padding(6);
@@ -3229,8 +3315,9 @@
             this.guna2GradientPanel11.Controls.Add(this.label16);
             this.guna2GradientPanel11.Controls.Add(this.titleM10);
             this.guna2GradientPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel11.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel11.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel11.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel11.Name = "guna2GradientPanel11";
             this.guna2GradientPanel11.Padding = new System.Windows.Forms.Padding(6);
@@ -3282,8 +3369,9 @@
             this.guna2GradientPanel12.Controls.Add(this.label19);
             this.guna2GradientPanel12.Controls.Add(this.titleM9);
             this.guna2GradientPanel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel12.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel12.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel12.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel12.Name = "guna2GradientPanel12";
             this.guna2GradientPanel12.Padding = new System.Windows.Forms.Padding(6);
@@ -3355,8 +3443,9 @@
             this.guna2GradientPanel5.Controls.Add(this.label6);
             this.guna2GradientPanel5.Controls.Add(this.titleM8);
             this.guna2GradientPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel5.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel5.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel5.Name = "guna2GradientPanel5";
             this.guna2GradientPanel5.Padding = new System.Windows.Forms.Padding(6);
@@ -3408,8 +3497,9 @@
             this.guna2GradientPanel6.Controls.Add(this.label9);
             this.guna2GradientPanel6.Controls.Add(this.titleM7);
             this.guna2GradientPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel6.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel6.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel6.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel6.Name = "guna2GradientPanel6";
             this.guna2GradientPanel6.Padding = new System.Windows.Forms.Padding(6);
@@ -3461,8 +3551,9 @@
             this.guna2GradientPanel7.Controls.Add(this.label12);
             this.guna2GradientPanel7.Controls.Add(this.titleM6);
             this.guna2GradientPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel7.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel7.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel7.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel7.Name = "guna2GradientPanel7";
             this.guna2GradientPanel7.Padding = new System.Windows.Forms.Padding(6);
@@ -3514,8 +3605,9 @@
             this.guna2GradientPanel8.Controls.Add(this.label15);
             this.guna2GradientPanel8.Controls.Add(this.titleM5);
             this.guna2GradientPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel8.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel8.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel8.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel8.Name = "guna2GradientPanel8";
             this.guna2GradientPanel8.Padding = new System.Windows.Forms.Padding(6);
@@ -3587,8 +3679,9 @@
             this.guna2GradientPanel4.Controls.Add(this.label5);
             this.guna2GradientPanel4.Controls.Add(this.titleM4);
             this.guna2GradientPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel4.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel4.Location = new System.Drawing.Point(954, 3);
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.Padding = new System.Windows.Forms.Padding(6);
@@ -3640,8 +3733,9 @@
             this.guna2GradientPanel3.Controls.Add(this.label4);
             this.guna2GradientPanel3.Controls.Add(this.titleM3);
             this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel3.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel3.Location = new System.Drawing.Point(637, 3);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.Padding = new System.Windows.Forms.Padding(6);
@@ -3693,8 +3787,9 @@
             this.guna2GradientPanel2.Controls.Add(this.label2);
             this.guna2GradientPanel2.Controls.Add(this.titleM2);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel2.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel2.Location = new System.Drawing.Point(320, 3);
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(6);
@@ -3741,13 +3836,15 @@
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.BorderRadius = 4;
             this.guna2GradientPanel1.Controls.Add(this.lblV1);
             this.guna2GradientPanel1.Controls.Add(this.label3);
             this.guna2GradientPanel1.Controls.Add(this.titleM1);
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(250)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(240)))), ((int)(((byte)(255)))));
+            this.guna2GradientPanel1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.BackwardDiagonal;
             this.guna2GradientPanel1.Location = new System.Drawing.Point(3, 3);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(6);
@@ -3815,18 +3912,18 @@
             // dataGrid
             // 
             this.dataGrid.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.dataGrid.ColumnHeadersHeight = 30;
+            this.dataGrid.ColumnHeadersHeight = 35;
             this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.dataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -3884,42 +3981,42 @@
             this.Column53,
             this.Column54});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGrid.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
+            this.dataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.dataGrid.Location = new System.Drawing.Point(191, 0);
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.ReadOnly = true;
             this.dataGrid.RowHeadersVisible = false;
             this.dataGrid.Size = new System.Drawing.Size(1109, 294);
             this.dataGrid.TabIndex = 1;
-            this.dataGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Alizarin;
-            this.dataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(201)))), ((int)(((byte)(197)))));
+            this.dataGrid.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.LightGrid;
+            this.dataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dataGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.dataGrid.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
             this.dataGrid.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
             this.dataGrid.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
             this.dataGrid.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.dataGrid.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(192)))), ((int)(((byte)(188)))));
-            this.dataGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(76)))), ((int)(((byte)(60)))));
+            this.dataGrid.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
+            this.dataGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(237)))));
             this.dataGrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised;
             this.dataGrid.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dataGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.dataGrid.ThemeStyle.HeaderStyle.Height = 30;
+            this.dataGrid.ThemeStyle.HeaderStyle.Height = 35;
             this.dataGrid.ThemeStyle.ReadOnly = true;
-            this.dataGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(219)))), ((int)(((byte)(216)))));
+            this.dataGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.dataGrid.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dataGrid.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGrid.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.Black;
             this.dataGrid.ThemeStyle.RowsStyle.Height = 22;
-            this.dataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(135)))), ((int)(((byte)(125)))));
+            this.dataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(241)))), ((int)(((byte)(243)))));
             this.dataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             // 
             // Column1
@@ -4302,56 +4399,12 @@
             this.btnLog.UseTransparentBackground = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
-            // btnSettings
-            // 
-            this.btnSettings.Animated = true;
-            this.btnSettings.BackColor = System.Drawing.Color.Transparent;
-            this.btnSettings.BorderRadius = 4;
-            this.btnSettings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnSettings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnSettings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnSettings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnSettings.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
-            this.btnSettings.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
-            this.btnSettings.ForeColor = System.Drawing.Color.White;
-            this.btnSettings.Image = ((System.Drawing.Image)(resources.GetObject("btnSettings.Image")));
-            this.btnSettings.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnSettings.Location = new System.Drawing.Point(488, 6);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(106, 36);
-            this.btnSettings.TabIndex = 3;
-            this.btnSettings.Text = "Settings";
-            this.btnSettings.UseTransparentBackground = true;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // btnRefresh
-            // 
-            this.btnRefresh.Animated = true;
-            this.btnRefresh.BackColor = System.Drawing.Color.Transparent;
-            this.btnRefresh.BorderRadius = 4;
-            this.btnRefresh.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRefresh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRefresh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRefresh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRefresh.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
-            this.btnRefresh.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRefresh.ForeColor = System.Drawing.Color.White;
-            this.btnRefresh.Image = global::PowerAnalyzer.Properties.Resources.Refresh1;
-            this.btnRefresh.ImageSize = new System.Drawing.Size(32, 32);
-            this.btnRefresh.Location = new System.Drawing.Point(376, 6);
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(106, 36);
-            this.btnRefresh.TabIndex = 2;
-            this.btnRefresh.Text = "Refresh";
-            this.btnRefresh.UseTransparentBackground = true;
-            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
-            // 
             // MainFormV2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(246)))));
             this.ClientSize = new System.Drawing.Size(1300, 720);
             this.Controls.Add(this.panelForDataGrid);
             this.Controls.Add(this.panelForBoxes);
@@ -4364,6 +4417,7 @@
             this.Name = "MainFormV2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainFormV2";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelTitleBar.ResumeLayout(false);
             this.panelTitleBar.PerformLayout();
             this.panelHeader.ResumeLayout(false);

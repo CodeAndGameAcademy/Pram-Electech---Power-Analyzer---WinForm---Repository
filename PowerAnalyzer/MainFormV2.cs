@@ -97,23 +97,9 @@ namespace PowerAnalyzer
             if (toggleSwitchConnectDisconnect.Checked)
             {
                 Connect(); 
-                
-                btnLog.Enabled = true;
-                btnClearAll.Enabled = true;
-
-                btnFast.Enabled = true;
-                btnAccurate.Enabled = true;
-                btnHold.Enabled = true;
             }
             else
             {
-                btnLog.Enabled = false;
-                btnClearAll.Enabled = false;
-
-                btnFast.Enabled = false;
-                btnAccurate.Enabled = false;
-                btnHold.Enabled = false;
-
                 Disconnect();
             }
         }
@@ -122,18 +108,25 @@ namespace PowerAnalyzer
         {
             try
             {
-                if (cmbPort.SelectedItem == null || cmbPort.SelectedItem.ToString() != "COM3")
-                {
-                    toggleSwitchConnectDisconnect.Checked = false;
-                    MessageBox.Show("No valid COM port selected!");
-                    return;
-                }
+                //if (cmbPort.SelectedItem == null || cmbPort.SelectedItem.ToString() != "COM3")
+                //{
+                //    toggleSwitchConnectDisconnect.Checked = false;
+                //    MessageBox.Show("No valid COM port selected!");
+                //    return;
+                //}
 
                 if (_serialPort.IsOpen) _serialPort.Close();
 
                 _serialPort.PortName = cmbPort.SelectedItem.ToString();
                 _serialPort.Open();
-                
+
+                btnLog.Enabled = true;
+                btnClearAll.Enabled = true;
+
+                btnFast.Enabled = true;
+                btnAccurate.Enabled = true;
+                btnHold.Enabled = true;
+
                 // Console.Write("Connected to " + _serialPort.PortName);
             }
             catch (Exception ex)
@@ -149,8 +142,15 @@ namespace PowerAnalyzer
                 if (_serialPort.IsOpen)
                 {
                     _serialPort.Close();
-                    // Console.WriteLine("Disconnected");
+                    // Console.WriteLine("Disconnected");                    
                 }
+
+                btnLog.Enabled = false;
+                btnClearAll.Enabled = false;
+
+                btnFast.Enabled = false;
+                btnAccurate.Enabled = false;
+                btnHold.Enabled = false;
 
                 ClearAllData();                
             }
