@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeClientAuthentication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeClientAuthentication.Designer.cs">
+      <DependentUpon>ChangeClientAuthentication.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Util\Helper.cs" />
     <Compile Include="Util\HexDecimalConverter.cs" />
     <Compile Include="Util\Prefs.cs" />
+    <EmbeddedResource Include="ChangeClientAuthentication.resx">
+      <DependentUpon>ChangeClientAuthentication.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

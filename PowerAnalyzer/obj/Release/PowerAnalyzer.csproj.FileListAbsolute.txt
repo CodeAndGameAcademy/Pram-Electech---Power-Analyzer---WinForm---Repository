@@ -12,3 +12,4 @@ F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyze
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Release\PowerAna.C18F8C41.Up2Date
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Release\PowerAnalyzer.exe
 F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Release\PowerAnalyzer.pdb
+F:\Repository\Pram-Electech---Power-Analyzer---WinForm---Repository\PowerAnalyzer\obj\Release\PowerAnalyzer.exe.config

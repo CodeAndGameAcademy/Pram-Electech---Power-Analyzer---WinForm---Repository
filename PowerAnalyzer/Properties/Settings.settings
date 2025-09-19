@@ -164,5 +164,11 @@
     <Setting Name="m54" Type="System.String" Scope="User">
       <Value Profile="(Default)">CF-SYS-A</Value>
     </Setting>
+    <Setting Name="username" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PRAM</Value>
+    </Setting>
+    <Setting Name="password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">123456</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
