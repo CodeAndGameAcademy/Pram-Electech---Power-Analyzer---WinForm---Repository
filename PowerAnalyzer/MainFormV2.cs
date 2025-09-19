@@ -282,6 +282,9 @@ namespace PowerAnalyzer
                             // Console.WriteLine(hexString);
                             string[] hexStringArray = hexFrame.Split(' ');
 
+                            Console.Write(hexStringArray[225]+" -- "+hexStringArray[226]+" ====== ");
+                            Console.WriteLine(Helper.HexStringToDecimal(hexStringArray[225], "0")+" ===== "+ Helper.HexStringToDecimal(hexStringArray[226], "0")+"\n");
+
                             #region Dynamic Data Reading
 
                             try
@@ -321,8 +324,7 @@ namespace PowerAnalyzer
                                             i1Dp = hexStringArray[i + 4];
                                             i2Dp = hexStringArray[i + 3];
                                             i3Dp = hexStringArray[i + 2];
-                                            sysIDp = hexStringArray[i + 1];
-                                            Console.WriteLine((i + 1) + " ---- " + sysIDp + " ---- "+i1Dp);
+                                            sysIDp = hexStringArray[i + 1];                                            
                                             break;
                                         case "51":
                                             p1Dp = hexStringArray[i + 4];

@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:mainformv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\util\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\util\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:util\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|f:\\repository\\pram-electech---power-analyzer---winform---repository\\poweranalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3E6B3B76-D47F-4610-A22A-2D6E3F36611D}|PowerAnalyzer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "Util\\Helper.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAwCIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:19:11.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T09:19:11.803Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:17:39.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T09:17:39.388Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "MainFormV2.cs",
               "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.cs",
               "RelativeToolTip": "MainFormV2.cs",
-              "ViewState": "AgIAADoBAAAAAAAAAAAgwEQBAABrAAAAAAAAAA==",
+              "ViewState": "AgIAABUBAAAAAAAAAAAiwB0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-19T09:02:47.185Z",
               "EditorCaption": ""
@@ -76,8 +74,7 @@
               "ToolTip": "F:\\Repository\\Pram-Electech---Power-Analyzer---WinForm---Repository\\PowerAnalyzer\\MainFormV2.cs [Design]",
               "RelativeToolTip": "MainFormV2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T08:43:52.105Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-09-19T08:43:52.105Z"
             }
           ]
         }
