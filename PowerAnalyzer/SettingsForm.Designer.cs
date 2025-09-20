@@ -84,6 +84,66 @@
             this.m49 = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnSavePreference = new Guna.UI2.WinForms.Guna2Button();
             this.closeControlBox = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2CheckBox1 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox2 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox3 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox4 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox5 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox6 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox7 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox8 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox9 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox10 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox11 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox12 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox13 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox14 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox15 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox16 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox17 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox18 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox19 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox20 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox21 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox22 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox23 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox24 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox25 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox26 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox27 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox28 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox29 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox30 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox31 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox32 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox33 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox34 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox35 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox36 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox37 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox38 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox39 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox40 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox41 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox42 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox43 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox44 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox45 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox46 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox47 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox48 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox49 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox50 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox51 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox52 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox53 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.guna2CheckBox56 = new Guna.UI2.WinForms.Guna2CheckBox();
+            this.btnPhase1ShowHide = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPhase4ShowHide = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPhase3ShowHide = new Guna.UI2.WinForms.Guna2Button();
+            this.btnPhase2ShowHide = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSelectAll = new Guna.UI2.WinForms.Guna2Button();
+            this.btnClearAll = new Guna.UI2.WinForms.Guna2Button();
             this.SuspendLayout();
             // 
             // m1
@@ -100,7 +160,7 @@
             this.m1.Font = new System.Drawing.Font("Segoe UI", 11.25F);
             this.m1.ForeColor = System.Drawing.Color.Black;
             this.m1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m1.Location = new System.Drawing.Point(12, 13);
+            this.m1.Location = new System.Drawing.Point(33, 86);
             this.m1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m1.Name = "m1";
             this.m1.PasswordChar = '\0';
@@ -123,7 +183,7 @@
             this.m2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m2.ForeColor = System.Drawing.Color.Black;
             this.m2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m2.Location = new System.Drawing.Point(144, 13);
+            this.m2.Location = new System.Drawing.Point(206, 86);
             this.m2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m2.Name = "m2";
             this.m2.PasswordChar = '\0';
@@ -146,7 +206,7 @@
             this.m3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m3.ForeColor = System.Drawing.Color.Black;
             this.m3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m3.Location = new System.Drawing.Point(276, 13);
+            this.m3.Location = new System.Drawing.Point(379, 86);
             this.m3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m3.Name = "m3";
             this.m3.PasswordChar = '\0';
@@ -169,7 +229,7 @@
             this.m4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m4.ForeColor = System.Drawing.Color.Black;
             this.m4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m4.Location = new System.Drawing.Point(408, 13);
+            this.m4.Location = new System.Drawing.Point(552, 86);
             this.m4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m4.Name = "m4";
             this.m4.PasswordChar = '\0';
@@ -192,7 +252,7 @@
             this.m5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m5.ForeColor = System.Drawing.Color.Black;
             this.m5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m5.Location = new System.Drawing.Point(540, 13);
+            this.m5.Location = new System.Drawing.Point(33, 132);
             this.m5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m5.Name = "m5";
             this.m5.PasswordChar = '\0';
@@ -215,7 +275,7 @@
             this.m6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m6.ForeColor = System.Drawing.Color.Black;
             this.m6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m6.Location = new System.Drawing.Point(672, 13);
+            this.m6.Location = new System.Drawing.Point(206, 132);
             this.m6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m6.Name = "m6";
             this.m6.PasswordChar = '\0';
@@ -238,7 +298,7 @@
             this.m12.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m12.ForeColor = System.Drawing.Color.Black;
             this.m12.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m12.Location = new System.Drawing.Point(672, 59);
+            this.m12.Location = new System.Drawing.Point(552, 178);
             this.m12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m12.Name = "m12";
             this.m12.PasswordChar = '\0';
@@ -261,7 +321,7 @@
             this.m11.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m11.ForeColor = System.Drawing.Color.Black;
             this.m11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m11.Location = new System.Drawing.Point(540, 59);
+            this.m11.Location = new System.Drawing.Point(379, 178);
             this.m11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m11.Name = "m11";
             this.m11.PasswordChar = '\0';
@@ -284,7 +344,7 @@
             this.m10.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m10.ForeColor = System.Drawing.Color.Black;
             this.m10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m10.Location = new System.Drawing.Point(408, 59);
+            this.m10.Location = new System.Drawing.Point(206, 178);
             this.m10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m10.Name = "m10";
             this.m10.PasswordChar = '\0';
@@ -307,7 +367,7 @@
             this.m9.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m9.ForeColor = System.Drawing.Color.Black;
             this.m9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m9.Location = new System.Drawing.Point(276, 59);
+            this.m9.Location = new System.Drawing.Point(33, 178);
             this.m9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m9.Name = "m9";
             this.m9.PasswordChar = '\0';
@@ -330,7 +390,7 @@
             this.m8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m8.ForeColor = System.Drawing.Color.Black;
             this.m8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m8.Location = new System.Drawing.Point(144, 59);
+            this.m8.Location = new System.Drawing.Point(552, 132);
             this.m8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m8.Name = "m8";
             this.m8.PasswordChar = '\0';
@@ -354,7 +414,7 @@
             this.m7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m7.ForeColor = System.Drawing.Color.Black;
             this.m7.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m7.Location = new System.Drawing.Point(12, 59);
+            this.m7.Location = new System.Drawing.Point(379, 132);
             this.m7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m7.Name = "m7";
             this.m7.PasswordChar = '\0';
@@ -377,7 +437,7 @@
             this.m18.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m18.ForeColor = System.Drawing.Color.Black;
             this.m18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m18.Location = new System.Drawing.Point(672, 105);
+            this.m18.Location = new System.Drawing.Point(33, 270);
             this.m18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m18.Name = "m18";
             this.m18.PasswordChar = '\0';
@@ -400,7 +460,7 @@
             this.m17.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m17.ForeColor = System.Drawing.Color.Black;
             this.m17.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m17.Location = new System.Drawing.Point(540, 105);
+            this.m17.Location = new System.Drawing.Point(33, 684);
             this.m17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m17.Name = "m17";
             this.m17.PasswordChar = '\0';
@@ -423,7 +483,7 @@
             this.m16.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m16.ForeColor = System.Drawing.Color.Black;
             this.m16.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m16.Location = new System.Drawing.Point(408, 105);
+            this.m16.Location = new System.Drawing.Point(552, 224);
             this.m16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m16.Name = "m16";
             this.m16.PasswordChar = '\0';
@@ -446,7 +506,7 @@
             this.m15.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m15.ForeColor = System.Drawing.Color.Black;
             this.m15.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m15.Location = new System.Drawing.Point(276, 105);
+            this.m15.Location = new System.Drawing.Point(379, 224);
             this.m15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m15.Name = "m15";
             this.m15.PasswordChar = '\0';
@@ -469,7 +529,7 @@
             this.m14.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m14.ForeColor = System.Drawing.Color.Black;
             this.m14.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m14.Location = new System.Drawing.Point(144, 105);
+            this.m14.Location = new System.Drawing.Point(206, 224);
             this.m14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m14.Name = "m14";
             this.m14.PasswordChar = '\0';
@@ -492,7 +552,7 @@
             this.m13.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m13.ForeColor = System.Drawing.Color.Black;
             this.m13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m13.Location = new System.Drawing.Point(12, 105);
+            this.m13.Location = new System.Drawing.Point(33, 224);
             this.m13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m13.Name = "m13";
             this.m13.PasswordChar = '\0';
@@ -515,7 +575,7 @@
             this.m24.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m24.ForeColor = System.Drawing.Color.Black;
             this.m24.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m24.Location = new System.Drawing.Point(672, 151);
+            this.m24.Location = new System.Drawing.Point(379, 316);
             this.m24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m24.Name = "m24";
             this.m24.PasswordChar = '\0';
@@ -538,7 +598,7 @@
             this.m23.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m23.ForeColor = System.Drawing.Color.Black;
             this.m23.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m23.Location = new System.Drawing.Point(540, 151);
+            this.m23.Location = new System.Drawing.Point(206, 316);
             this.m23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m23.Name = "m23";
             this.m23.PasswordChar = '\0';
@@ -561,7 +621,7 @@
             this.m22.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m22.ForeColor = System.Drawing.Color.Black;
             this.m22.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m22.Location = new System.Drawing.Point(408, 151);
+            this.m22.Location = new System.Drawing.Point(33, 316);
             this.m22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m22.Name = "m22";
             this.m22.PasswordChar = '\0';
@@ -584,7 +644,7 @@
             this.m21.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m21.ForeColor = System.Drawing.Color.Black;
             this.m21.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m21.Location = new System.Drawing.Point(276, 151);
+            this.m21.Location = new System.Drawing.Point(552, 270);
             this.m21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m21.Name = "m21";
             this.m21.PasswordChar = '\0';
@@ -607,7 +667,7 @@
             this.m20.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m20.ForeColor = System.Drawing.Color.Black;
             this.m20.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m20.Location = new System.Drawing.Point(144, 151);
+            this.m20.Location = new System.Drawing.Point(379, 270);
             this.m20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m20.Name = "m20";
             this.m20.PasswordChar = '\0';
@@ -630,7 +690,7 @@
             this.m19.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m19.ForeColor = System.Drawing.Color.Black;
             this.m19.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m19.Location = new System.Drawing.Point(12, 151);
+            this.m19.Location = new System.Drawing.Point(206, 270);
             this.m19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m19.Name = "m19";
             this.m19.PasswordChar = '\0';
@@ -653,7 +713,7 @@
             this.m30.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m30.ForeColor = System.Drawing.Color.Black;
             this.m30.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m30.Location = new System.Drawing.Point(672, 197);
+            this.m30.Location = new System.Drawing.Point(33, 408);
             this.m30.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m30.Name = "m30";
             this.m30.PasswordChar = '\0';
@@ -676,7 +736,7 @@
             this.m29.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m29.ForeColor = System.Drawing.Color.Black;
             this.m29.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m29.Location = new System.Drawing.Point(540, 197);
+            this.m29.Location = new System.Drawing.Point(552, 362);
             this.m29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m29.Name = "m29";
             this.m29.PasswordChar = '\0';
@@ -699,7 +759,7 @@
             this.m28.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m28.ForeColor = System.Drawing.Color.Black;
             this.m28.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m28.Location = new System.Drawing.Point(408, 197);
+            this.m28.Location = new System.Drawing.Point(379, 362);
             this.m28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m28.Name = "m28";
             this.m28.PasswordChar = '\0';
@@ -722,7 +782,7 @@
             this.m27.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m27.ForeColor = System.Drawing.Color.Black;
             this.m27.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m27.Location = new System.Drawing.Point(276, 197);
+            this.m27.Location = new System.Drawing.Point(206, 362);
             this.m27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m27.Name = "m27";
             this.m27.PasswordChar = '\0';
@@ -745,7 +805,7 @@
             this.m26.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m26.ForeColor = System.Drawing.Color.Black;
             this.m26.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m26.Location = new System.Drawing.Point(144, 197);
+            this.m26.Location = new System.Drawing.Point(33, 362);
             this.m26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m26.Name = "m26";
             this.m26.PasswordChar = '\0';
@@ -768,7 +828,7 @@
             this.m25.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m25.ForeColor = System.Drawing.Color.Black;
             this.m25.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m25.Location = new System.Drawing.Point(12, 197);
+            this.m25.Location = new System.Drawing.Point(552, 316);
             this.m25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m25.Name = "m25";
             this.m25.PasswordChar = '\0';
@@ -791,7 +851,7 @@
             this.m36.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m36.ForeColor = System.Drawing.Color.Black;
             this.m36.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m36.Location = new System.Drawing.Point(672, 243);
+            this.m36.Location = new System.Drawing.Point(379, 454);
             this.m36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m36.Name = "m36";
             this.m36.PasswordChar = '\0';
@@ -814,7 +874,7 @@
             this.m35.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m35.ForeColor = System.Drawing.Color.Black;
             this.m35.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m35.Location = new System.Drawing.Point(540, 243);
+            this.m35.Location = new System.Drawing.Point(206, 454);
             this.m35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m35.Name = "m35";
             this.m35.PasswordChar = '\0';
@@ -837,7 +897,7 @@
             this.m34.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m34.ForeColor = System.Drawing.Color.Black;
             this.m34.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m34.Location = new System.Drawing.Point(408, 243);
+            this.m34.Location = new System.Drawing.Point(33, 454);
             this.m34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m34.Name = "m34";
             this.m34.PasswordChar = '\0';
@@ -860,7 +920,7 @@
             this.m33.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m33.ForeColor = System.Drawing.Color.Black;
             this.m33.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m33.Location = new System.Drawing.Point(276, 243);
+            this.m33.Location = new System.Drawing.Point(552, 408);
             this.m33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m33.Name = "m33";
             this.m33.PasswordChar = '\0';
@@ -883,7 +943,7 @@
             this.m32.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m32.ForeColor = System.Drawing.Color.Black;
             this.m32.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m32.Location = new System.Drawing.Point(144, 243);
+            this.m32.Location = new System.Drawing.Point(379, 408);
             this.m32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m32.Name = "m32";
             this.m32.PasswordChar = '\0';
@@ -906,7 +966,7 @@
             this.m31.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m31.ForeColor = System.Drawing.Color.Black;
             this.m31.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m31.Location = new System.Drawing.Point(12, 243);
+            this.m31.Location = new System.Drawing.Point(206, 408);
             this.m31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m31.Name = "m31";
             this.m31.PasswordChar = '\0';
@@ -929,7 +989,7 @@
             this.m42.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m42.ForeColor = System.Drawing.Color.Black;
             this.m42.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m42.Location = new System.Drawing.Point(672, 289);
+            this.m42.Location = new System.Drawing.Point(33, 546);
             this.m42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m42.Name = "m42";
             this.m42.PasswordChar = '\0';
@@ -952,7 +1012,7 @@
             this.m41.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m41.ForeColor = System.Drawing.Color.Black;
             this.m41.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m41.Location = new System.Drawing.Point(540, 289);
+            this.m41.Location = new System.Drawing.Point(552, 500);
             this.m41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m41.Name = "m41";
             this.m41.PasswordChar = '\0';
@@ -975,7 +1035,7 @@
             this.m40.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m40.ForeColor = System.Drawing.Color.Black;
             this.m40.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m40.Location = new System.Drawing.Point(408, 289);
+            this.m40.Location = new System.Drawing.Point(379, 500);
             this.m40.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m40.Name = "m40";
             this.m40.PasswordChar = '\0';
@@ -998,7 +1058,7 @@
             this.m39.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m39.ForeColor = System.Drawing.Color.Black;
             this.m39.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m39.Location = new System.Drawing.Point(276, 289);
+            this.m39.Location = new System.Drawing.Point(206, 500);
             this.m39.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m39.Name = "m39";
             this.m39.PasswordChar = '\0';
@@ -1021,7 +1081,7 @@
             this.m38.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m38.ForeColor = System.Drawing.Color.Black;
             this.m38.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m38.Location = new System.Drawing.Point(144, 289);
+            this.m38.Location = new System.Drawing.Point(33, 500);
             this.m38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m38.Name = "m38";
             this.m38.PasswordChar = '\0';
@@ -1044,7 +1104,7 @@
             this.m37.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m37.ForeColor = System.Drawing.Color.Black;
             this.m37.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m37.Location = new System.Drawing.Point(12, 289);
+            this.m37.Location = new System.Drawing.Point(552, 454);
             this.m37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m37.Name = "m37";
             this.m37.PasswordChar = '\0';
@@ -1067,7 +1127,7 @@
             this.m48.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m48.ForeColor = System.Drawing.Color.Black;
             this.m48.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m48.Location = new System.Drawing.Point(672, 335);
+            this.m48.Location = new System.Drawing.Point(379, 592);
             this.m48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m48.Name = "m48";
             this.m48.PasswordChar = '\0';
@@ -1090,7 +1150,7 @@
             this.m47.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m47.ForeColor = System.Drawing.Color.Black;
             this.m47.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m47.Location = new System.Drawing.Point(540, 335);
+            this.m47.Location = new System.Drawing.Point(206, 592);
             this.m47.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m47.Name = "m47";
             this.m47.PasswordChar = '\0';
@@ -1113,7 +1173,7 @@
             this.m46.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m46.ForeColor = System.Drawing.Color.Black;
             this.m46.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m46.Location = new System.Drawing.Point(408, 335);
+            this.m46.Location = new System.Drawing.Point(33, 592);
             this.m46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m46.Name = "m46";
             this.m46.PasswordChar = '\0';
@@ -1136,7 +1196,7 @@
             this.m45.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m45.ForeColor = System.Drawing.Color.Black;
             this.m45.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m45.Location = new System.Drawing.Point(276, 335);
+            this.m45.Location = new System.Drawing.Point(552, 546);
             this.m45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m45.Name = "m45";
             this.m45.PasswordChar = '\0';
@@ -1159,7 +1219,7 @@
             this.m44.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m44.ForeColor = System.Drawing.Color.Black;
             this.m44.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m44.Location = new System.Drawing.Point(144, 335);
+            this.m44.Location = new System.Drawing.Point(379, 546);
             this.m44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m44.Name = "m44";
             this.m44.PasswordChar = '\0';
@@ -1182,7 +1242,7 @@
             this.m43.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m43.ForeColor = System.Drawing.Color.Black;
             this.m43.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m43.Location = new System.Drawing.Point(12, 335);
+            this.m43.Location = new System.Drawing.Point(206, 546);
             this.m43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m43.Name = "m43";
             this.m43.PasswordChar = '\0';
@@ -1205,7 +1265,7 @@
             this.m54.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m54.ForeColor = System.Drawing.Color.Black;
             this.m54.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m54.Location = new System.Drawing.Point(672, 381);
+            this.m54.Location = new System.Drawing.Point(552, 638);
             this.m54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m54.Name = "m54";
             this.m54.PasswordChar = '\0';
@@ -1228,7 +1288,7 @@
             this.m53.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m53.ForeColor = System.Drawing.Color.Black;
             this.m53.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m53.Location = new System.Drawing.Point(540, 381);
+            this.m53.Location = new System.Drawing.Point(552, 684);
             this.m53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m53.Name = "m53";
             this.m53.PasswordChar = '\0';
@@ -1251,7 +1311,7 @@
             this.m52.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m52.ForeColor = System.Drawing.Color.Black;
             this.m52.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m52.Location = new System.Drawing.Point(408, 381);
+            this.m52.Location = new System.Drawing.Point(379, 638);
             this.m52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m52.Name = "m52";
             this.m52.PasswordChar = '\0';
@@ -1274,7 +1334,7 @@
             this.m51.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m51.ForeColor = System.Drawing.Color.Black;
             this.m51.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m51.Location = new System.Drawing.Point(276, 381);
+            this.m51.Location = new System.Drawing.Point(206, 638);
             this.m51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m51.Name = "m51";
             this.m51.PasswordChar = '\0';
@@ -1297,7 +1357,7 @@
             this.m50.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m50.ForeColor = System.Drawing.Color.Black;
             this.m50.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m50.Location = new System.Drawing.Point(144, 381);
+            this.m50.Location = new System.Drawing.Point(33, 638);
             this.m50.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m50.Name = "m50";
             this.m50.PasswordChar = '\0';
@@ -1320,7 +1380,7 @@
             this.m49.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.m49.ForeColor = System.Drawing.Color.Black;
             this.m49.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.m49.Location = new System.Drawing.Point(12, 381);
+            this.m49.Location = new System.Drawing.Point(552, 592);
             this.m49.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.m49.Name = "m49";
             this.m49.PasswordChar = '\0';
@@ -1331,6 +1391,7 @@
             // 
             // btnSavePreference
             // 
+            this.btnSavePreference.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSavePreference.Animated = true;
             this.btnSavePreference.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnSavePreference.BorderRadius = 6;
@@ -1343,7 +1404,7 @@
             this.btnSavePreference.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
             this.btnSavePreference.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnSavePreference.ForeColor = System.Drawing.Color.White;
-            this.btnSavePreference.Location = new System.Drawing.Point(540, 426);
+            this.btnSavePreference.Location = new System.Drawing.Point(418, 743);
             this.btnSavePreference.Name = "btnSavePreference";
             this.btnSavePreference.Size = new System.Drawing.Size(208, 45);
             this.btnSavePreference.TabIndex = 60;
@@ -1352,23 +1413,1237 @@
             // 
             // closeControlBox
             // 
-            this.closeControlBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.closeControlBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.closeControlBox.Animated = true;
             this.closeControlBox.BorderRadius = 6;
             this.closeControlBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeControlBox.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
             this.closeControlBox.IconColor = System.Drawing.Color.White;
-            this.closeControlBox.Location = new System.Drawing.Point(754, 426);
+            this.closeControlBox.Location = new System.Drawing.Point(632, 743);
             this.closeControlBox.Name = "closeControlBox";
             this.closeControlBox.Size = new System.Drawing.Size(44, 44);
             this.closeControlBox.TabIndex = 61;
+            // 
+            // guna2CheckBox1
+            // 
+            this.guna2CheckBox1.AutoSize = true;
+            this.guna2CheckBox1.Checked = true;
+            this.guna2CheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox1.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox1.Location = new System.Drawing.Point(12, 98);
+            this.guna2CheckBox1.Name = "guna2CheckBox1";
+            this.guna2CheckBox1.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox1.TabIndex = 62;
+            this.guna2CheckBox1.Tag = "Phase1";
+            this.guna2CheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox1.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox1.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox2
+            // 
+            this.guna2CheckBox2.AutoSize = true;
+            this.guna2CheckBox2.Checked = true;
+            this.guna2CheckBox2.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox2.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox2.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox2.Location = new System.Drawing.Point(185, 98);
+            this.guna2CheckBox2.Name = "guna2CheckBox2";
+            this.guna2CheckBox2.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox2.TabIndex = 63;
+            this.guna2CheckBox2.Tag = "Phase2";
+            this.guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox2.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox2.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox2.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox3
+            // 
+            this.guna2CheckBox3.AutoSize = true;
+            this.guna2CheckBox3.Checked = true;
+            this.guna2CheckBox3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox3.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox3.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox3.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox3.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox3.Location = new System.Drawing.Point(358, 98);
+            this.guna2CheckBox3.Name = "guna2CheckBox3";
+            this.guna2CheckBox3.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox3.TabIndex = 64;
+            this.guna2CheckBox3.Tag = "Phase3";
+            this.guna2CheckBox3.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox3.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox3.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox3.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox4
+            // 
+            this.guna2CheckBox4.AutoSize = true;
+            this.guna2CheckBox4.Checked = true;
+            this.guna2CheckBox4.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox4.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox4.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox4.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox4.Location = new System.Drawing.Point(531, 98);
+            this.guna2CheckBox4.Name = "guna2CheckBox4";
+            this.guna2CheckBox4.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox4.TabIndex = 65;
+            this.guna2CheckBox4.Tag = "Phase4";
+            this.guna2CheckBox4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox4.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox4.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox4.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox5
+            // 
+            this.guna2CheckBox5.AutoSize = true;
+            this.guna2CheckBox5.Checked = true;
+            this.guna2CheckBox5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox5.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox5.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox5.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox5.Location = new System.Drawing.Point(12, 144);
+            this.guna2CheckBox5.Name = "guna2CheckBox5";
+            this.guna2CheckBox5.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox5.TabIndex = 62;
+            this.guna2CheckBox5.Tag = "Phase1";
+            this.guna2CheckBox5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox5.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox5.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox6
+            // 
+            this.guna2CheckBox6.AutoSize = true;
+            this.guna2CheckBox6.Checked = true;
+            this.guna2CheckBox6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox6.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox6.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox6.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox6.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox6.Location = new System.Drawing.Point(185, 144);
+            this.guna2CheckBox6.Name = "guna2CheckBox6";
+            this.guna2CheckBox6.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox6.TabIndex = 63;
+            this.guna2CheckBox6.Tag = "Phase2";
+            this.guna2CheckBox6.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox6.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox6.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox6.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox7
+            // 
+            this.guna2CheckBox7.AutoSize = true;
+            this.guna2CheckBox7.Checked = true;
+            this.guna2CheckBox7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox7.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox7.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox7.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox7.Location = new System.Drawing.Point(358, 144);
+            this.guna2CheckBox7.Name = "guna2CheckBox7";
+            this.guna2CheckBox7.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox7.TabIndex = 64;
+            this.guna2CheckBox7.Tag = "Phase3";
+            this.guna2CheckBox7.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox7.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox7.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox7.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox8
+            // 
+            this.guna2CheckBox8.AutoSize = true;
+            this.guna2CheckBox8.Checked = true;
+            this.guna2CheckBox8.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox8.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox8.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox8.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox8.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox8.Location = new System.Drawing.Point(531, 144);
+            this.guna2CheckBox8.Name = "guna2CheckBox8";
+            this.guna2CheckBox8.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox8.TabIndex = 65;
+            this.guna2CheckBox8.Tag = "Phase4";
+            this.guna2CheckBox8.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox8.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox8.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox8.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox9
+            // 
+            this.guna2CheckBox9.AutoSize = true;
+            this.guna2CheckBox9.Checked = true;
+            this.guna2CheckBox9.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox9.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox9.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox9.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox9.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox9.Location = new System.Drawing.Point(12, 190);
+            this.guna2CheckBox9.Name = "guna2CheckBox9";
+            this.guna2CheckBox9.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox9.TabIndex = 62;
+            this.guna2CheckBox9.Tag = "Phase1";
+            this.guna2CheckBox9.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox9.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox9.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox9.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox10
+            // 
+            this.guna2CheckBox10.AutoSize = true;
+            this.guna2CheckBox10.Checked = true;
+            this.guna2CheckBox10.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox10.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox10.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox10.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox10.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox10.Location = new System.Drawing.Point(185, 190);
+            this.guna2CheckBox10.Name = "guna2CheckBox10";
+            this.guna2CheckBox10.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox10.TabIndex = 63;
+            this.guna2CheckBox10.Tag = "Phase2";
+            this.guna2CheckBox10.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox10.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox10.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox10.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox11
+            // 
+            this.guna2CheckBox11.AutoSize = true;
+            this.guna2CheckBox11.Checked = true;
+            this.guna2CheckBox11.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox11.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox11.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox11.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox11.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox11.Location = new System.Drawing.Point(358, 190);
+            this.guna2CheckBox11.Name = "guna2CheckBox11";
+            this.guna2CheckBox11.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox11.TabIndex = 64;
+            this.guna2CheckBox11.Tag = "Phase3";
+            this.guna2CheckBox11.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox11.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox11.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox11.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox12
+            // 
+            this.guna2CheckBox12.AutoSize = true;
+            this.guna2CheckBox12.Checked = true;
+            this.guna2CheckBox12.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox12.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox12.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox12.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox12.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox12.Location = new System.Drawing.Point(531, 190);
+            this.guna2CheckBox12.Name = "guna2CheckBox12";
+            this.guna2CheckBox12.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox12.TabIndex = 65;
+            this.guna2CheckBox12.Tag = "Phase4";
+            this.guna2CheckBox12.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox12.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox12.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox12.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox13
+            // 
+            this.guna2CheckBox13.AutoSize = true;
+            this.guna2CheckBox13.Checked = true;
+            this.guna2CheckBox13.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox13.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox13.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox13.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox13.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox13.Location = new System.Drawing.Point(12, 236);
+            this.guna2CheckBox13.Name = "guna2CheckBox13";
+            this.guna2CheckBox13.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox13.TabIndex = 62;
+            this.guna2CheckBox13.Tag = "Phase1";
+            this.guna2CheckBox13.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox13.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox13.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox13.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox14
+            // 
+            this.guna2CheckBox14.AutoSize = true;
+            this.guna2CheckBox14.Checked = true;
+            this.guna2CheckBox14.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox14.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox14.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox14.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox14.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox14.Location = new System.Drawing.Point(185, 236);
+            this.guna2CheckBox14.Name = "guna2CheckBox14";
+            this.guna2CheckBox14.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox14.TabIndex = 63;
+            this.guna2CheckBox14.Tag = "Phase2";
+            this.guna2CheckBox14.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox14.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox14.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox14.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox15
+            // 
+            this.guna2CheckBox15.AutoSize = true;
+            this.guna2CheckBox15.Checked = true;
+            this.guna2CheckBox15.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox15.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox15.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox15.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox15.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox15.Location = new System.Drawing.Point(358, 236);
+            this.guna2CheckBox15.Name = "guna2CheckBox15";
+            this.guna2CheckBox15.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox15.TabIndex = 64;
+            this.guna2CheckBox15.Tag = "Phase3";
+            this.guna2CheckBox15.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox15.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox15.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox15.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox16
+            // 
+            this.guna2CheckBox16.AutoSize = true;
+            this.guna2CheckBox16.Checked = true;
+            this.guna2CheckBox16.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox16.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox16.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox16.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox16.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox16.Location = new System.Drawing.Point(531, 236);
+            this.guna2CheckBox16.Name = "guna2CheckBox16";
+            this.guna2CheckBox16.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox16.TabIndex = 65;
+            this.guna2CheckBox16.Tag = "Phase4";
+            this.guna2CheckBox16.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox16.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox16.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox16.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox17
+            // 
+            this.guna2CheckBox17.AutoSize = true;
+            this.guna2CheckBox17.Checked = true;
+            this.guna2CheckBox17.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox17.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox17.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox17.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox17.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox17.Location = new System.Drawing.Point(12, 282);
+            this.guna2CheckBox17.Name = "guna2CheckBox17";
+            this.guna2CheckBox17.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox17.TabIndex = 62;
+            this.guna2CheckBox17.Tag = "Phase1";
+            this.guna2CheckBox17.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox17.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox17.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox17.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox18
+            // 
+            this.guna2CheckBox18.AutoSize = true;
+            this.guna2CheckBox18.Checked = true;
+            this.guna2CheckBox18.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox18.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox18.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox18.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox18.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox18.Location = new System.Drawing.Point(185, 282);
+            this.guna2CheckBox18.Name = "guna2CheckBox18";
+            this.guna2CheckBox18.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox18.TabIndex = 63;
+            this.guna2CheckBox18.Tag = "Phase2";
+            this.guna2CheckBox18.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox18.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox18.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox18.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox19
+            // 
+            this.guna2CheckBox19.AutoSize = true;
+            this.guna2CheckBox19.Checked = true;
+            this.guna2CheckBox19.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox19.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox19.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox19.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox19.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox19.Location = new System.Drawing.Point(358, 282);
+            this.guna2CheckBox19.Name = "guna2CheckBox19";
+            this.guna2CheckBox19.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox19.TabIndex = 64;
+            this.guna2CheckBox19.Tag = "Phase3";
+            this.guna2CheckBox19.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox19.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox19.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox19.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox20
+            // 
+            this.guna2CheckBox20.AutoSize = true;
+            this.guna2CheckBox20.Checked = true;
+            this.guna2CheckBox20.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox20.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox20.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox20.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox20.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox20.Location = new System.Drawing.Point(531, 282);
+            this.guna2CheckBox20.Name = "guna2CheckBox20";
+            this.guna2CheckBox20.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox20.TabIndex = 65;
+            this.guna2CheckBox20.Tag = "Phase4";
+            this.guna2CheckBox20.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox20.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox20.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox20.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox21
+            // 
+            this.guna2CheckBox21.AutoSize = true;
+            this.guna2CheckBox21.Checked = true;
+            this.guna2CheckBox21.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox21.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox21.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox21.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox21.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox21.Location = new System.Drawing.Point(12, 328);
+            this.guna2CheckBox21.Name = "guna2CheckBox21";
+            this.guna2CheckBox21.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox21.TabIndex = 62;
+            this.guna2CheckBox21.Tag = "Phase1";
+            this.guna2CheckBox21.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox21.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox21.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox21.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox22
+            // 
+            this.guna2CheckBox22.AutoSize = true;
+            this.guna2CheckBox22.Checked = true;
+            this.guna2CheckBox22.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox22.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox22.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox22.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox22.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox22.Location = new System.Drawing.Point(185, 328);
+            this.guna2CheckBox22.Name = "guna2CheckBox22";
+            this.guna2CheckBox22.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox22.TabIndex = 63;
+            this.guna2CheckBox22.Tag = "Phase2";
+            this.guna2CheckBox22.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox22.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox22.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox22.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox23
+            // 
+            this.guna2CheckBox23.AutoSize = true;
+            this.guna2CheckBox23.Checked = true;
+            this.guna2CheckBox23.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox23.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox23.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox23.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox23.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox23.Location = new System.Drawing.Point(358, 328);
+            this.guna2CheckBox23.Name = "guna2CheckBox23";
+            this.guna2CheckBox23.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox23.TabIndex = 64;
+            this.guna2CheckBox23.Tag = "Phase3";
+            this.guna2CheckBox23.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox23.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox23.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox23.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox24
+            // 
+            this.guna2CheckBox24.AutoSize = true;
+            this.guna2CheckBox24.Checked = true;
+            this.guna2CheckBox24.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox24.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox24.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox24.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox24.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox24.Location = new System.Drawing.Point(531, 328);
+            this.guna2CheckBox24.Name = "guna2CheckBox24";
+            this.guna2CheckBox24.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox24.TabIndex = 65;
+            this.guna2CheckBox24.Tag = "Phase4";
+            this.guna2CheckBox24.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox24.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox24.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox24.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox25
+            // 
+            this.guna2CheckBox25.AutoSize = true;
+            this.guna2CheckBox25.Checked = true;
+            this.guna2CheckBox25.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox25.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox25.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox25.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox25.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox25.Location = new System.Drawing.Point(12, 374);
+            this.guna2CheckBox25.Name = "guna2CheckBox25";
+            this.guna2CheckBox25.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox25.TabIndex = 62;
+            this.guna2CheckBox25.Tag = "Phase1";
+            this.guna2CheckBox25.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox25.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox25.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox25.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox26
+            // 
+            this.guna2CheckBox26.AutoSize = true;
+            this.guna2CheckBox26.Checked = true;
+            this.guna2CheckBox26.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox26.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox26.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox26.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox26.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox26.Location = new System.Drawing.Point(185, 374);
+            this.guna2CheckBox26.Name = "guna2CheckBox26";
+            this.guna2CheckBox26.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox26.TabIndex = 63;
+            this.guna2CheckBox26.Tag = "Phase2";
+            this.guna2CheckBox26.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox26.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox26.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox26.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox27
+            // 
+            this.guna2CheckBox27.AutoSize = true;
+            this.guna2CheckBox27.Checked = true;
+            this.guna2CheckBox27.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox27.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox27.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox27.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox27.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox27.Location = new System.Drawing.Point(358, 374);
+            this.guna2CheckBox27.Name = "guna2CheckBox27";
+            this.guna2CheckBox27.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox27.TabIndex = 64;
+            this.guna2CheckBox27.Tag = "Phase3";
+            this.guna2CheckBox27.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox27.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox27.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox27.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox28
+            // 
+            this.guna2CheckBox28.AutoSize = true;
+            this.guna2CheckBox28.Checked = true;
+            this.guna2CheckBox28.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox28.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox28.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox28.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox28.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox28.Location = new System.Drawing.Point(531, 374);
+            this.guna2CheckBox28.Name = "guna2CheckBox28";
+            this.guna2CheckBox28.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox28.TabIndex = 65;
+            this.guna2CheckBox28.Tag = "Phase4";
+            this.guna2CheckBox28.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox28.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox28.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox28.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox29
+            // 
+            this.guna2CheckBox29.AutoSize = true;
+            this.guna2CheckBox29.Checked = true;
+            this.guna2CheckBox29.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox29.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox29.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox29.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox29.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox29.Location = new System.Drawing.Point(12, 420);
+            this.guna2CheckBox29.Name = "guna2CheckBox29";
+            this.guna2CheckBox29.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox29.TabIndex = 62;
+            this.guna2CheckBox29.Tag = "Phase1";
+            this.guna2CheckBox29.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox29.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox29.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox29.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox30
+            // 
+            this.guna2CheckBox30.AutoSize = true;
+            this.guna2CheckBox30.Checked = true;
+            this.guna2CheckBox30.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox30.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox30.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox30.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox30.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox30.Location = new System.Drawing.Point(185, 420);
+            this.guna2CheckBox30.Name = "guna2CheckBox30";
+            this.guna2CheckBox30.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox30.TabIndex = 63;
+            this.guna2CheckBox30.Tag = "Phase2";
+            this.guna2CheckBox30.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox30.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox30.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox30.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox31
+            // 
+            this.guna2CheckBox31.AutoSize = true;
+            this.guna2CheckBox31.Checked = true;
+            this.guna2CheckBox31.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox31.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox31.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox31.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox31.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox31.Location = new System.Drawing.Point(358, 420);
+            this.guna2CheckBox31.Name = "guna2CheckBox31";
+            this.guna2CheckBox31.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox31.TabIndex = 64;
+            this.guna2CheckBox31.Tag = "Phase3";
+            this.guna2CheckBox31.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox31.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox31.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox31.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox32
+            // 
+            this.guna2CheckBox32.AutoSize = true;
+            this.guna2CheckBox32.Checked = true;
+            this.guna2CheckBox32.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox32.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox32.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox32.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox32.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox32.Location = new System.Drawing.Point(531, 420);
+            this.guna2CheckBox32.Name = "guna2CheckBox32";
+            this.guna2CheckBox32.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox32.TabIndex = 65;
+            this.guna2CheckBox32.Tag = "Phase4";
+            this.guna2CheckBox32.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox32.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox32.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox32.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox33
+            // 
+            this.guna2CheckBox33.AutoSize = true;
+            this.guna2CheckBox33.Checked = true;
+            this.guna2CheckBox33.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox33.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox33.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox33.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox33.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox33.Location = new System.Drawing.Point(12, 466);
+            this.guna2CheckBox33.Name = "guna2CheckBox33";
+            this.guna2CheckBox33.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox33.TabIndex = 62;
+            this.guna2CheckBox33.Tag = "Phase1";
+            this.guna2CheckBox33.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox33.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox33.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox33.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox34
+            // 
+            this.guna2CheckBox34.AutoSize = true;
+            this.guna2CheckBox34.Checked = true;
+            this.guna2CheckBox34.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox34.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox34.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox34.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox34.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox34.Location = new System.Drawing.Point(185, 466);
+            this.guna2CheckBox34.Name = "guna2CheckBox34";
+            this.guna2CheckBox34.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox34.TabIndex = 63;
+            this.guna2CheckBox34.Tag = "Phase2";
+            this.guna2CheckBox34.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox34.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox34.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox34.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox35
+            // 
+            this.guna2CheckBox35.AutoSize = true;
+            this.guna2CheckBox35.Checked = true;
+            this.guna2CheckBox35.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox35.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox35.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox35.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox35.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox35.Location = new System.Drawing.Point(358, 466);
+            this.guna2CheckBox35.Name = "guna2CheckBox35";
+            this.guna2CheckBox35.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox35.TabIndex = 64;
+            this.guna2CheckBox35.Tag = "Phase3";
+            this.guna2CheckBox35.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox35.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox35.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox35.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox36
+            // 
+            this.guna2CheckBox36.AutoSize = true;
+            this.guna2CheckBox36.Checked = true;
+            this.guna2CheckBox36.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox36.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox36.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox36.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox36.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox36.Location = new System.Drawing.Point(531, 466);
+            this.guna2CheckBox36.Name = "guna2CheckBox36";
+            this.guna2CheckBox36.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox36.TabIndex = 65;
+            this.guna2CheckBox36.Tag = "Phase4";
+            this.guna2CheckBox36.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox36.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox36.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox36.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox37
+            // 
+            this.guna2CheckBox37.AutoSize = true;
+            this.guna2CheckBox37.Checked = true;
+            this.guna2CheckBox37.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox37.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox37.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox37.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox37.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox37.Location = new System.Drawing.Point(12, 512);
+            this.guna2CheckBox37.Name = "guna2CheckBox37";
+            this.guna2CheckBox37.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox37.TabIndex = 62;
+            this.guna2CheckBox37.Tag = "Phase1";
+            this.guna2CheckBox37.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox37.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox37.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox37.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox38
+            // 
+            this.guna2CheckBox38.AutoSize = true;
+            this.guna2CheckBox38.Checked = true;
+            this.guna2CheckBox38.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox38.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox38.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox38.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox38.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox38.Location = new System.Drawing.Point(185, 512);
+            this.guna2CheckBox38.Name = "guna2CheckBox38";
+            this.guna2CheckBox38.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox38.TabIndex = 63;
+            this.guna2CheckBox38.Tag = "Phase2";
+            this.guna2CheckBox38.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox38.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox38.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox38.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox39
+            // 
+            this.guna2CheckBox39.AutoSize = true;
+            this.guna2CheckBox39.Checked = true;
+            this.guna2CheckBox39.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox39.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox39.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox39.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox39.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox39.Location = new System.Drawing.Point(358, 512);
+            this.guna2CheckBox39.Name = "guna2CheckBox39";
+            this.guna2CheckBox39.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox39.TabIndex = 64;
+            this.guna2CheckBox39.Tag = "Phase3";
+            this.guna2CheckBox39.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox39.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox39.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox39.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox40
+            // 
+            this.guna2CheckBox40.AutoSize = true;
+            this.guna2CheckBox40.Checked = true;
+            this.guna2CheckBox40.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox40.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox40.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox40.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox40.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox40.Location = new System.Drawing.Point(531, 512);
+            this.guna2CheckBox40.Name = "guna2CheckBox40";
+            this.guna2CheckBox40.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox40.TabIndex = 65;
+            this.guna2CheckBox40.Tag = "Phase4";
+            this.guna2CheckBox40.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox40.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox40.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox40.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox41
+            // 
+            this.guna2CheckBox41.AutoSize = true;
+            this.guna2CheckBox41.Checked = true;
+            this.guna2CheckBox41.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox41.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox41.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox41.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox41.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox41.Location = new System.Drawing.Point(12, 558);
+            this.guna2CheckBox41.Name = "guna2CheckBox41";
+            this.guna2CheckBox41.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox41.TabIndex = 62;
+            this.guna2CheckBox41.Tag = "Phase1";
+            this.guna2CheckBox41.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox41.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox41.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox41.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox42
+            // 
+            this.guna2CheckBox42.AutoSize = true;
+            this.guna2CheckBox42.Checked = true;
+            this.guna2CheckBox42.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox42.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox42.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox42.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox42.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox42.Location = new System.Drawing.Point(185, 558);
+            this.guna2CheckBox42.Name = "guna2CheckBox42";
+            this.guna2CheckBox42.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox42.TabIndex = 63;
+            this.guna2CheckBox42.Tag = "Phase2";
+            this.guna2CheckBox42.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox42.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox42.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox42.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox43
+            // 
+            this.guna2CheckBox43.AutoSize = true;
+            this.guna2CheckBox43.Checked = true;
+            this.guna2CheckBox43.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox43.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox43.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox43.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox43.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox43.Location = new System.Drawing.Point(358, 558);
+            this.guna2CheckBox43.Name = "guna2CheckBox43";
+            this.guna2CheckBox43.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox43.TabIndex = 64;
+            this.guna2CheckBox43.Tag = "Phase3";
+            this.guna2CheckBox43.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox43.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox43.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox43.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox44
+            // 
+            this.guna2CheckBox44.AutoSize = true;
+            this.guna2CheckBox44.Checked = true;
+            this.guna2CheckBox44.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox44.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox44.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox44.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox44.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox44.Location = new System.Drawing.Point(531, 558);
+            this.guna2CheckBox44.Name = "guna2CheckBox44";
+            this.guna2CheckBox44.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox44.TabIndex = 65;
+            this.guna2CheckBox44.Tag = "Phase4";
+            this.guna2CheckBox44.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox44.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox44.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox44.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox45
+            // 
+            this.guna2CheckBox45.AutoSize = true;
+            this.guna2CheckBox45.Checked = true;
+            this.guna2CheckBox45.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox45.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox45.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox45.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox45.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox45.Location = new System.Drawing.Point(12, 604);
+            this.guna2CheckBox45.Name = "guna2CheckBox45";
+            this.guna2CheckBox45.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox45.TabIndex = 62;
+            this.guna2CheckBox45.Tag = "Phase1";
+            this.guna2CheckBox45.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox45.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox45.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox45.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox46
+            // 
+            this.guna2CheckBox46.AutoSize = true;
+            this.guna2CheckBox46.Checked = true;
+            this.guna2CheckBox46.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox46.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox46.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox46.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox46.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox46.Location = new System.Drawing.Point(185, 604);
+            this.guna2CheckBox46.Name = "guna2CheckBox46";
+            this.guna2CheckBox46.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox46.TabIndex = 63;
+            this.guna2CheckBox46.Tag = "Phase2";
+            this.guna2CheckBox46.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox46.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox46.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox46.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox47
+            // 
+            this.guna2CheckBox47.AutoSize = true;
+            this.guna2CheckBox47.Checked = true;
+            this.guna2CheckBox47.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox47.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox47.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox47.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox47.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox47.Location = new System.Drawing.Point(358, 604);
+            this.guna2CheckBox47.Name = "guna2CheckBox47";
+            this.guna2CheckBox47.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox47.TabIndex = 64;
+            this.guna2CheckBox47.Tag = "Phase3";
+            this.guna2CheckBox47.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox47.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox47.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox47.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox48
+            // 
+            this.guna2CheckBox48.AutoSize = true;
+            this.guna2CheckBox48.Checked = true;
+            this.guna2CheckBox48.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox48.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox48.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox48.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox48.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox48.Location = new System.Drawing.Point(531, 604);
+            this.guna2CheckBox48.Name = "guna2CheckBox48";
+            this.guna2CheckBox48.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox48.TabIndex = 65;
+            this.guna2CheckBox48.Tag = "Phase4";
+            this.guna2CheckBox48.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox48.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox48.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox48.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox49
+            // 
+            this.guna2CheckBox49.AutoSize = true;
+            this.guna2CheckBox49.Checked = true;
+            this.guna2CheckBox49.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox49.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox49.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox49.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox49.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox49.Location = new System.Drawing.Point(12, 650);
+            this.guna2CheckBox49.Name = "guna2CheckBox49";
+            this.guna2CheckBox49.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox49.TabIndex = 62;
+            this.guna2CheckBox49.Tag = "Phase1";
+            this.guna2CheckBox49.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox49.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox49.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox49.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox50
+            // 
+            this.guna2CheckBox50.AutoSize = true;
+            this.guna2CheckBox50.Checked = true;
+            this.guna2CheckBox50.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox50.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox50.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox50.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox50.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox50.Location = new System.Drawing.Point(185, 650);
+            this.guna2CheckBox50.Name = "guna2CheckBox50";
+            this.guna2CheckBox50.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox50.TabIndex = 63;
+            this.guna2CheckBox50.Tag = "Phase2";
+            this.guna2CheckBox50.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox50.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox50.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox50.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox51
+            // 
+            this.guna2CheckBox51.AutoSize = true;
+            this.guna2CheckBox51.Checked = true;
+            this.guna2CheckBox51.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox51.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox51.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox51.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox51.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox51.Location = new System.Drawing.Point(358, 650);
+            this.guna2CheckBox51.Name = "guna2CheckBox51";
+            this.guna2CheckBox51.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox51.TabIndex = 64;
+            this.guna2CheckBox51.Tag = "Phase3";
+            this.guna2CheckBox51.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox51.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox51.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox51.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox52
+            // 
+            this.guna2CheckBox52.AutoSize = true;
+            this.guna2CheckBox52.Checked = true;
+            this.guna2CheckBox52.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox52.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox52.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox52.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox52.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox52.Location = new System.Drawing.Point(531, 650);
+            this.guna2CheckBox52.Name = "guna2CheckBox52";
+            this.guna2CheckBox52.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox52.TabIndex = 65;
+            this.guna2CheckBox52.Tag = "Phase4";
+            this.guna2CheckBox52.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox52.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox52.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox52.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox53
+            // 
+            this.guna2CheckBox53.AutoSize = true;
+            this.guna2CheckBox53.Checked = true;
+            this.guna2CheckBox53.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox53.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox53.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox53.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox53.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox53.Location = new System.Drawing.Point(12, 696);
+            this.guna2CheckBox53.Name = "guna2CheckBox53";
+            this.guna2CheckBox53.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox53.TabIndex = 62;
+            this.guna2CheckBox53.Tag = "Phase1";
+            this.guna2CheckBox53.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox53.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox53.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox53.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // guna2CheckBox56
+            // 
+            this.guna2CheckBox56.AutoSize = true;
+            this.guna2CheckBox56.Checked = true;
+            this.guna2CheckBox56.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox56.CheckedState.BorderRadius = 0;
+            this.guna2CheckBox56.CheckedState.BorderThickness = 0;
+            this.guna2CheckBox56.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2CheckBox56.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.guna2CheckBox56.Location = new System.Drawing.Point(531, 696);
+            this.guna2CheckBox56.Name = "guna2CheckBox56";
+            this.guna2CheckBox56.Size = new System.Drawing.Size(15, 14);
+            this.guna2CheckBox56.TabIndex = 65;
+            this.guna2CheckBox56.Tag = "Phase4";
+            this.guna2CheckBox56.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2CheckBox56.UncheckedState.BorderRadius = 0;
+            this.guna2CheckBox56.UncheckedState.BorderThickness = 0;
+            this.guna2CheckBox56.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            // 
+            // btnPhase1ShowHide
+            // 
+            this.btnPhase1ShowHide.Animated = true;
+            this.btnPhase1ShowHide.BackColor = System.Drawing.Color.Transparent;
+            this.btnPhase1ShowHide.BorderRadius = 4;
+            this.btnPhase1ShowHide.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase1ShowHide.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase1ShowHide.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPhase1ShowHide.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPhase1ShowHide.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnPhase1ShowHide.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnPhase1ShowHide.ForeColor = System.Drawing.Color.White;
+            this.btnPhase1ShowHide.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnPhase1ShowHide.Location = new System.Drawing.Point(12, 12);
+            this.btnPhase1ShowHide.Name = "btnPhase1ShowHide";
+            this.btnPhase1ShowHide.Size = new System.Drawing.Size(147, 54);
+            this.btnPhase1ShowHide.TabIndex = 66;
+            this.btnPhase1ShowHide.Text = "Phase 1 Hide";
+            this.btnPhase1ShowHide.UseTransparentBackground = true;
+            this.btnPhase1ShowHide.Click += new System.EventHandler(this.btnPhase1ShowHide_Click);
+            // 
+            // btnPhase4ShowHide
+            // 
+            this.btnPhase4ShowHide.Animated = true;
+            this.btnPhase4ShowHide.BackColor = System.Drawing.Color.Transparent;
+            this.btnPhase4ShowHide.BorderRadius = 4;
+            this.btnPhase4ShowHide.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase4ShowHide.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase4ShowHide.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPhase4ShowHide.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPhase4ShowHide.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnPhase4ShowHide.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnPhase4ShowHide.ForeColor = System.Drawing.Color.White;
+            this.btnPhase4ShowHide.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnPhase4ShowHide.Location = new System.Drawing.Point(531, 12);
+            this.btnPhase4ShowHide.Name = "btnPhase4ShowHide";
+            this.btnPhase4ShowHide.Size = new System.Drawing.Size(147, 54);
+            this.btnPhase4ShowHide.TabIndex = 66;
+            this.btnPhase4ShowHide.Text = "System Hide";
+            this.btnPhase4ShowHide.UseTransparentBackground = true;
+            this.btnPhase4ShowHide.Click += new System.EventHandler(this.btnPhase4ShowHide_Click);
+            // 
+            // btnPhase3ShowHide
+            // 
+            this.btnPhase3ShowHide.Animated = true;
+            this.btnPhase3ShowHide.BackColor = System.Drawing.Color.Transparent;
+            this.btnPhase3ShowHide.BorderRadius = 4;
+            this.btnPhase3ShowHide.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase3ShowHide.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase3ShowHide.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPhase3ShowHide.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPhase3ShowHide.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnPhase3ShowHide.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnPhase3ShowHide.ForeColor = System.Drawing.Color.White;
+            this.btnPhase3ShowHide.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnPhase3ShowHide.Location = new System.Drawing.Point(358, 12);
+            this.btnPhase3ShowHide.Name = "btnPhase3ShowHide";
+            this.btnPhase3ShowHide.Size = new System.Drawing.Size(147, 54);
+            this.btnPhase3ShowHide.TabIndex = 66;
+            this.btnPhase3ShowHide.Text = "Phase 3 Hide";
+            this.btnPhase3ShowHide.UseTransparentBackground = true;
+            this.btnPhase3ShowHide.Click += new System.EventHandler(this.btnPhase3ShowHide_Click);
+            // 
+            // btnPhase2ShowHide
+            // 
+            this.btnPhase2ShowHide.Animated = true;
+            this.btnPhase2ShowHide.BackColor = System.Drawing.Color.Transparent;
+            this.btnPhase2ShowHide.BorderRadius = 4;
+            this.btnPhase2ShowHide.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase2ShowHide.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnPhase2ShowHide.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnPhase2ShowHide.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnPhase2ShowHide.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnPhase2ShowHide.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnPhase2ShowHide.ForeColor = System.Drawing.Color.White;
+            this.btnPhase2ShowHide.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnPhase2ShowHide.Location = new System.Drawing.Point(185, 12);
+            this.btnPhase2ShowHide.Name = "btnPhase2ShowHide";
+            this.btnPhase2ShowHide.Size = new System.Drawing.Size(147, 54);
+            this.btnPhase2ShowHide.TabIndex = 66;
+            this.btnPhase2ShowHide.Text = "Phase 2 Hide";
+            this.btnPhase2ShowHide.UseTransparentBackground = true;
+            this.btnPhase2ShowHide.Click += new System.EventHandler(this.btnPhase2ShowHide_Click);
+            // 
+            // btnSelectAll
+            // 
+            this.btnSelectAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnSelectAll.Animated = true;
+            this.btnSelectAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnSelectAll.BorderRadius = 6;
+            this.btnSelectAll.BorderThickness = 1;
+            this.btnSelectAll.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelectAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnSelectAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnSelectAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnSelectAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnSelectAll.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
+            this.btnSelectAll.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnSelectAll.ForeColor = System.Drawing.Color.White;
+            this.btnSelectAll.Location = new System.Drawing.Point(12, 742);
+            this.btnSelectAll.Name = "btnSelectAll";
+            this.btnSelectAll.Size = new System.Drawing.Size(147, 45);
+            this.btnSelectAll.TabIndex = 60;
+            this.btnSelectAll.Text = "Select All";
+            this.btnSelectAll.Click += new System.EventHandler(this.btnSelectAll_Click);
+            // 
+            // btnClearAll
+            // 
+            this.btnClearAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnClearAll.Animated = true;
+            this.btnClearAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnClearAll.BorderRadius = 6;
+            this.btnClearAll.BorderThickness = 1;
+            this.btnClearAll.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClearAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnClearAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnClearAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnClearAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnClearAll.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(184)))), ((int)(((byte)(242)))));
+            this.btnClearAll.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.btnClearAll.ForeColor = System.Drawing.Color.White;
+            this.btnClearAll.Location = new System.Drawing.Point(165, 743);
+            this.btnClearAll.Name = "btnClearAll";
+            this.btnClearAll.Size = new System.Drawing.Size(147, 45);
+            this.btnClearAll.TabIndex = 60;
+            this.btnClearAll.Text = "Clear All";
+            this.btnClearAll.Click += new System.EventHandler(this.btnClearAll_Click);
             // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 485);
+            this.ClientSize = new System.Drawing.Size(688, 800);
+            this.Controls.Add(this.btnPhase4ShowHide);
+            this.Controls.Add(this.btnPhase3ShowHide);
+            this.Controls.Add(this.btnPhase2ShowHide);
+            this.Controls.Add(this.btnPhase1ShowHide);
+            this.Controls.Add(this.guna2CheckBox56);
+            this.Controls.Add(this.guna2CheckBox52);
+            this.Controls.Add(this.guna2CheckBox51);
+            this.Controls.Add(this.guna2CheckBox48);
+            this.Controls.Add(this.guna2CheckBox47);
+            this.Controls.Add(this.guna2CheckBox44);
+            this.Controls.Add(this.guna2CheckBox43);
+            this.Controls.Add(this.guna2CheckBox40);
+            this.Controls.Add(this.guna2CheckBox39);
+            this.Controls.Add(this.guna2CheckBox36);
+            this.Controls.Add(this.guna2CheckBox35);
+            this.Controls.Add(this.guna2CheckBox32);
+            this.Controls.Add(this.guna2CheckBox31);
+            this.Controls.Add(this.guna2CheckBox28);
+            this.Controls.Add(this.guna2CheckBox27);
+            this.Controls.Add(this.guna2CheckBox50);
+            this.Controls.Add(this.guna2CheckBox24);
+            this.Controls.Add(this.guna2CheckBox46);
+            this.Controls.Add(this.guna2CheckBox23);
+            this.Controls.Add(this.guna2CheckBox42);
+            this.Controls.Add(this.guna2CheckBox20);
+            this.Controls.Add(this.guna2CheckBox38);
+            this.Controls.Add(this.guna2CheckBox19);
+            this.Controls.Add(this.guna2CheckBox34);
+            this.Controls.Add(this.guna2CheckBox16);
+            this.Controls.Add(this.guna2CheckBox30);
+            this.Controls.Add(this.guna2CheckBox15);
+            this.Controls.Add(this.guna2CheckBox53);
+            this.Controls.Add(this.guna2CheckBox26);
+            this.Controls.Add(this.guna2CheckBox49);
+            this.Controls.Add(this.guna2CheckBox12);
+            this.Controls.Add(this.guna2CheckBox45);
+            this.Controls.Add(this.guna2CheckBox22);
+            this.Controls.Add(this.guna2CheckBox41);
+            this.Controls.Add(this.guna2CheckBox11);
+            this.Controls.Add(this.guna2CheckBox37);
+            this.Controls.Add(this.guna2CheckBox18);
+            this.Controls.Add(this.guna2CheckBox33);
+            this.Controls.Add(this.guna2CheckBox8);
+            this.Controls.Add(this.guna2CheckBox29);
+            this.Controls.Add(this.guna2CheckBox14);
+            this.Controls.Add(this.guna2CheckBox25);
+            this.Controls.Add(this.guna2CheckBox7);
+            this.Controls.Add(this.guna2CheckBox21);
+            this.Controls.Add(this.guna2CheckBox10);
+            this.Controls.Add(this.guna2CheckBox17);
+            this.Controls.Add(this.guna2CheckBox4);
+            this.Controls.Add(this.guna2CheckBox13);
+            this.Controls.Add(this.guna2CheckBox6);
+            this.Controls.Add(this.guna2CheckBox9);
+            this.Controls.Add(this.guna2CheckBox3);
+            this.Controls.Add(this.guna2CheckBox5);
+            this.Controls.Add(this.guna2CheckBox2);
+            this.Controls.Add(this.guna2CheckBox1);
             this.Controls.Add(this.closeControlBox);
+            this.Controls.Add(this.btnClearAll);
+            this.Controls.Add(this.btnSelectAll);
             this.Controls.Add(this.btnSavePreference);
             this.Controls.Add(this.m54);
             this.Controls.Add(this.m53);
@@ -1432,6 +2707,7 @@
             this.Text = "SettingsForm";
             this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1492,5 +2768,65 @@
         private Guna.UI2.WinForms.Guna2TextBox m49;
         private Guna.UI2.WinForms.Guna2Button btnSavePreference;
         private Guna.UI2.WinForms.Guna2ControlBox closeControlBox;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox1;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox2;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox3;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox4;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox5;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox6;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox7;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox8;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox9;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox10;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox11;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox12;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox13;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox14;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox15;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox16;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox17;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox18;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox19;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox20;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox21;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox22;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox23;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox24;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox25;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox26;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox27;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox28;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox29;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox30;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox31;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox32;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox33;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox34;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox35;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox36;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox37;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox38;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox39;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox40;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox41;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox42;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox43;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox44;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox45;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox46;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox47;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox48;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox49;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox50;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox51;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox52;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox53;
+        private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox56;
+        private Guna.UI2.WinForms.Guna2Button btnPhase1ShowHide;
+        private Guna.UI2.WinForms.Guna2Button btnPhase4ShowHide;
+        private Guna.UI2.WinForms.Guna2Button btnPhase3ShowHide;
+        private Guna.UI2.WinForms.Guna2Button btnPhase2ShowHide;
+        private Guna.UI2.WinForms.Guna2Button btnSelectAll;
+        private Guna.UI2.WinForms.Guna2Button btnClearAll;
     }
 }

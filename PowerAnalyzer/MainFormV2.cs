@@ -1,4 +1,6 @@
-﻿using PowerAnalyzer.Util;
+﻿using ClosedXML.Excel;
+using Guna.UI2.WinForms;
+using PowerAnalyzer.Util;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -32,6 +34,9 @@ namespace PowerAnalyzer
 
         string meanAmp1, meanAmp2, meanAmp3, systemMeanAmp;
         string FfPh1V, FfPh2V, FfPh3V, FfPhSysV;
+
+        
+
         string CfPh1V, CfPh2V, CfPh3V, CfPhSysV;
         string FfPh1A, FfPh2A, FfPh3A, FfPhSysA;
         string CfPh1A, CfPh2A, CfPh3A, CfPhSysA;
@@ -132,6 +137,7 @@ namespace PowerAnalyzer
 
                 btnLog.Enabled = true;
                 btnClearAll.Enabled = true;
+                btnExportExcel.Enabled = true;
 
                 btnFast.Enabled = true;
                 btnAccurate.Enabled = true;
@@ -157,6 +163,7 @@ namespace PowerAnalyzer
 
                 btnLog.Enabled = false;
                 btnClearAll.Enabled = false;
+                btnExportExcel.Enabled = false;
 
                 btnFast.Enabled = false;
                 btnAccurate.Enabled = false;
@@ -318,7 +325,7 @@ namespace PowerAnalyzer
                                             v1Dp = hexStringArray[i + 4];
                                             v2Dp = hexStringArray[i + 3];
                                             v3Dp = hexStringArray[i + 2];
-                                            sysVDp = hexStringArray[i + 1];
+                                            sysVDp = hexStringArray[i + 2];
                                             break;
                                         case "50":
                                             i1Dp = hexStringArray[i + 4];
@@ -466,8 +473,9 @@ namespace PowerAnalyzer
                                             systemPF = Helper.HexStringToDecimal(next3ByteAfterDPDataString, sysPfDp);
                                             lblSystemPF.Text = systemPF;
                                             break;
-                                        case "23":
+                                        case "23":                                            
                                             systemVA = Helper.HexStringToDecimal(next4ByteDataString, sysVDp);
+                                            // lblSystemVA.Text = hexStringArray[i+1]+ "--"+ hexStringArray[i + 2] + "--"+ hexStringArray[i + 3] + "--" + hexStringArray[i + 4] + "-" + sysVDp;
                                             lblSystemVA.Text = systemVA;
                                             break;
                                         case "24":
@@ -702,6 +710,54 @@ namespace PowerAnalyzer
         private void btnClearAll_Click(object sender, EventArgs e)
         {
             dataGrid.Rows.Clear();
+        }
+
+        private void btnExportExcel_Click(object sender, EventArgs e)
+        {
+            if (dataGrid.Rows.Count == 0)
+            {
+                MessageBox.Show("No data to export.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+
+            // Convert DataGridView to DataTable
+            DataTable dt = new DataTable();
+
+            foreach (DataGridViewColumn col in dataGrid.Columns)
+            {
+                dt.Columns.Add(col.HeaderText);
+            }
+
+            foreach (DataGridViewRow row in dataGrid.Rows)
+            {
+                if (!row.IsNewRow)
+                {
+                    DataRow dRow = dt.NewRow();
+                    for (int i = 0; i < dataGrid.Columns.Count; i++)
+                    {
+                        dRow[i] = row.Cells[i].Value?.ToString();
+                    }
+                    dt.Rows.Add(dRow);
+                }
+            }
+
+            // Save File Dialog
+            SaveFileDialog sfd = new SaveFileDialog
+            {
+                Filter = "Excel Workbook|*.xlsx",
+                Title = "Save Excel File"
+            };
+
+            if (sfd.ShowDialog() == DialogResult.OK)
+            {
+                using (XLWorkbook wb = new XLWorkbook())
+                {
+                    wb.Worksheets.Add(dt, "Sheet1");
+                    wb.SaveAs(sfd.FileName);
+                }
+
+                MessageBox.Show("Data Exported Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         #endregion

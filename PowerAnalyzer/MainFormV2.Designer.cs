@@ -186,14 +186,6 @@
             this.label33 = new System.Windows.Forms.Label();
             this.titleM22 = new System.Windows.Forms.Label();
             this.tableLayoutForBoxesFrequencyTemperature = new System.Windows.Forms.TableLayoutPanel();
-            this.guna2GradientPanel22 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblTemperature = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.titleM53 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel23 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.lblFrequency = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.titleM17 = new System.Windows.Forms.Label();
             this.tableLayoutForBoxRow5 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2GradientPanel17 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.lblSystemVA = new System.Windows.Forms.Label();
@@ -337,8 +329,17 @@
             this.Column53 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column54 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnExportExcel = new Guna.UI2.WinForms.Guna2Button();
             this.btnClearAll = new Guna.UI2.WinForms.Guna2Button();
             this.btnLog = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2GradientPanel23 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblFrequency = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.titleM17 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel22 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.lblTemperature = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.titleM53 = new System.Windows.Forms.Label();
             this.panelTitleBar.SuspendLayout();
             this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownDP)).BeginInit();
@@ -384,8 +385,6 @@
             this.guna2GradientPanel25.SuspendLayout();
             this.guna2GradientPanel26.SuspendLayout();
             this.tableLayoutForBoxesFrequencyTemperature.SuspendLayout();
-            this.guna2GradientPanel22.SuspendLayout();
-            this.guna2GradientPanel23.SuspendLayout();
             this.tableLayoutForBoxRow5.SuspendLayout();
             this.guna2GradientPanel17.SuspendLayout();
             this.guna2GradientPanel18.SuspendLayout();
@@ -414,6 +413,8 @@
             this.panelForDataGrid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).BeginInit();
             this.guna2Panel1.SuspendLayout();
+            this.guna2GradientPanel23.SuspendLayout();
+            this.guna2GradientPanel22.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelTitleBar
@@ -742,6 +743,7 @@
             this.guna2GradientPanel51.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel51.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel51.TabIndex = 3;
+            this.guna2GradientPanel51.Tag = "Phase4";
             // 
             // lblCFPHSYSA
             // 
@@ -796,6 +798,7 @@
             this.guna2GradientPanel52.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel52.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel52.TabIndex = 2;
+            this.guna2GradientPanel52.Tag = "Phase3";
             // 
             // lblCFPH3A
             // 
@@ -850,6 +853,7 @@
             this.guna2GradientPanel53.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel53.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel53.TabIndex = 1;
+            this.guna2GradientPanel53.Tag = "Phase2";
             // 
             // lblCFPH2A
             // 
@@ -904,6 +908,7 @@
             this.guna2GradientPanel54.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel54.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel54.TabIndex = 0;
+            this.guna2GradientPanel54.Tag = "Phase1";
             // 
             // lblCFPH1A
             // 
@@ -977,6 +982,7 @@
             this.guna2GradientPanel47.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel47.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel47.TabIndex = 3;
+            this.guna2GradientPanel47.Tag = "Phase4";
             // 
             // lblFFPHSYSA
             // 
@@ -1031,6 +1037,7 @@
             this.guna2GradientPanel48.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel48.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel48.TabIndex = 2;
+            this.guna2GradientPanel48.Tag = "Phase3";
             // 
             // lblFFPH3A
             // 
@@ -1085,6 +1092,7 @@
             this.guna2GradientPanel49.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel49.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel49.TabIndex = 1;
+            this.guna2GradientPanel49.Tag = "Phase2";
             // 
             // lblFFPH2A
             // 
@@ -1139,6 +1147,7 @@
             this.guna2GradientPanel50.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel50.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel50.TabIndex = 0;
+            this.guna2GradientPanel50.Tag = "Phase1";
             // 
             // lblFFPH1A
             // 
@@ -1212,6 +1221,7 @@
             this.guna2GradientPanel43.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel43.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel43.TabIndex = 3;
+            this.guna2GradientPanel43.Tag = "Phase4";
             // 
             // lblCFPHSYSV
             // 
@@ -1266,6 +1276,7 @@
             this.guna2GradientPanel44.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel44.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel44.TabIndex = 2;
+            this.guna2GradientPanel44.Tag = "Phase3";
             // 
             // lblCFPH3V
             // 
@@ -1320,6 +1331,7 @@
             this.guna2GradientPanel45.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel45.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel45.TabIndex = 1;
+            this.guna2GradientPanel45.Tag = "Phase2";
             // 
             // lblCFPH2V
             // 
@@ -1374,6 +1386,7 @@
             this.guna2GradientPanel46.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel46.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel46.TabIndex = 0;
+            this.guna2GradientPanel46.Tag = "Phase1";
             // 
             // lblCFPH1V
             // 
@@ -1447,6 +1460,7 @@
             this.guna2GradientPanel39.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel39.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel39.TabIndex = 3;
+            this.guna2GradientPanel39.Tag = "Phase4";
             // 
             // lblFFPHSYSV
             // 
@@ -1501,6 +1515,7 @@
             this.guna2GradientPanel40.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel40.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel40.TabIndex = 2;
+            this.guna2GradientPanel40.Tag = "Phase3";
             // 
             // lblFFPH3V
             // 
@@ -1555,6 +1570,7 @@
             this.guna2GradientPanel41.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel41.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel41.TabIndex = 1;
+            this.guna2GradientPanel41.Tag = "Phase2";
             // 
             // lblFFPH2V
             // 
@@ -1609,6 +1625,7 @@
             this.guna2GradientPanel42.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel42.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel42.TabIndex = 0;
+            this.guna2GradientPanel42.Tag = "Phase1";
             // 
             // lblFFPH1V
             // 
@@ -1682,6 +1699,7 @@
             this.guna2GradientPanel35.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel35.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel35.TabIndex = 3;
+            this.guna2GradientPanel35.Tag = "Phase4";
             // 
             // lblSystemMeanA
             // 
@@ -1736,6 +1754,7 @@
             this.guna2GradientPanel36.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel36.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel36.TabIndex = 2;
+            this.guna2GradientPanel36.Tag = "Phase3";
             // 
             // lblMeanAmp3
             // 
@@ -1790,6 +1809,7 @@
             this.guna2GradientPanel37.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel37.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel37.TabIndex = 1;
+            this.guna2GradientPanel37.Tag = "Phase2";
             // 
             // lblMeanAmp2
             // 
@@ -1844,6 +1864,7 @@
             this.guna2GradientPanel38.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel38.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel38.TabIndex = 0;
+            this.guna2GradientPanel38.Tag = "Phase1";
             // 
             // lblMeanAmp1
             // 
@@ -1917,6 +1938,7 @@
             this.guna2GradientPanel31.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel31.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel31.TabIndex = 3;
+            this.guna2GradientPanel31.Tag = "Phase4";
             // 
             // lblSystemPeakV
             // 
@@ -1971,6 +1993,7 @@
             this.guna2GradientPanel32.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel32.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel32.TabIndex = 2;
+            this.guna2GradientPanel32.Tag = "Phase3";
             // 
             // lblPeakVolt3
             // 
@@ -2025,6 +2048,7 @@
             this.guna2GradientPanel33.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel33.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel33.TabIndex = 1;
+            this.guna2GradientPanel33.Tag = "Phase2";
             // 
             // lblPeakVolt2
             // 
@@ -2079,6 +2103,7 @@
             this.guna2GradientPanel34.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel34.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel34.TabIndex = 0;
+            this.guna2GradientPanel34.Tag = "Phase1";
             // 
             // lblPeakVolt1
             // 
@@ -2152,6 +2177,7 @@
             this.guna2GradientPanel27.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel27.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel27.TabIndex = 3;
+            this.guna2GradientPanel27.Tag = "Phase4";
             // 
             // lblSystemPeakA
             // 
@@ -2206,6 +2232,7 @@
             this.guna2GradientPanel28.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel28.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel28.TabIndex = 2;
+            this.guna2GradientPanel28.Tag = "Phase3";
             // 
             // lblPeakAmp3
             // 
@@ -2260,6 +2287,7 @@
             this.guna2GradientPanel29.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel29.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel29.TabIndex = 1;
+            this.guna2GradientPanel29.Tag = "Phase2";
             // 
             // lblPeakAmp2
             // 
@@ -2314,6 +2342,7 @@
             this.guna2GradientPanel30.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel30.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel30.TabIndex = 0;
+            this.guna2GradientPanel30.Tag = "Phase1";
             // 
             // lblPeakAmp1
             // 
@@ -2387,6 +2416,7 @@
             this.guna2GradientPanel21.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel21.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel21.TabIndex = 3;
+            this.guna2GradientPanel21.Tag = "Phase4";
             // 
             // lblSystemMeanV
             // 
@@ -2441,6 +2471,7 @@
             this.guna2GradientPanel24.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel24.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel24.TabIndex = 2;
+            this.guna2GradientPanel24.Tag = "Phase3";
             // 
             // lblMeanVolt3
             // 
@@ -2495,6 +2526,7 @@
             this.guna2GradientPanel25.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel25.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel25.TabIndex = 1;
+            this.guna2GradientPanel25.Tag = "Phase2";
             // 
             // lblMeanVolt2
             // 
@@ -2549,6 +2581,7 @@
             this.guna2GradientPanel26.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel26.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel26.TabIndex = 0;
+            this.guna2GradientPanel26.Tag = "Phase1";
             // 
             // lblMeanVolt1
             // 
@@ -2595,8 +2628,8 @@
             this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutForBoxesFrequencyTemperature.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel22, 2, 0);
-            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel23, 1, 0);
+            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel22, 1, 0);
+            this.tableLayoutForBoxesFrequencyTemperature.Controls.Add(this.guna2GradientPanel23, 0, 0);
             this.tableLayoutForBoxesFrequencyTemperature.Dock = System.Windows.Forms.DockStyle.Top;
             this.tableLayoutForBoxesFrequencyTemperature.Location = new System.Drawing.Point(6, 506);
             this.tableLayoutForBoxesFrequencyTemperature.Name = "tableLayoutForBoxesFrequencyTemperature";
@@ -2604,112 +2637,6 @@
             this.tableLayoutForBoxesFrequencyTemperature.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutForBoxesFrequencyTemperature.Size = new System.Drawing.Size(1271, 100);
             this.tableLayoutForBoxesFrequencyTemperature.TabIndex = 6;
-            // 
-            // guna2GradientPanel22
-            // 
-            this.guna2GradientPanel22.BorderRadius = 4;
-            this.guna2GradientPanel22.Controls.Add(this.lblTemperature);
-            this.guna2GradientPanel22.Controls.Add(this.label29);
-            this.guna2GradientPanel22.Controls.Add(this.titleM53);
-            this.guna2GradientPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel22.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel22.Location = new System.Drawing.Point(637, 3);
-            this.guna2GradientPanel22.Name = "guna2GradientPanel22";
-            this.guna2GradientPanel22.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel22.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel22.TabIndex = 2;
-            // 
-            // lblTemperature
-            // 
-            this.lblTemperature.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblTemperature.AutoSize = true;
-            this.lblTemperature.BackColor = System.Drawing.Color.Transparent;
-            this.lblTemperature.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemperature.ForeColor = System.Drawing.Color.White;
-            this.lblTemperature.Location = new System.Drawing.Point(7, 42);
-            this.lblTemperature.Name = "lblTemperature";
-            this.lblTemperature.Size = new System.Drawing.Size(65, 40);
-            this.lblTemperature.TabIndex = 0;
-            this.lblTemperature.Text = "0.0";
-            // 
-            // label29
-            // 
-            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(264, 6);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(38, 18);
-            this.label29.TabIndex = 0;
-            this.label29.Text = "M53";
-            // 
-            // titleM53
-            // 
-            this.titleM53.AutoSize = true;
-            this.titleM53.BackColor = System.Drawing.Color.Transparent;
-            this.titleM53.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM53.ForeColor = System.Drawing.Color.White;
-            this.titleM53.Location = new System.Drawing.Point(9, 6);
-            this.titleM53.Name = "titleM53";
-            this.titleM53.Size = new System.Drawing.Size(101, 18);
-            this.titleM53.TabIndex = 0;
-            this.titleM53.Text = "Temperature";
-            // 
-            // guna2GradientPanel23
-            // 
-            this.guna2GradientPanel23.BorderRadius = 4;
-            this.guna2GradientPanel23.Controls.Add(this.lblFrequency);
-            this.guna2GradientPanel23.Controls.Add(this.label32);
-            this.guna2GradientPanel23.Controls.Add(this.titleM17);
-            this.guna2GradientPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel23.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel23.Location = new System.Drawing.Point(320, 3);
-            this.guna2GradientPanel23.Name = "guna2GradientPanel23";
-            this.guna2GradientPanel23.Padding = new System.Windows.Forms.Padding(6);
-            this.guna2GradientPanel23.Size = new System.Drawing.Size(311, 94);
-            this.guna2GradientPanel23.TabIndex = 1;
-            // 
-            // lblFrequency
-            // 
-            this.lblFrequency.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblFrequency.AutoSize = true;
-            this.lblFrequency.BackColor = System.Drawing.Color.Transparent;
-            this.lblFrequency.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrequency.ForeColor = System.Drawing.Color.White;
-            this.lblFrequency.Location = new System.Drawing.Point(7, 42);
-            this.lblFrequency.Name = "lblFrequency";
-            this.lblFrequency.Size = new System.Drawing.Size(65, 40);
-            this.lblFrequency.TabIndex = 0;
-            this.lblFrequency.Text = "0.0";
-            // 
-            // label32
-            // 
-            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label32.AutoSize = true;
-            this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.ForeColor = System.Drawing.Color.White;
-            this.label32.Location = new System.Drawing.Point(264, 6);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(38, 18);
-            this.label32.TabIndex = 0;
-            this.label32.Text = "M17";
-            // 
-            // titleM17
-            // 
-            this.titleM17.AutoSize = true;
-            this.titleM17.BackColor = System.Drawing.Color.Transparent;
-            this.titleM17.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleM17.ForeColor = System.Drawing.Color.White;
-            this.titleM17.Location = new System.Drawing.Point(9, 6);
-            this.titleM17.Name = "titleM17";
-            this.titleM17.Size = new System.Drawing.Size(87, 18);
-            this.titleM17.TabIndex = 0;
-            this.titleM17.Text = "Frequency";
             // 
             // tableLayoutForBoxRow5
             // 
@@ -2745,6 +2672,7 @@
             this.guna2GradientPanel17.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel17.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel17.TabIndex = 3;
+            this.guna2GradientPanel17.Tag = "Phase4";
             // 
             // lblSystemVA
             // 
@@ -2799,6 +2727,7 @@
             this.guna2GradientPanel18.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel18.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel18.TabIndex = 2;
+            this.guna2GradientPanel18.Tag = "Phase3";
             // 
             // lblVA3
             // 
@@ -2853,6 +2782,7 @@
             this.guna2GradientPanel19.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel19.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel19.TabIndex = 1;
+            this.guna2GradientPanel19.Tag = "Phase2";
             // 
             // lblVA2
             // 
@@ -2907,6 +2837,7 @@
             this.guna2GradientPanel20.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel20.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel20.TabIndex = 0;
+            this.guna2GradientPanel20.Tag = "Phase1";
             // 
             // lblVA1
             // 
@@ -2967,6 +2898,7 @@
             // 
             // guna2GradientPanel13
             // 
+            this.guna2GradientPanel13.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel13.BorderRadius = 4;
             this.guna2GradientPanel13.Controls.Add(this.lblSystemPF);
             this.guna2GradientPanel13.Controls.Add(this.label10);
@@ -2980,6 +2912,7 @@
             this.guna2GradientPanel13.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel13.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel13.TabIndex = 3;
+            this.guna2GradientPanel13.Tag = "Phase4";
             // 
             // lblSystemPF
             // 
@@ -3034,6 +2967,7 @@
             this.guna2GradientPanel14.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel14.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel14.TabIndex = 2;
+            this.guna2GradientPanel14.Tag = "Phase3";
             // 
             // lblPF3
             // 
@@ -3088,6 +3022,7 @@
             this.guna2GradientPanel15.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel15.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel15.TabIndex = 1;
+            this.guna2GradientPanel15.Tag = "Phase2";
             // 
             // lblPF2
             // 
@@ -3142,6 +3077,7 @@
             this.guna2GradientPanel16.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel16.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel16.TabIndex = 0;
+            this.guna2GradientPanel16.Tag = "Phase1";
             // 
             // lblPF1
             // 
@@ -3202,6 +3138,7 @@
             // 
             // guna2GradientPanel9
             // 
+            this.guna2GradientPanel9.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel9.BorderRadius = 4;
             this.guna2GradientPanel9.Controls.Add(this.lblSystemWatt);
             this.guna2GradientPanel9.Controls.Add(this.label7);
@@ -3215,6 +3152,7 @@
             this.guna2GradientPanel9.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel9.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel9.TabIndex = 3;
+            this.guna2GradientPanel9.Tag = "Phase4";
             // 
             // lblSystemWatt
             // 
@@ -3269,6 +3207,7 @@
             this.guna2GradientPanel10.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel10.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel10.TabIndex = 2;
+            this.guna2GradientPanel10.Tag = "Phase3";
             // 
             // lblWatt3
             // 
@@ -3323,6 +3262,7 @@
             this.guna2GradientPanel11.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel11.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel11.TabIndex = 1;
+            this.guna2GradientPanel11.Tag = "Phase2";
             // 
             // lblWatt2
             // 
@@ -3377,6 +3317,7 @@
             this.guna2GradientPanel12.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel12.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel12.TabIndex = 0;
+            this.guna2GradientPanel12.Tag = "Phase1";
             // 
             // lblWatt1
             // 
@@ -3438,6 +3379,7 @@
             // 
             // guna2GradientPanel5
             // 
+            this.guna2GradientPanel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel5.BorderRadius = 4;
             this.guna2GradientPanel5.Controls.Add(this.lblSystemAmp);
             this.guna2GradientPanel5.Controls.Add(this.label6);
@@ -3451,6 +3393,7 @@
             this.guna2GradientPanel5.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel5.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel5.TabIndex = 3;
+            this.guna2GradientPanel5.Tag = "Phase4";
             // 
             // lblSystemAmp
             // 
@@ -3505,6 +3448,7 @@
             this.guna2GradientPanel6.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel6.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel6.TabIndex = 2;
+            this.guna2GradientPanel6.Tag = "Phase3";
             // 
             // lblAmp3
             // 
@@ -3559,6 +3503,7 @@
             this.guna2GradientPanel7.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel7.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel7.TabIndex = 1;
+            this.guna2GradientPanel7.Tag = "Phase2";
             // 
             // lblAmp2
             // 
@@ -3613,6 +3558,7 @@
             this.guna2GradientPanel8.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel8.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel8.TabIndex = 0;
+            this.guna2GradientPanel8.Tag = "Phase1";
             // 
             // lblAmp1
             // 
@@ -3674,6 +3620,7 @@
             // 
             // guna2GradientPanel4
             // 
+            this.guna2GradientPanel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel4.BorderRadius = 4;
             this.guna2GradientPanel4.Controls.Add(this.lblSystemVolt);
             this.guna2GradientPanel4.Controls.Add(this.label5);
@@ -3687,6 +3634,7 @@
             this.guna2GradientPanel4.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel4.Size = new System.Drawing.Size(314, 94);
             this.guna2GradientPanel4.TabIndex = 3;
+            this.guna2GradientPanel4.Tag = "Phase4";
             // 
             // lblSystemVolt
             // 
@@ -3741,6 +3689,7 @@
             this.guna2GradientPanel3.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel3.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel3.TabIndex = 2;
+            this.guna2GradientPanel3.Tag = "Phase3";
             // 
             // lblV3
             // 
@@ -3795,6 +3744,7 @@
             this.guna2GradientPanel2.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel2.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel2.TabIndex = 1;
+            this.guna2GradientPanel2.Tag = "Phase2";
             // 
             // lblV2
             // 
@@ -3850,6 +3800,7 @@
             this.guna2GradientPanel1.Padding = new System.Windows.Forms.Padding(6);
             this.guna2GradientPanel1.Size = new System.Drawing.Size(311, 94);
             this.guna2GradientPanel1.TabIndex = 0;
+            this.guna2GradientPanel1.Tag = "Phase1";
             // 
             // lblV1
             // 
@@ -4345,6 +4296,7 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.btnExportExcel);
             this.guna2Panel1.Controls.Add(this.btnClearAll);
             this.guna2Panel1.Controls.Add(this.btnLog);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -4352,6 +4304,29 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(191, 294);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // btnExportExcel
+            // 
+            this.btnExportExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExportExcel.Animated = true;
+            this.btnExportExcel.BackColor = System.Drawing.Color.Transparent;
+            this.btnExportExcel.BorderRadius = 4;
+            this.btnExportExcel.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnExportExcel.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnExportExcel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnExportExcel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnExportExcel.Enabled = false;
+            this.btnExportExcel.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
+            this.btnExportExcel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.btnExportExcel.ForeColor = System.Drawing.Color.White;
+            this.btnExportExcel.ImageSize = new System.Drawing.Size(32, 32);
+            this.btnExportExcel.Location = new System.Drawing.Point(13, 95);
+            this.btnExportExcel.Name = "btnExportExcel";
+            this.btnExportExcel.Size = new System.Drawing.Size(164, 36);
+            this.btnExportExcel.TabIndex = 5;
+            this.btnExportExcel.Text = "Excel Export";
+            this.btnExportExcel.UseTransparentBackground = true;
+            this.btnExportExcel.Click += new System.EventHandler(this.btnExportExcel_Click);
             // 
             // btnClearAll
             // 
@@ -4398,6 +4373,114 @@
             this.btnLog.Text = "Log";
             this.btnLog.UseTransparentBackground = true;
             this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
+            // 
+            // guna2GradientPanel23
+            // 
+            this.guna2GradientPanel23.BorderRadius = 4;
+            this.guna2GradientPanel23.Controls.Add(this.lblFrequency);
+            this.guna2GradientPanel23.Controls.Add(this.label32);
+            this.guna2GradientPanel23.Controls.Add(this.titleM17);
+            this.guna2GradientPanel23.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel23.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel23.Location = new System.Drawing.Point(3, 3);
+            this.guna2GradientPanel23.Name = "guna2GradientPanel23";
+            this.guna2GradientPanel23.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel23.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel23.TabIndex = 3;
+            this.guna2GradientPanel23.Tag = "Phase1";
+            // 
+            // lblFrequency
+            // 
+            this.lblFrequency.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblFrequency.AutoSize = true;
+            this.lblFrequency.BackColor = System.Drawing.Color.Transparent;
+            this.lblFrequency.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrequency.ForeColor = System.Drawing.Color.White;
+            this.lblFrequency.Location = new System.Drawing.Point(7, 42);
+            this.lblFrequency.Name = "lblFrequency";
+            this.lblFrequency.Size = new System.Drawing.Size(65, 40);
+            this.lblFrequency.TabIndex = 0;
+            this.lblFrequency.Text = "0.0";
+            // 
+            // label32
+            // 
+            this.label32.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.Transparent;
+            this.label32.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(264, 6);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(38, 18);
+            this.label32.TabIndex = 0;
+            this.label32.Text = "M17";
+            // 
+            // titleM17
+            // 
+            this.titleM17.AutoSize = true;
+            this.titleM17.BackColor = System.Drawing.Color.Transparent;
+            this.titleM17.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM17.ForeColor = System.Drawing.Color.White;
+            this.titleM17.Location = new System.Drawing.Point(9, 6);
+            this.titleM17.Name = "titleM17";
+            this.titleM17.Size = new System.Drawing.Size(87, 18);
+            this.titleM17.TabIndex = 0;
+            this.titleM17.Text = "Frequency";
+            // 
+            // guna2GradientPanel22
+            // 
+            this.guna2GradientPanel22.BorderRadius = 4;
+            this.guna2GradientPanel22.Controls.Add(this.lblTemperature);
+            this.guna2GradientPanel22.Controls.Add(this.label29);
+            this.guna2GradientPanel22.Controls.Add(this.titleM53);
+            this.guna2GradientPanel22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel22.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GradientPanel22.Location = new System.Drawing.Point(320, 3);
+            this.guna2GradientPanel22.Name = "guna2GradientPanel22";
+            this.guna2GradientPanel22.Padding = new System.Windows.Forms.Padding(6);
+            this.guna2GradientPanel22.Size = new System.Drawing.Size(311, 94);
+            this.guna2GradientPanel22.TabIndex = 6;
+            this.guna2GradientPanel22.Tag = "Phase4";
+            // 
+            // lblTemperature
+            // 
+            this.lblTemperature.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblTemperature.AutoSize = true;
+            this.lblTemperature.BackColor = System.Drawing.Color.Transparent;
+            this.lblTemperature.Font = new System.Drawing.Font("Century Gothic", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemperature.ForeColor = System.Drawing.Color.White;
+            this.lblTemperature.Location = new System.Drawing.Point(7, 42);
+            this.lblTemperature.Name = "lblTemperature";
+            this.lblTemperature.Size = new System.Drawing.Size(65, 40);
+            this.lblTemperature.TabIndex = 0;
+            this.lblTemperature.Text = "0.0";
+            // 
+            // label29
+            // 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label29.AutoSize = true;
+            this.label29.BackColor = System.Drawing.Color.Transparent;
+            this.label29.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.White;
+            this.label29.Location = new System.Drawing.Point(264, 6);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(38, 18);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "M53";
+            // 
+            // titleM53
+            // 
+            this.titleM53.AutoSize = true;
+            this.titleM53.BackColor = System.Drawing.Color.Transparent;
+            this.titleM53.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleM53.ForeColor = System.Drawing.Color.White;
+            this.titleM53.Location = new System.Drawing.Point(9, 6);
+            this.titleM53.Name = "titleM53";
+            this.titleM53.Size = new System.Drawing.Size(101, 18);
+            this.titleM53.TabIndex = 0;
+            this.titleM53.Text = "Temperature";
             // 
             // MainFormV2
             // 
@@ -4496,10 +4579,6 @@
             this.guna2GradientPanel26.ResumeLayout(false);
             this.guna2GradientPanel26.PerformLayout();
             this.tableLayoutForBoxesFrequencyTemperature.ResumeLayout(false);
-            this.guna2GradientPanel22.ResumeLayout(false);
-            this.guna2GradientPanel22.PerformLayout();
-            this.guna2GradientPanel23.ResumeLayout(false);
-            this.guna2GradientPanel23.PerformLayout();
             this.tableLayoutForBoxRow5.ResumeLayout(false);
             this.guna2GradientPanel17.ResumeLayout(false);
             this.guna2GradientPanel17.PerformLayout();
@@ -4548,6 +4627,10 @@
             this.panelForDataGrid.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
+            this.guna2GradientPanel23.ResumeLayout(false);
+            this.guna2GradientPanel23.PerformLayout();
+            this.guna2GradientPanel22.ResumeLayout(false);
+            this.guna2GradientPanel22.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4656,14 +4739,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label titleM1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutForBoxesFrequencyTemperature;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel22;
-        private System.Windows.Forms.Label lblTemperature;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label titleM53;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel23;
-        private System.Windows.Forms.Label lblFrequency;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label titleM17;
         private System.Windows.Forms.TableLayoutPanel tableLayoutForBoxRow6;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel21;
         private System.Windows.Forms.Label lblSystemMeanV;
@@ -4861,5 +4936,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column53;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column54;
         private Guna.UI2.WinForms.Guna2Button btnSettings;
+        private Guna.UI2.WinForms.Guna2Button btnExportExcel;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel22;
+        private System.Windows.Forms.Label lblTemperature;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label titleM53;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel23;
+        private System.Windows.Forms.Label lblFrequency;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label titleM17;
     }
 }
